@@ -394,9 +394,6 @@ SUB1
 	multisub xxtur022 {
 		{ time 1050 length 3000 text "Einheit O892 besch„digt." }
 	}
-	
-
-
 }
 
 {
