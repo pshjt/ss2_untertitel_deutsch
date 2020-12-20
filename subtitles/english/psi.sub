@@ -1,0 +1,35 @@
+SUB1
+
+{
+	type "player"
+	descr "Info"
+	sub psiadrac { text "Adrenalin aktiviert." }
+	sub psiadrde { text "Adrenalin deaktiviert." }
+	sub psiagiac { text "Wendigkeit aktiviert." }
+	sub psiagide { text "Wendigkeit deaktiviert." }
+	sub psiapsac { text "Schild aktiviert." }
+	sub psiapsde { text "Schild deaktiviert." }
+	sub psiaurac { text "Schild aktiviert." }
+	sub psiaurde { text "Schild deaktiviert." }
+	sub psiendac { text "Ausdauer aktiviert." }
+	sub psiendde { text "Ausdauer deaktiviert." }
+	sub psientac { text "Anti-Entropie aktiviert." }
+	sub psientde { text "Anti-Entropie deaktiviert." }
+	sub psiinvac { text "Unsichtbarkeit aktiviert." }
+	sub psiinvde { text "Unsichtbarkeit deaktiviert." }
+	sub psiradac { text "Strahlungsschild aktiviert." }
+	sub psiradde { text "Strahlungsschild deaktiviert." }
+	sub psirecac { text "Rekursives Psi deaktiviert." }
+	sub psirecde { text "Rekursives Psi dekativiert." }
+	sub psirefac { text "Reflex aktiviert." }
+	sub psirefde { text "Reflex deaktiviert." }
+	sub psiscrac { text "Schild aktiviert." }
+	sub psiscrde { text "Schild deaktiviert." }
+	sub psistrac { text "St„rke aktiviert." }
+	sub psistrde { text "St„rke deaktiviert." }
+	sub psitoxac { text "Toxin-Schild aktiviert." }
+	sub psitoxde { text "Toxin-Schild deaktiviert." }
+// These two sounds do not appear in the German version.
+	sub psiwavac { text "Wellenmanipulation aktiviert." }
+	sub psiwavde { text "Wellenmanipulation deaktiviert." }
+}

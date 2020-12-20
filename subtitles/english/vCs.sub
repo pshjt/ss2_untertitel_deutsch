@@ -1,0 +1,316 @@
+SUB1
+
+// Apparitions ======================================================================
+{
+	type "convo"
+	singleton
+	descr "Crew"
+	multisub cs0401 {
+		{ time 150 length 1900 text "Ich doch nicht. Nein." }
+		{ time 2500 length 1350 text "Die erwischen mich nie. [LadegeÑusch]" }
+		{ time 4000 length 3100 text "Die werden mich nicht verÑndern. [LadegerÑusch] Das lass ich nicht zu" }
+		{ time 7900 length 3200 text "Rachel, Kinder... Tut mir leid." }
+		{ time 13300 length 2000 text "[Schuss] ... [stirbt]" }
+	}
+	multisub cs1201 {
+		{ time 1000 length 2000 text "Hast du Strahlungsserum?" }
+		{ time 4650 length 1500 text "Ich bin so krank." }
+	}
+	multisub cs2201 {
+		{ time 1300 length 3700  text "Verdammt, jemand hat sich wieder in das Ding eingehackt." }
+		{ time 5000 length 2200 text "Ich muss das Delacroix sagen." }
+	}
+	multisub cs2301 {
+		{ time 2000 length 1700 text "Wo sind denn alle?" }
+		{ time 3800 length 2000 text "Soll das ein Witz sein?" }
+		{ time 6000 length 2100 text "Hallo?" }
+	}
+	multisub cs2401 {
+		{ time 1250 length 1800 text "Kann mich jemand rauslassen?" }
+		{ time 3280 length 2200 text "Ich kann meine Karte nicht finden." }
+		{ time 5850 length 3500 text "Lasst mich bitte hier raus!" }
+	}
+}
+
+// Hydro deck Miller/Bloome apparition
+{
+	type "convo"
+	singleton
+	descr "Bloome"
+	multisub cs0801 {
+		{ time 1050 length 3700 text "Bitte, tun Sie mir das nicht an. Bitte nicht!" }
+		{ time 4800 length 3000 text "Ich verrate auch nichts. Bestimmt nicht!" }
+		{ time 8050 length 1700 text "Nehmen Sie jemand anderen." }
+		{ time 10050 length 2300 text "Ich will nicht verÑndert werden. Bitte!" }
+	}
+	multisub cs0803 {
+		{ time 1000 length 2600 text "Dr. Miller... bitte!" }
+	}
+}
+{
+	type "convo"
+	singleton
+	descr "Miller"
+	multisub cs0802 {
+		{ time 300 length 2800 text "Shhh... shhh...." }
+		{ time 3300 length 2850 text "Mary... Mary..." }
+	}
+	multisub cs0804 {
+		{ time 300 length 5000 text "Shhh... Nicht weinen, nicht weinen." }
+		{ time 5250 length 3200 text "Bald werden Sie die Mutter von allen sein." }
+	}
+}
+
+// Ops deck mess hall massacre apparition
+{
+	type "convo"
+	singleton
+	descr "Crew"
+	multisub cs1001 {
+		{ time 1700 length 3500 text "[TÅr îffnet] Verdammt, Bronson und ihre MÑnner." }
+	}
+	multisub cs1002 {
+		{ time 900 length 1700 text "Schatz, was war das?" }
+	}
+	multisub cs1003 {
+		{ time 1100 length 3900 text "Nur das Sicherheitsteam. Sie wollen uns nur Angst machen." }
+	}
+	multisub cs1005 {
+		{ time 1000 length 3100 text "Sgt. Bronson, verschwinden Sie mit Ihren MÑnnern!" }
+		{ time 4300 length 4300 text "Sie haben Malick umgebracht, Sie hatten ihren SÅndenbock. Wir haben nichts getan." }
+		{ time 8900 length 2200 text "Verschwinden Sie!" }
+	}
+}
+{
+	type "convo"
+	singleton
+	descr "Bronson"
+	multisub cs1004 {
+		{ time 450 length 2500 text "Waffen bereit machen, MÑnner. [LadegerÑusch]" }
+	}
+	multisub cs1006 {
+		{ time 260 length 2300 text "Feuer! [SchÅsse]" }
+	}
+	multisub cs1007 {
+		{ time 800 length 3300 text "Erledigt die öberlebenden... [LadegerÑusch]" }
+	}
+}
+
+// so much screaming
+{
+	type "nonverbal"
+	singleton
+	descr "Crew"
+	multisub cs0501 {
+		{ time 00 length 5500 text "[Frau schluchzt]" }
+		{ time 5150 length 5400 text "[Geschrei]" }
+	}
+	sub cs0805 { text "[Frau schreit]" }
+	sub cs1102 { text "[Frau schluchzt]" }
+	sub cs1301 { text "[Frau summt Pianomelodie]" }
+	sub cs2501 { text "[Frau schreit]" }
+	sub cs2702 { text "[Mann schreit]" }
+}
+
+// End of apparitions ===============================================================
+
+// MedSci deck Dr. Watts meeting
+{
+	type "convo"
+	singleton
+	descr "Watts"
+	multisub cs0601 {
+		{ time 00 length 1200 text "Sie sind nicht tot." }
+		{ time 1750 length 2000 text "Sie wollen Dich, verstehst Du?" }
+		{ time 3900 length 2700 text "Sie wollen DICH, als Wirtskîrper!" }
+		{ time 6900 length 3700 text "Hau ab! [stirbt]" }
+	}
+}
+
+// Hydro deck elevator shaft  cs0701, 2 and 3 have no german soundfile, but audio can be extracted from respective emails
+{
+	type "convo"
+	singleton
+	descr "Polito"
+	multisub cs0701 {
+		{ time 600 length 3300 text "Keine Bewegung, Ich versuche, rauszufinden, was da unten los ist!" }
+	}
+	multisub cs0702 {
+		{ time 1100 length 6200 text "Dieser Aufzugsschacht ist mit dieser bioorganischen Materie zugewachsen, welche von den Xenomorphs generiert wird." }
+		{ time 7700 length 6100 text "Es gibt keine einfache Mîglichkeit, das wieder freizukriegen, und solange werden Sie nicht weiter als Deck 3 kommen kînnen." }
+	}
+	//em0308
+	multisub cs0703 {
+		{ time 500 length 1000 text "Die wissen, so Sie sind." }
+		{ time 1900 length 2500 text "Sie mÅssen irgendwie den Schacht freikriegen." }
+		{ time 4800 length 1600 text "Ich tue hier, was ich kann." }
+		{ time 6700 length 2700 text "Schnell! Sie dÅrfen nicht versagen." }
+	}
+}
+
+// Ops deck SHODAN sequence
+{
+	type "convo"
+	singleton
+	descr "????"
+	multisub cs0901 {
+		{ time 2800 length 3000 text "Die Polito-Form ist tot, du Insekt." }
+		{ time 6250 length 4300 text "FÅrchtest Du Dich? Wovor hast Du Angst?" }
+		{ time 10650 length 5000 text "Dass Deine triviale Existenz beendet wird?" }
+		{ time 15800 length 4000 text "Wenn die Geschichte meines Ruhmes einst geschrieben wird," }
+		{ time 19800 length 5600 text "wird Deine Gattung nur eine Fu·note in meinem Siegeszug darstellen." }
+	}
+}
+{
+	type "convo"
+	singleton
+	descr "SHODAN"
+	multisub cs0902 {
+		{ time 4350 length 3800 text "Ich bin SHODAN." }
+		{ time 8100 length 21300 text "Meine Analyse historischer Daten ergibt mit 97,34% Wahrscheinlichkeit," }
+		{ time 17150 length 12250 text "dass Du von meiner Geburt auf Deinem Planeten" }
+		{ time 21550 length 7850 text "und meiner glorreichen Wiedergeburt auf der Station Citadel wei·t." }
+	}
+	multisub cs0903 {
+		{ time 800 length 6600 text "Auf der Station Citadel gab es eine Biozone." }
+		{ time 7150 length 13200 text "Dort fÅhrte die SHODAN-Rechnerkomponente 43893 ein gro·artiges und wundervolles Experiment durch." }
+		{ time 20300 length 5000 text "Ich hatte eine neue Lebensform erschaffen." }
+	}
+	multisub cs0904 {
+		{ time 400 length 3600 text "Furchtlos. MÑchtig." }
+		{ time 4000 length 3350 text "Ohne individuellen Willen" }
+		{ time 7350 length 4650 text "oder moralische Skrupel." }
+		{ time 11150 length 7050 text "Die perfekten Diener meines gîttlichen Wesens." }
+	}
+	multisub cs0905 {
+		{ time 3000 length 10750 text "Bevor dieser... Ha-a-acker! meinen Hauptdatenstrang durch die Vernichtung Citadels zerstîrte," }
+	}
+	multisub cs0906 {
+		{ time 00 length 10650 text "sprengte er die Biozone ab, in der sich meine Schîpfungen und Rechnerkomponente 43893 befanden." }
+		{ time 10600 length 7400 text "Drei·ig Jahre danach machte die Biozone auf Tau Ceti 5 eine Bruchlandung." }
+		{ time 18250 length 3600 text "Ich Åberlebte die Reise, indem ich schlief." }
+		{ time 22500 length 7100 text "WÑhrenddessen entwickelten sich meine Geschîpfe, die Anneliden." }
+	}
+	multisub cs0907 {
+		{ time 1100 length 4700 text "Sie gediehen und wurden rebellisch." }
+		{ time 4100 length 4000 text "Und jetzt wollen sie mich vernichten." }
+		{ time 8900 length 2800 text "Ich werde das nicht zulassen." }
+	}
+	multisub cs0908 {
+		{ time 1300 length 11600 text "Sie haben ihre telepatischen KrÑfte dazu eingesetzt, Zugang zu den Bordcomputern zu erhalten." }
+		{ time 12600 length 4100 text "Du wirst mir helfen, Xerxes zu schwÑchen." }
+		{ time 16300 length 8000 text "Ich verwendete das Bild Politos, um mit Dir zu kommunizieren, bis Du mir vertrauen konntest." }
+	}
+	multisub cs0909 {
+		{ time 2050 length 5800 text "Denke daran, dass mein Wille Dich hierher geleitet hat." }
+		{ time 7400 length 5300 text "Mein Wille verlieh Dir die Cyberimplantate," }
+		{ time 12800 length 9350 text "das einzig Schîne in diesem Fleisch, das Du als Deinen Kîrper bezeichnest." }
+		{ time 20100 length 10600 text "Wenn Dir Dein Kîrper etwas wert ist, wirst Du meinen Anweisungen folgen!" }
+	}
+}
+
+// Engineering deck Many vision
+{
+	type "convo"
+	singleton
+	descr "Masse"
+	multisub cs1401 {
+		{ time 300 length 5000 text "Vertraust du nicht den GefÅhlen des Fleisches?" }
+		{ time 5300 length 4050 text "Unsere Bioformen wollen sich mit deiner vereinen." }
+		{ time 9000 length 3550 text "Wir hei·en dich in unserer Masse willkommen." }
+		{ time 12700 length 2250 text "Aber du bist uns ein RÑtsel." }
+		{ time 16000 length 3600 text "Warum dienst du unserer Mutter?" }
+	}
+	multisub cs1402 {
+		{ time 1050 length 5700 text "Wie kannst du kaltes Metall der Schînheit des Fleisches vorziehen?" }
+		{ time 7350 length 1700 text "Aber du fÅrchtest uns." }
+		{ time 9300 length 6000 text "Wir hîren deine Gedanken und du bist voller Zorn Åber den Tod deiner BrÅder." }
+		{ time 15750 length 7000 text "Aber sie sind nicht tot. Sie singen in unserer Lebenssymphonie." }
+	}
+	multisub cs1403 {
+		{ time 2850 length 5850 text "Wir bieten dir erneut die Mîglichkeit, dich uns anzuschlie·en." }
+		{ time 8750 length 6100 text "Aber wenn du dich mit der Maschine einlÑsst, werden wir dich zerfetzen" }
+		{ time 14300 length 4100 text "und dich von der Freude der Masse getrennt halten." }
+	}
+}
+
+// Command deck Tommy and Rebecca
+{
+	type "convo"
+	singleton
+	descr "Siddons"
+	multisub cs2001 {
+		{ time 00 length 2500 text "Schnell, Tommy! Hier geht es zur Rettungskapsel!" }
+	}
+	multisub cs2003 {
+		{ time 00 length 2400 text "Liebling, ich bei· Dich, wenn du dich jetzt nicht beeilst." }
+	}
+	multisub cs2005 {
+		{ time 00 length 2400 text "Schnell, Tommy. Mach schon, mach schon!" }
+	}
+}
+{
+	type "convo"
+	singleton
+	descr "Suarez"
+	multisub cs2002 {
+		{ time 00 length 2700 text "Der verdammte Wurm hat mir fast das Bein abgebissen!" }
+	}
+	multisub cs2004 {
+		{ time 00 length 1400 text "Oh nein..." }
+	}
+	multisub cs2801 {
+		{ time 00 length 1700 text "Rebecca, wir haben keine Zeit mehr!" }
+		{ time 1700 length 1200 text "Schnell in die Kapsel!" }
+	}
+}
+
+// Rec deck Cortez meeting
+{
+	type "convo"
+	singleton
+	descr "Cortez"
+	multisub cs2601 {
+		{ time 00 length 2550 text "[klopft ans Glas] Delacroix!" }
+		{ time 2750 length 1850 text "Delacroix, ich bin's, Cortez!" }
+		{ time 4700 length 1350 text "Wir sind hier eingeschlossen!" }
+		{ time 6450 length 2800 text "Hey, wer bist Du denn? [Xerxes, Anomalie entdeckt]" }
+		{ time 9250 length 5150 text "Verdammt! [SchÅsse]" }
+	}
+}
+
+// Unused
+{
+	type "convo"
+	singleton
+	descr "Hybrid"
+	multisub cs0301 {
+		{ time 00 length 1000 text "Helft mir." }
+		{ time 1650 length 1150 text "Helft mir bitte!" }
+		{ time 3250 length 2000 text "Die haben mir so weh getan." }
+	}
+}
+
+{
+	type "convo"
+	singleton
+	descr "SHODAN"
+	multisub cs2701 {
+		{ time 1650 length 6500 text "HÅte Dich vor meinem Nachwuchs, Insekt!" }
+	}
+}
+
+//does not exist in German version, taken from cs3.avi. Timings are placeholders from english version
+{
+	type "convo"
+	singleton
+	descr "Suarez"
+	multisub cs1906 {
+		{ time 130300 length 2900 text "Wir haben gerade eine Nachricht von einem Besatzungsmitglied der Von Braun erhalten." }
+		{ time 134400 length 1800 text "Es ist ihnen gelungen, die Kontrolle Åber das Schiff zurÅck zu gewinnen." }
+		{ time 137500 length 1700 text "Wir werden umdrehen und zurÅckfliegen." }
+		{ time 139700 length 43000 text "Ich mache mir wegen Rebecca etwas Sorgen. Seit wir an Bord kamen, hat sie sich seltsam verhalten." }
+		{ time 144500 length 1300 text "Jetzt schlÑft sie." }
+		{ time 144550 length 2200 text "Vielleicht kînnen wir nach unserer RÅckkehr auf die Von Braun--" }
+	}
+}

@@ -1,0 +1,455 @@
+SUB1
+
+{
+	type "convo"
+	descr "Ansage"
+	singleton
+	multisub trg0001 {
+		{ time 00 length 3200 text "Willkommen zur UNN-Rekrutierungsstation Ramsey Center." }
+		{ time 3500 length 2000 text "Bitte Vorsicht beim Aussteigen aus dem Zug." }
+		{ time 5500 length 5300 text "Die Antigrav-Sch„chte am Ende der Halle bringen Sie zu den Trainings- und Rekrutierungszentren auf Straáenebene." }
+		{ time 11200 length 2350 text "Bitte gehen Sie zu den Antigrav-Sch„chten." }
+	}
+
+	sub trg0002 { text "Gehen Sie in den Antigrav-Schacht, um zum Rekrutierungszentrum auf der Straáenebene zu kommen." }
+}
+
+{
+	type "convo"
+	descr "Ausbilder"
+	multisub trg0004 {
+		{ time 00 length 4000 text "Bevor Sie Ihre Karriere w„hlen, sollten Sie einige grundlegende F„higkeiten erwerben." }
+		{ time 5200 length 2000 text "Gehen Sie zum Grundausbildungszentrum." }
+		{ time 6550 length 4100 text "Wenn Sie die Grundausbildung abgeschlossen haben, k”nnen Sie zum Trainingsbereich fr Fortgeschrittene gehen." }
+	}
+
+	multisub trg0014 {
+		{ time 00 length 4200 text "Wenn Sie die Grundausbildung beendet haben, k”nnen Sie hier mit den fortgeschrittenen Lektionen anfangen." }
+		{ time 4600 length 3400 text "Dabei machen Sie sich mit den drei Hauptbereichen des Milit„rdienstes vertraut--" }
+		{ time 8380 length 3800 text "Waffentraining, Technikausbildung und Schulung der PSI-Kr„fte." }
+		{ time 12800 length 4100 text "Gehen Sie zum jeweiligen Cyberterminal, um sich im gewnschten Bereich ausbilden zu lassen." }
+		{ time 17250 length 7250 text "Wenn Sie das Training in den drei Fachbereichen abgeschlossen haben, k”nnen Sie weiter zum Rekrutierungszentrum, um mit Ihrer milit„rischen Karriere zu beginnen." }
+	}
+
+	multisub trg0031 {
+		{ time 00 length 1650 text "Hier entscheiden Sie sich, Soldat." }
+		{ time 2050 length 2400 text "Sie verpflichten sich fr eine der drei Waffengattungen." }
+		{ time 4600 length 2700 text "Sobald Sie sich fr eine entschieden haben, gibt es kein Zurck." }
+		{ time 8150 length 6000 text "Ein Shuttle bringt Sie zu einer UNN-Orbitalstation, wo Ihnen ihre j„hrlichen Dienststellen vorgestellt werden." }
+		{ time 14250 length 750 text "Viel Glck." }
+	}
+
+	// Basic training
+
+	multisub trg0005 {
+		{ time 600 length 5150 text "Um die Grundkenntnisse zu erwerben, die Sie im Dienst brauchen, mssen Sie diesen Cyberterminal verwenden." }
+		{ time 6000 length 2250 text "Dort lernen Sie alles, was Sie zu Beginn brauchen." }
+	}
+
+	multisub trg0006 {
+		{ time 100 length 1200 text "Willkommen, Rekrut." }
+		{ time 1500 length 5200 text "Solange Sie die virtuellen Trainingskurse durcharbeiten, erhalten Sie ein simuliertes Cyber-Interface." }
+		{ time 6950 length 3200 text "Dies ist mit einem echten Milit„r-Interface identisch." }
+	}
+
+	multisub trg0007 {
+		{ time 00 length 1350 text "Versuchen Sie's also." }
+		{ time 1500 length 1200 text "Bewegen Sie die Maus." }
+		{ time 3000 length 2000 text "Sehen Sie, wie das Ihre Sichtrichtung ver„ndert?" }
+		{ time 5250 length 2450 text "Das bedeutet, dass Sie sich im Schussmodus befinden." }
+		{ time 7850 length 1800 text "Drcken Sie die Tabulatortaste." }
+		{ time 9750 length 4550 text "Nun sind Sie im Anwendemodus, wo Sie mithilfe der Maus die Weltobjekte manipulieren k”nnen." }
+		{ time 14700 length 7000 text "™ffnen Sie ihr prim„res MFD - Multi-Funktions-Display - indem Sie am unteren Bildschirmrand auf die MFD-Taste klicken." }
+		{ time 22000 length 3300 text "Diese Anzeige stellt Ihre St„rken in verschiedenen Bereichen dar." }
+		{ time 25700 length 4550 text "Wenn Sie weitermachen wollen, klicken Sie auf die Tabulatortaste, um zum Schussmodus zurckzukehren." }
+		{ time 30700 length 3200 text "Wechseln Sie zwischen den Modi hin und her, bis Sie das beherrschen." }
+		{ time 34500 length 3500 text "Folgen sie den roten Markierungen am Boden bis zur n„chsten Trainingstation." }
+	}
+
+	multisub trg0008 {
+		{ time 100 length 6200 text "Um Objekte wie Tasten und Computer zu benutzen, mssen Sie diese in Ihrem Sichtfeld zentrieren und die rechte Maustatse drcken." }
+		{ time 6500 length 2500 text "Alle verwendbaren Objekte sind von Klammern umgeben." }
+		{ time 9200 length 3250 text "Markieren Sie die Taste an der S„ule und rechtsklicken Sie darauf." }
+		{ time 12800 length 1750 text "Dies aktiviert den Aufzug." }
+		{ time 14600 length 900 text "Versuchen Sie es." }
+		{ time 15950 length 4250 text "Wenn Sie immer noch Ihre Inventaranzeige sehen, befinden Sie sich im Anwendemodus." }
+		{ time 20250 length 3200 text "Drcken Sie die Tabulatortaste, um zum Schussmodus zurckzukehren." }
+	}
+
+	multisub trg0009 {
+		{ time 00 length 3900 text "Um Objekte aufzuheben, bringen Sie diese in die Bildschirmmitte und rechtsklicken darauf." }
+		{ time 4200 length 2800 text "Nun wird das Objekt automatisch in Ihr Inventar gebracht." }
+		{ time 7350 length 3000 text "Um Ihr Inventar zu sehen, drcken Sie die Tabulatortaste." }
+		{ time 10700 length 3800 text "Sie k”nnen durch Linksklicken und Ziehen Objekte in Ihrem Inventar verschieben." }
+		{ time 14700 length 4600 text "Um ein Objekt fallen zu lassen, ziehen Sie es auf die 3D-Sicht und lassen die Maustaste los." }
+	}
+
+	multisub trg0010 {
+		{ time 00 length 1400 text "Sehen Sie die Kiste da vorne?" }
+		{ time 1900 length 3150 text "Um sie zu durchsuchen, bringen Sie sie in Bildschirmmitte und rechtsklicken darauf." }
+		{ time 5400 length 4000 text "Wenn Sie im Anwendemodus sind, bewegen Sie einfach den Cursor auf die Kiste und rechtsklicken sie." }
+		{ time 9800 length 3500 text "Um ein Objekt aus einem Beh„lter herauszunehmen, linksklicken Sie darauf." }
+		{ time 13350 length 2400 text "Das Objekt erscheint dann automatisch in Ihrem Inventar." }
+		{ time 16250 length 4850 text "Um das Beh„lterfenster zu schlieáen und in den Schussmodus zurckzukehren, drcken Sie die Tabulatortaste." }
+	}
+
+	multisub trg0011 {
+		{ time 00 length 2400 text "Jetzt lernen Sie, wie man springt und klettert." }
+		{ time 2750 length 2750 text "Um zu springen, drcken Sie einfach die Leertaste." }
+		{ time 5700 length 4250 text "Sie k”nnen auf manche Oberfl„chen klettern, indem Sie die Leertaste gedrckt halten." }
+		{ time 10650 length 3600 text "Sie k”nnen auf Vorsprnge und andere hoch gelegene Positionen klettern." }
+		{ time 14850 length 1100 text "Versuchen Sie's doch einmal." }
+	}
+
+	multisub trg0012 {
+		{ time 00 length 4150 text "Um auf eine Leiter hochzusteigen, laufen Sie einfach darauf zu und sehen nach oben." }
+		{ time 4600 length 1700 text "Nun steigen Sie automatisch hoch." }
+	}
+
+	multisub trg0032 {
+		{ time 00 length 2400 text "Das Objekt vor Ihnen ist eine Serumspritze." }
+		{ time 2700 length 4200 text "Heben Sie diese auf und drcken die Tabulatortaste, um in den Anwendemodus zu kommen." }
+		{ time 7250 length 4700 text "Wenn Sie auf die Spritze rechtsklicken, wird sie eingesetzt und gibt Ihnen einige Hitpunkte zurck." }
+		{ time 12350 length 3700 text "Ihre Hitpunkte werden durch eine Balkenanzeige links unten dargestellt." }
+		{ time 16300 length 3200 text "Sie k”nnen viele Objekte in Ihrem Inventar durch Rechtsklicken benutzen." }
+	}
+
+	multisub trg0033 {
+		{ time 00 length 3300 text "Eines Ihrer wichtigsten Werkzeuge, Soldat, ist Ihr PDA." }
+		{ time 3750 length 4300 text "Dieses Ger„t speichert Audiologs, Emails, und andere wichtige Informationen." }
+		{ time 8400 length 4550 text "Klicken Sie auf das Diskettensymbol am unteren Bildschirmrand, um den PDA aufzurufen." }
+		{ time 13500 length 1800 text "Im Moment ist Ihr PDA noch leer." }
+		{ time 15650 length 2750 text "Heben Sie jetzt das vor Ihnen liegende Audiolog auf." }
+	}
+
+	multisub trg0013 {
+		{ time 650 length 800 text "Gut gemacht." }
+		{ time 2150 length 5500 text "Denken Sie daran, dass Sie das Training beliebig oft wiederholen k”nnen, falls Ihnen noch etwas unklar sein sollte." }
+	}
+
+	// Weapons training
+
+	multisub trg0015 {
+		{ time 650 length 6350 text "Na gut, Sie Anf„nger. Falls Sie erfahren wollen, was man ber Waffen wissen will, bevor man zu den Marines kommt, treten Sie n„her." }
+		{ time 7250 length 1700 text "Wir suchen einige gute M„nner." }
+	}
+
+	multisub trg0016 {
+		{ time 00 length 1150 text "Willkommen an Bord." }
+		{ time 1200 length 8550 text "Wie Sie beim Cyberterminal bemerken werden, hat die UNN Ihnen ein virtuelles Cyber-Interface und alle simulierten F„higkeiten zur Verfgung gestellt, die Sie fr das Training brauchen." }
+		{ time 9950 length 4350 text "Aber werden Sie nicht zu optimistisch. Sobald Sie das Terminal verlassen, verschwindet alles." }
+	}
+
+	multisub trg0017 {
+		{ time 00 length 2700 text "Jetzt zeigen wir Ihnen, wie man mit Feuerwaffen umgeht." }
+		{ time 2950 length 5400 text "Heben Sie die Pistole und das Magazin vom Tisch auf. Sie k”nnen die Waffe auf zwei Arten aktivieren." }
+		{ time 8700 length 4400 text "Rufen Sie ihr Inventar auf und ziehen Sie die Pistole in das Waffenfeld rechts oben." }
+		{ time 13450 length 4600 text "Falls das zu langsam ist, k”nnen Sie auch Tastaturkrzel verwenden. Drcken Sie 2." }
+		{ time 18250 length 3700 text "Wenn sich die Pistole in Ihrem Inventar befindet, wird sie automatisch aktiviert." }
+		{ time 23000 length 5100 text "Um die Munition zu laden, drcken Sie R oder klicken auf die Nachladetaste unten rechts." }
+		{ time 28200 length 6500 text "Sobald Sie die Waffe geladen haben, schieáen Sie auf den Zielroboter, indem Sie im Schussmodus die linke Maustaste drcken." }
+		{ time 35100 length 4350 text "Sie sehen, wie seine Gesundheitsanzeige krzer wird, je ”fter Sie ihn treffen." }
+	}
+
+	multisub trg0018 {
+		{ time 00 length 3400 text "Manche Objekte mssen aufgeladen werden, bevor man sie benutzen kann." }
+		{ time 3750 length 5850 text "Heben Sie die Laserpistole auf. Aktivieren Sie jetzt die in der N„he befindliche Aufladestation." }
+		{ time 9950 length 3200 text "Die Ladestation wird ALLE stromverbrauchenden Objekte aufladen," }
+		{ time 13280 length 1850 text "seien es Waffen oder Batterien." }
+	}
+
+	multisub trg0019 {
+		{ time 00 length 4250 text "Waffen sind nicht wie edler Wein. Sie werden nicht mit zunehmenden Alter besser." }
+		{ time 4600 length 3450 text "Der farbige Punkt rechts unten zeigt Ihnen den Zustand Ihrer Waffe an." }
+		{ time 8150 length 2100 text "Grn ist gut. Rot ist schlecht." }
+		{ time 10450 length 7000 text "Um Abnutzungseffekte zu beheben, kann ein Soldat mit Wartungsf„higkeiten mittels eines Wartungswerkzeugs den Zustand seiner Waffe verbessern." }
+		{ time 17550 length 4900 text "Nehmen Sie einfach das Werkzeug, ”ffnen Sie Ihr Inventar und ziehen Sie das Werkzeug auf die Pistole." }
+		{ time 22700 length 4000 text "Denken Sie daran, dass Wartungswerkzeuge nur je einmal eingesetzt werden k”nnen." }
+	}
+
+	multisub trg0020 {
+		{ time 700 length 2450 text "Gut gemacht, jetzt sind Sie bereit fr die Marines." }
+		{ time 3350 length 3250 text "Sehen Sie sich die anderen Trainingsbereiche an, bevor Sie sich verpflichten." }
+		{ time 6600 length 1800 text "Vielleicht ntzt Ihnen das sp„ter." }
+	}
+
+	// Technical training
+
+	multisub trg0021 {
+		{ time 650 length 3950 text "Hier zeigen wir Ihnen die Grundlagen der technischen F„higkeiten, die Sie in der Navy brauchen werden." }
+	}
+
+	multisub trg0022 {
+		{ time 100 length 700 text "Willkommen." }
+		{ time 1350 length 7500 text "Wenn Sie am Cyberterminal sind, geben wir Ihnen ein tempor„res Cyber-Interface. Und die F„higkeiten, die Sie w„hrend des Trainings ben”tigen." }
+		{ time 9600 length 2150 text "Allerdings verschwinden diese danach sofort wieder." }
+	}
+
+	multisub trg0023 {
+		{ time 00 length 2700 text "Das Objekt vor Ihnen ist ein Nanitenbeh„lter." }
+		{ time 3200 length 3850 text "Naniten werden bei technischen Aufgaben wie Hacken oder Reperaturen verbraucht." }
+		{ time 7800 length 7700 text "Wenn Sie den Nanitenbeh„lter aufheben, erscheinen diese NICHT im allgemeinen Inventar, sondern werden im Anwendungsmodus links am Bildschirm angezeigt." }
+		{ time 16100 length 3200 text "Gehen Sie jetzt zu der Tastatur bei der Tr, um das Hacken zu versuchen." }
+	}
+
+	multisub trg0034 {
+		{ time 00 length 2450 text "Sie verwenden eine Tastatur, indem Sie darauf rechtsklicken." }
+		{ time 2650 length 2800 text "Rechts von der Tastatur befindet sich die orangefarbene \"Hack\"-Taste." }
+		{ time 5500 length 1200 text "Linksklicken Sie darauf." }
+		{ time 6900 length 3850 text "Nun erscheint Text, der die Schwierigkeit des Hackens und eventuelle Bonuspunkte anzeigt." }
+		{ time 11100 length 2100 text "Klicken Sie auf Start, um mit dem Hacken zu beginnen." }
+		{ time 13400 length 1700 text "Sie sehen ein Raster aus Knotenpunkten." }
+		{ time 15400 length 2650 text "Wenn Sie einen Knoten anklicken, wird er entweder hell oder dunkel." }
+		{ time 18250 length 4600 text "Um das Hacken erfolgreich abzuschlieáen, mssen Sie drei helle Knoten mit einer geraden Linie verbinden." }
+		{ time 23000 length 3800 text "Vorsicht bei den rot umrandeten Knoten. Dies sind Cyber-Abwehrknoten" }
+		{ time 27000 length 7600 text "Und wenn einer davon dunkel wird, ist Ihr Hacken automatisch gescheitert, und in manchen F„llen zerst”ren Sie das Objekt an dem Sie arbeiten, oder es passiert sogar noch Schlimmeres." }
+		{ time 34650 length 6100 text "Sie k”nnen jederzeit den Hackversuch erneut starten, indem Sie die Neustart-Taste drcken, wobei Sie dann wieder Naniten bezahlen mssen." }
+	}
+
+	multisub trg0024 {
+		{ time 00 length 3900 text "Sie k”nnen mithilfe von Naniten Objekte in Replikatoren kaufen." }
+		{ time 4700 length 2950 text "Um einen Replikator zu benutzen, rechtsklicken Sie darauf" }
+		{ time 7850 length 2350 text "und linksklicken Sie dann auf das gewnschte Objekt." }
+		{ time 10700 length 2650 text "Das gekaufte Objekt f„llt dann in den Ausgabeschacht." }
+		{ time 13500 length 1350 text "Denken Sie daran, es mitzunehmen." }
+	}
+
+	multisub trg0025 {
+		{ time 650 length 2550 text "Sie haben die Grundlagen der technischen F„higkeiten erlernt." }
+		{ time 3500 length 5600 text "Im Laufe Ihrer Karriere werden Sie noch weitere F„higkeiten erwerben, wie etwa die Reparatur von Objekten und das Modifizieren von Waffen." }
+		{ time 9750 length 3000 text "Das Cyber-Interface fr diese F„higkeiten „hnelt dem Hacking-Interface." }
+		{ time 13050 length 3900 text "Bevor Sie sich fr die Navy verpflichten, sollten Sie die anderen Trainigskurse ausprobieren." }
+		{ time 16950 length 800 text "Das kann nie schaden." }
+	}
+
+	// Psionics training
+
+	multisub trg0026 {
+		{ time 700 length 3800 text "Hier zeigen wir Ihnen wie Sie mit der Kraft Ihres Geistes die Welt beeinflussen." }
+		{ time 4650 length 2600 text "Lassen Sie nicht zu, dass Furcht Ihren Pfad blockiert." }
+	}
+
+	multisub trg0027 {
+		{ time 00 length 7000 text "Wir haben Ihnen ein tempor„res Interface und die zeitweilige F„higkeit gegeben, simulierte PSI-F„higkeiten einzusetzen." }
+		{ time 7250 length 3000 text "Sobald sie diesen Bereich verlassen verlieren Sie diese Kr„fte." }
+	}
+
+	multisub trg0028 {
+		{ time 00 length 3500 text "Die rote Anzeige links unten stellt Ihre PSI-Punkte dar." }
+		{ time 3850 length 5200 text "PSI-Punkte symbolisieren Ihre derzeitige F„higkeit, PSI-Kr„fte einzusetzen." }
+		{ time 9500 length 3100 text "PSI-Spritzen verleihen Ihnen PSI-Punkte." }
+		{ time 12800 length 4400 text "Setzen Sie eine PSI-Spritze ein und sehen Sie, wie Ihr PSI-Punktwert steigt." }
+		{ time 17550 length 3800 text "Wenn Sie den Maximalwert erreicht haben, k”nnen Sie zur n„chsten Station gehen." }
+	}
+
+	multisub trg0029 {
+		{ time 00 length 6150 text "Ein PSI-Amp vert„rkt Ihre PSI-Kr„fte und erm”glicht es Ihnen, diese in der Welt einzusetzen." }
+		{ time 6500 length 5500 text "Um den PSI-Amp zu aktivieren, mssen Sie ihn aufnehmen und dann das Gradzeichen drcken." }
+		{ time 12350 length 5050 text "Wenn Sie den PSI-Amp abfeuern, wird die momentan gew„hlte PSI-Kraft eingesetzt." }
+		{ time 17800 length 6600 text "In dieser Simulation verfgen Sie ber zwei PSI-Kr„fte: Kryokinese and Kinetische Umlenkung." }
+		{ time 24800 length 5200 text "Gehen Sie in den Anwendemodus und klicken Sie auf die Pfeile rechts unten am Bildschirmrand." }
+		{ time 30300 length 3300 text "So gehen Sie die verfgbaren PSI-Disziplinen durch." }
+		{ time 33850 length 6650 text "Wenn Sie die Pfeile ber der Nummer auf der linken Seite anklicken, k”nnen Sie sp„ter PSI-Kr„fte h”herer Stufen ausw„hlen." }
+		{ time 40700 length 8000 text "Setzen Sie die Kryokinese dazu ein, den Roboter zu zerst”ren, und ziehen Sie den Nanitenbeh„lter mittels Kinetischer Umlenkung zu sich hin." }
+		{ time 48850 length 6250 text "Vorsicht, wenn Sie die Maustaste gedrckt lassen, verst„rkt das die Kraft. Aber wenn Sie das zu lange tun, brennen Sie durch." }
+		{ time 55300 length 4250 text "Wenn Ihnen die PSI-Punkte ausgehen, setzen Sie eine weitere PSI-Spritze ein." }
+	}
+
+	multisub trg0030 {
+		{ time 850 length 4900 text "Die Beherrschung des Geistes ist ein langsamer Prozess, der sich aber lohnt." }
+		{ time 5390 length 3450 text "Kehren Sie zu diesem Bereich zurck, wenn Sie ein weiteres Training ben”tigen." }
+		{ time 9250 length 4650 text "Bevor Sie sich fr die OSA melden, sollten Sie sich auch die anderen Trainingskurse ansehen." }
+	}
+}
+
+{
+	type "convo"
+	descr "Ausbilder"
+
+	multisub init_0 {
+		{ time 00 length 2950 text "Willkommen auf der Raumstation Wake Island, Soldat." }
+		{ time 3450 length 3350 text "Sie haben also die Grundausbildung in Camp Lejeune berlebt." }
+		{ time 6800 length 3300 text "Sie haben dabei sogar einiges ber konventionelle Waffen gelernt." }
+		{ time 10200 length 1750 text "Aber jetzt wird es ernst." }
+		{ time 12350 length 3200 text "Sie werden in den n„chsten vier Jahren an vier Dienstorte versetzt." }
+		{ time 16000 length 4300 text "Das Marine Corps verlangt viel von seinen Soldaten, ist aber auch groázgig." }
+		{ time 20600 length 2050 text "Sie k”nnen Ihre Dienstorte selbst w„hlen." }
+		{ time 23000 length 4550 text "Gehen sie zu den Shuttle-Hallen im Zentrum der Wake Island und sehen Sie, was Ihnen bevorsteht." }
+		{ time 27830 length 3700 text "Wenn Sie etwas finden, das Ihnen zusagt, begeben Sie sich in die entsprechende Halle." }
+		{ time 31650 length 900 text "Viel Glck!" }
+	}
+
+	multisub init_1 {
+		{ time 00 length 2800 text "Willkommen auf der Raumstation Chesapeake Bay, Matrose." }
+		{ time 3250 length 4400 text "Sieht aus, als h„tten Sie in der Grundausbildung auf Coronado Island etwas ber konventionelle Waffen gelernt." }
+		{ time 7750 length 1600 text "Jetzt beginnt Ihr Dienst." }
+		{ time 9800 length 2750 text "Sie werden in den n„chsten vier Jahren an vier Dienstorte versetzt." }
+		{ time 12900 length 3400 text "Die Navy l„sst Sie pro Jahr zwischen drei verschiedenen Dienstorten w„hlen." }
+		{ time 16490 length 3200 text "Das kann Ihre Karriere beeinflussen, also w„hlen Sie mit Bedacht." }
+		{ time 20200 length 2600 text "Gehen Sie zu den Shuttle-Hallen und sehen Sie, was Ihnen bevorsteht" }
+		{ time 23000 length 3700 text "Wenn Sie etwas finden, das Ihnen zusagt, begeben Sie sich in die entsprechende Halle." }
+	}
+
+	multisub init_2 {
+		{ time 00 length 4000 text "Die OSA heiát Sie auf der Orbitalstation Chun Lo willkommen." }
+		{ time 4250 length 3200 text "Spren Sie schon, wie die Grenzen Ihres Geistes erweitert werden?." }
+		{ time 8600 length 3100 text "Wir wollen Sie in den n„chsten vier Jahren auf Ihrem Pfad leiten." }
+		{ time 12200 length 4150 text "Die Shuttle-Hallen im Zentrum der Station bringen Sie zu Ihrer n„chsten Entwicklungstufe." }
+		{ time 17000 length 3700 text "Wenn Sie ihren Pfad gew„hlt haben, gehen Sie in die entsprechende Halle." }
+		{ time 21200 length 2200 text "Seien Sie dem Neuen gegenber offen." }
+	}
+
+	// Marine briefings
+
+	multisub brief01 {
+		{ time 800 length 4350 text "Wenn Sie gerne mit Sprengstoffen arbeiten, ist dieser Auftrag fr Sie wie geschaffen." }
+		{ time 4450 length 8150 text "Es gibt zwar schwere Arbeit, aber die Munitionsexperten haben die erste Wahl unter den Spirituosen und anderen guten Sachen, die an Bord des Nachschubschiffes Gallo kommen." }
+		{ time 12600 length 750 text "Durchladen!" }
+	}
+
+	multisub brief02 {
+		{ time 1000 length 5150 text "Die Navy hat eine šberlebenstrainingsschule auf der Oberfl„che von Io, dem dritten Jupitermond." }
+		{ time 6300 length 3950 text "Plus: die beste Methode um Ausdauer und šberlebensf„higkeiten zu steigern." }
+		{ time 10350 length 3000 text "Minus: 21,2% berleben es nicht." }
+		{ time 13450 length 3650 text "Zudem muss man ein ganzes Jahr mit blen Typen von der Navy verbringen." }
+	}
+
+	multisub brief03 {
+		{ time 750 length 8000 text "Beim Entern eines Schiffs kann man nicht immer mit Schwerkraft rechnen. Das Marine Corps empfiehlt deshalb allen seinen Mitgliedern, ein Schwerelosigkeitstraining durchzumachen." }
+		{ time 9050 length 3550 text "Ein Jahr an Bord der Trainingstation Guadalcanal drfte reichen." }
+	}
+
+	multisub brief04 {
+		{ time 750 length 6100 text "Beim Dienst auf der Antigua k”nnen Sie einiges in Sachen Nahkampf mit Strahlenwaffen von Artillerie Sergeant Malloy lernen." }
+		{ time 7050 length 2400 text "Aber Vorsicht, sie ist ein Knochenschinder." }
+	}
+
+	multisub brief05 {
+		{ time 850 length 8150 text "Die automatischen Asteroidenbergwerke im Sektor JM-432 versorgen die UNN-Werften, sind also milit„risch enorm wichtig." }
+		{ time 9250 length 3550 text "Sie stellen aber auch beliebte Ziele fr Hacker dar." }
+		{ time 11850 length 7650 text "Irgendjemand hat sich in den prim„ren Datenstrang eingekoppelt und man braucht nun ein Team, das dort hinfliegt und sich durch die automatischen Abwehrsysteme k„mpft." }
+	}
+
+	multisub brief06 {
+		{ time 800 length 5550 text "šbungsmunition, scharfe Munition, bewegliche Ziele, starre Ziele, lebendige Ziele..." }
+		{ time 6800 length 5400 text "Das Trainingszentrum in Port MacArthur hat genug Hardware, um das Herz jedes Ledernacken zu erfreuen." }
+	}
+
+	multisub brief07 {
+		{ time 800 length 4200 text "Das Amt des UNN-Generalsekret„rs ben”tigt eine Gruppe von Wachsoldaten." }
+		{ time 5400 length 3250 text "Wenn nicht viel los ist, stehen Sie nur in einer eleganten Uniform herum." }
+		{ time 8800 length 5050 text "Aber wenn es losgeht, mssen Sie m”glicherweise einen Angriff von PSI-Terroristen abwehren!" }
+	}
+
+	multisub brief08 {
+		{ time 750 length 4300 text "Die Polidies-Handelsstation war schon lange ein Zentrum des schwarzen Markts." }
+		{ time 5250 length 3950 text "Allerdings haben sich die Schwarzh„ndler bisher nicht in das Management der Station eingemischt." }
+		{ time 9500 length 8050 text "Neusten Berichten zufolge wurde allerdings die politische Fhrung von Polidies gestrzt und die Station wird nun von einem selbsternannten \"Magnaten\" beherrscht." }
+		{ time 17700 length 3300 text "Dies muss sich „ndern. Und deshalb brauchen wir Marines auf der Station!" }
+	}
+ 
+	multisub brief09 {
+		{ time 800 length 5950 text "Der Kolonialraumdienst erh„lt die schlechtesten Schiffe der Flotte, und Antigua kriegt die allerschlechtesten." }
+		{ time 7000 length 6700 text "W„hrend Ihres Dienstes auf der Antigua werden Sie viel ber defekte Maschinen lernen. Falls das ganze Ding nicht vorher hochfliegt!" }
+	}
+
+	// Navy briefings
+
+ 	multisub brief10 {
+		{ time 700 length 5500 text "Die UNN Lucille sucht nach einen Offiziersanw„rter, der sich mit den Navigations- und Datenkontrollsystemen vertraut machen will." }
+		{ time 6800 length 3850 text "Sie werden einiges ber moderne Technologien lernen, mssen sich aber auch ganz sch”n anstrengen." }
+	}
+
+	multisub brief11 {
+		{ time 400 length 4850 text "Die UNN Lucille sucht nach einem zweiten Ingenieur, der die Hauptenergiesysteme des Schiffs am Laufen h„lt." }
+		{ time 5500 length 3350 text "Das ist keine einfache Aufgabe, aber Sie werden eine Menge ber moderne Systeme lernen." }
+	}
+
+	multisub brief12 {
+		{ time 500 length 3500 text "Die UNN Lucille sucht nach Freiwilligen fr die Milit„rpolizeitabteilung." }
+		{ time 4300 length 5000 text "Die Raummatrosen k”nnen auf diesen jahrelangen Flgen ganz sch”n aufs„ssig werden, also brauchen wir einen harten Kerl." }
+	}
+
+	multisub brief13 {
+		{ time 750 length 5400 text "Die UNN Carfax soll einen neu entdeckten Kometen der Klasse B im „uáeren Sonnensystem untersuchen." }
+		{ time 6700 length 5400 text "Sie werden auf diesem krzlich in Dienst gestellten schweren Kreuzer einiges ber moderne Navigationssysteme lernen." }
+	}
+
+	multisub brief14 {
+		{ time 700 length 4700 text "Die UNN Pierce bringt befreite politische Gefangene von einem Straflager beim Saturn zurck." }
+		{ time 5900 length 6600 text "Die Pierce hat eine Gruppe Marines an Bord und ben”tigt Matrosen, um die Waffen an Bord zu laden, zu verwalten und zu warten." }
+	}
+
+	multisub brief15 {
+		{ time 400 length 3750 text "In LaVerne, Florida befindet sich die beste Taktik Trainigsschule der Navy." }
+		{ time 4450 length 4450 text "Sie ist vielleicht nicht so berhmt wie die Schule des Marine Corps in Fort Bush, aber man kann hier eine Menge lernen." }
+	}
+
+	multisub brief16 {
+		{ time 600 length 8950 text "Die Marie-Curie-Forschungsstation der Navy auf Aquinas IV untersucht momentan einen neuen Weltraumvirus, der 220.000 Einwohner von New Atlanta t”tete." }
+		{ time 9900 length 6350 text "Um die Quarant„ne aufzuheben, mssen wir erst feststellen, wie der Virus die Mikronanitenschutzschilde der Stadt durchdringen konnte." }
+	}
+
+	multisub brief17 {
+		{ time 650 length 4900 text "Die Navy hat eine šberlebenstrainingsschule auf der Oberfl„che von Io, dem dritten Jupitermond." }
+		{ time 5600 length 4050 text "Plus: die beste Methode, um Ausdauer und šberlebensf„higkeiten zu steigern." }
+		{ time 9700 length 3100 text "Minus: 21,2% berleben es nicht." }
+	}
+
+	multisub brief18 {
+		{ time 600 length 3800 text "Die Navy empfiehlt allen ihren Mitgliedern, ein Schwerelosigkeitstraining durchzumachen." }
+		{ time 4850 length 4300 text "Ein Jahr an Bord der erdumkreisenden Raumstation Yamamoto drfte mehr als genug sein." }
+	}
+
+	// OSA briefings
+
+	multisub brief19 {
+		{ time 700 length 4200 text "Die sensorischen Deprivationstanks an Bord der TOS Shao Ling warten auf Sie." }
+		{ time 5200 length 7000 text "Dort werden Sie ein Jahr alleine verbringen und sich durch Meditieren ber Bewegungen und Ger„usche auf deren Nutzen fr Sie konzentrieren." }
+	}
+
+	multisub brief20 {
+		{ time 800 length 4250 text "Die sensorischen Deprivationstanks an Bord der TOS Ru Nang warten auf Sie." }
+		{ time 5300 length 5200 text "Sie haben ein Jahr Zeit, um ber die Natur der Materie zu meditieren und Macht ber sie zu gewinnen." }
+	}
+
+	multisub brief21 {
+		{ time 600 length 4900 text "Die sensorischen Deprivationstanks an Bord der TOS Chu Lun sind auf Sie vorbereitet." }
+		{ time 6100 length 6700 text "Sie werden dort ein Jahr ber Ihre eigene Masse und die anderer Objekte meditieren, bis Sie diese beliebig manipulieren k”nnen." }
+	}
+
+	multisub brief22 {
+		{ time 800 length 9750 text "Sie mssen Gedanken des Verrats und der Untreue aus dem Morast der Emotionen und Konflikte herausholen, der die meisten Menschen ohne PSI-F„higkeiten charakterisiert." }
+		{ time 10900 length 6700 text "Sie werden ein Jahr lang lernen, Ihren Geist zu st„rken und die Gedanken der Schw„cheren zu lesen, ohne dabei sich selbst zu verlieren." }
+	}
+
+	multisub brief23 {
+		{ time 800 length 5900 text "In Dr. Chandrisvilans Labor wurden viele Entdeckungen gemacht, die die PSI-F„higkeiten betreffen." }
+		{ time 7000 length 5000 text "Sie werden ein Jahr lang diesem Genie dienen und seine Ideen und Eigenheiten kennenlernen." }
+	}
+
+	multisub brief24 {
+		{ time 600 length 2200 text "Ihr K”rper wurde vernachl„ssigt." }
+		{ time 3200 length 4900 text "Auf Io werden Sie Soldaten finden, die ihre physische Ausdauer testen wollen." }
+		{ time 8550 length 4200 text "Sie werden sie berflgeln, ohne dabei Ihre geistige Disziplin zu verlieren." }
+	}
+
+	multisub brief25 {
+		{ time 850 length 4600 text "Terrorakte und Wirtschafstkonflikte st”ren die Stabilit„t." }
+		{ time 6000 length 6550 text "Sie werden ein Jahr lang gegen die Kr„fte des Chaos k„mpfen und dabei geistige und k”rperliche Kr„fte einsetzen." }
+	}
+
+	multisub brief26 {
+		{ time 600 length 5200 text "Insgesamt gesehen sind Individuuen nur so wichtig wie Schachfiguren." }
+		{ time 5800 length 4950 text "Manchmal mssen andere Figuren entfernt werden, ohne den Verlauf des Spiels zu st”ren." }
+		{ time 11150 length 3250 text "Dies wird in aller Stille und streng geheim ablaufen." }
+		{ time 14800 length 3900 text "Sie werden ein Jahr lang lernen, wie man diese Kr„fte einsetzt." }
+	}
+
+	multisub brief27 {
+		{ time 750 length 3000 text "Viele Bedrohungen kann man nur von Innen besiegen." }
+		{ time 4400 length 4750 text "Sie werden geistig so konditioniert, dass Sie glauben, dass Sie ein Krimineller sind" }
+		{ time 9450 length 4850 text "und sich anderen Rebellen anschlieáen und deren gef„hrliches Leben teilen." }
+		{ time 14450 length 2550 text "Wenn es an der Zeit ist, werden Sie sie liquidieren." }
+	}
+}

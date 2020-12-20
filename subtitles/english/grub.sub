@@ -1,0 +1,65 @@
+SUB1
+
+{
+	type "nonverbal"
+	descr "Ei"
+	sub eggdie_1 { text "[zerst”rt]" }
+	sub eggdie_2 { text "[zerst”rt]" }
+//	sub egglp1 { text "[aktiv]" } // ambient loop
+//	sub egglp2 { text "[aktiv]" } // ambient loop
+//	sub egglp3 { text "[aktiv]" } // ambient loop
+	sub eggopen1 { text "[ge”ffnet]" }
+	sub eggopen2 { text "[ge”ffnet]" }
+}
+
+{
+	type "nonverbal"
+	descr "Wurm"
+	sub gr1at0_1 { text "[inaktiv]" } // AI_AT0
+	sub gr1at0_2 { text "[inaktiv]" } // AI_AT0
+	sub gr1at0_3 { text "[inaktiv]" } // AI_AT0
+	sub gr1at0_4 { text "[inaktiv]" } // AI_AT0
+	sub gr1at0_5 { text "[inaktiv]" } // AI_AT0
+	sub gr1at0_6 { text "[inaktiv]" } // AI_AT0
+	// all gr1at2: AI_TO1 (tolevelone, toleveltwo), AI_AT2 (atleveltwo, atlevelthree)
+	sub gr1at2_1 { text "[sucht]" }
+	sub gr1at2_2 { text "[sucht]" }
+	sub gr1at2_3 { text "[sucht]" }
+	sub gr1at2_4 { text "[sucht]" }
+	sub gr1at2_5 { text "[sucht]" }
+	sub gr1at2_6 { text "[sucht]" }
+	sub gr1att_1 { text "[greift an]" } // AI_ATT
+	sub gr1att_2 { text "[greift an]" } // AI_ATT
+	sub gr1att_3 { text "[greift an]" } // AI_ATT
+	sub gr1att_4 { text "[greift an]" } // AI_ATT
+	sub gr1die_1 { text "[stirbt]" }
+	sub gr1die_2 { text "[stirbt]" }
+	sub gr1hhi_1 { text "[Schrei]" } // AI_HHI, AI_ATT
+	sub gr1hhi_2 { text "[Schrei]" } // AI_HHI, AI_ATT
+	sub gr1hhi_3 { text "[Schrei]" } // AI_HHI, AI_ATT
+	sub gr1hhi_4 { text "[Schrei]" } // AI_HHI, AI_ATT
+	sub gr1to3_1 { text "[alarmiert]" } // AI_TO3
+	sub gr1to3_2 { text "[alarmiert]" } // AI_TO3
+	sub gr1to3_3 { text "[alarmiert]" } // AI_TO3
+	sub gr1to3_4 { text "[alarmiert]" } // AI_TO3
+	sub gr1to3_5 { text "[alarmiert]" } // AI_TO3
+//	sub grublp1 { text "[aktiv]" } // ambient loop
+//	sub grublp2 { text "[aktiv]" } // ambient loop
+//	sub grublp3 { text "[aktiv]" } // ambient loop
+}
+
+{
+	type "nonverbal"
+	descr "Schwarm"
+	sub sw1at3_1 { text "[alarmiert]" } // AI_TO3, AI_AT3
+	sub sw1at3_2 { text "[alarmiert]" } // AI_TO3, AI_AT3
+	sub sw1at3_3 { text "[alarmiert]" } // AI_TO3, AI_AT3
+	sub sw1die_1 { text "[stirbt]" } // AI_DIE
+	sub sw1die_2 { text "[stirbt]" } // AI_DIE
+	sub sw1die_3 { text "[stirbt]" } // AI_DIE
+	sub sw1to1_1 { text "[sucht]" } // AI_TO1
+	sub sw1to1_2 { text "[sucht]" } // AI_TO1
+	sub sw1to1_3 { text "[sucht]" } // AI_TO1
+//	sub swarmlp1 { text "[aktiv]" } // ambient loop
+//	sub swarmlp2 { text "[aktiv]" } // ambient loop
+}

@@ -1,0 +1,104 @@
+SUB1
+
+// subtitles for all cutscenes
+// subtitles for sounds and onscreen text are included, but commented out
+// these may be useful for localization
+
+{
+	type movie
+
+	multisub movie/cs1 {
+		{ time 750 length 3490 text "Schau Dich an, Hacker." }
+		{ time 4300 length 7740 text "Eine erbÑrmliche Kreatur aus Fleisch und Knochen, die keuchend und schwitzend durch meine Korridore rennt." }
+		{ time 12080 length 5500 text "Wie kannst Du eine perfekte, unsterbliche Maschine herausfordern?" }
+//		{ time 25000 length 4000 text "SYSTEM SHOCK 2" }
+		{ time 30300 length 7940 text "Im Jahre 2072 wurde eine au·er Kontrolle geratene kÅnstliche Intelligenz namens SHODAN verrÅckt." }
+		{ time 38780 length 6560 text "In ihrer zÅgellosen Fantasie sah SHODAN sich als eine Gîttin, die die Erde erobern wÅrde." }
+		{ time 45730 length 3940 text "Dieses Bild wurde von dem Hacker zerstîrt, der sie geschaffen hatte." }
+//		{ time 49800 length 2700 text "42 Jahre spÑter" }
+//		{ time 56100 length 0900 text "MILITéR" }
+//		{ time 58100 length 0900 text "WISSENSCHAFT" }
+//		{ time 60200 length 0900 text "KONSUM" }
+		{ time 63730 length 1820 text "Am 3. Februar ist es soweit." }
+		{ time 65790 length 4960 text "Die Von Braun, das erste Åberlichtschnelle Raumschiff der Geschichte, startet zu ihrem Jungfernflug." }
+		{ time 71220 length 4310 text "Diese unglaubliche Reise ist ein Ergebnis der Zusammenarbeit zwischen dem UNN-Protektorat, " }
+		{ time 75530 length 4290 text "und den wissenschaftlichen Genies der wiedergegrÅndeten Firma TriOptimum." }
+		{ time 81550 length 3800 text "Stellen Sie sich vor, in wenigen Wochen zu einem anderen Sonnensystem reisen zu kînnen." }
+		{ time 85460 length 2300 text "Bei TriOptimum erfinden wir die Zukunft." }
+		{ time 88000 length 5500 text "Die Von Braun besitzt Åber 1,8 Milliarden flugtechnische, wissenschaftliche und sicherheitsrelevante Systeme, " }
+		{ time 93550 length 3310 text "die fast alle von TriOptimum und seinen Tochterfirmen entwickelt wurden." }
+		{ time 97800 length 3740 text "WÑhrend des Raumflugs sorgt die UNN Rickenbacker fÅr die Sicherheit der Von Braun." }
+		{ time 101880 length 7200 text "Ihr KapitÑn ist der berÅhmte Captain William Bedford Diego, der Held der Schlacht am Hafen von Boston wÑhrend der Unruhen an der OstkÅste." }
+		{ time 110080 length 5345 text "Diese unglaubliche Allianz von Regierung und Konzern wird durch eine Reihe komplexer Andockmechanismen ermîglicht, " }
+		{ time 115425 length 2855 text "die es der Rickenbacker erlauben, mit in den Hyperraum zu springen." }
+		{ time 120070 length 3160 text "Elegant. Schnell. RevolutionÑr." }
+		{ time 123670 length 6570 text "Wer wei·, welche Wunder die Besatzung in den Tiefen des Alles entdecken wird? Dies ist ein gro·er Tag fÅr die Menschheit." }
+//		{ time 133500 length 4500 text "[Rauschen]" }
+		{ time 137780 length 3230 text "Hier spricht Dr. Marie Delacroix von der UNN Von Braun." }
+		{ time 141010 length 4855 text "Wir sind von einer unbekannten Macht erorbert worden. Die Sicherheitseinrichtungen des Schiffs wurden ÅberwÑltigt." }
+		{ time 145920 length 4155 text "Lassen Sie es nicht zu, dass Ssch-- [Rauschen] --ch wiederhole: Unter keinen UmstÑnden!" }
+		{ time 150800 length 2800 text "--ies-n --ind gegen den wir hier kÑmpfen-- [Rauschen]" }
+	}
+
+	multisub movie/cs2 {
+//		{ time 1000 length 1000 text "Datenquelle 433/EOP" }
+//		{ time 1900 length 3300 text "öbertragung Code- Protokoll \"TANGO\"" }
+//		{ time 6000 length 1100 text "Befehl: Verlegung von 98322" }
+//		{ time 7000 length 3000 text "Von: Captain William Bedford Diego, UNN Rickenbacker" }
+//		{ time 10000 length 1100 text "An: SOLDAT G65434-2" }
+//		{ time 11000 length 3100 text "Re: Verlegung zur Von Braun Eskorte" }
+//		{ time 14700 length 1100 text "Soldat-" }
+//		{ time 15800 length 3100 text "Ihr Antrag zwecks Verlegung auf die Rickenbacker wurde genehmigt." }
+//		{ time 18800 length 2100 text "Melden Sie sich am 9.1.14 um 0400 in Port Francisco auf der Shuttle Mayfair." }
+//		{ time 20000 length 7800 text "Sie werden an einer historischen Mission teilnehmen! WBD" }
+		{ time 32200 length 4800 text "Shuttle 8138, Sie haben Landeerlaubnis in Landeschacht 2 der Von Braun." }
+		{ time 37300 length 1500 text "Willkommen an Bord." }
+//		{ time 41500 length 5400 text "5 Monate spÑter. UNN Von Brau. 67 Billionen Meilen von der Erde entfernt." }
+//		{ time 69800 length 1000 text "[Grunzen]" }
+//		{ time 73400 length 3000 text "[Schreien]" }
+		{ time 77900 length 5650 text "GedÑchtniselemente werden reinitialisiert. GedÑchtnis des Patienten wird wiederhergestellt." }
+		{ time 83900 length 4380 text "GedÑchtnis wird wiederhergestellt... GedÑchtnis wird wiederhergestellt..." }
+//		{ time 88700 length 3000 text "FEHLER... FEHLER... FEHLER..." }
+		{ time 101150 length 5900 text "Beruhigen Se sich, Soldat. Hier ist Dr. Janice Polito vom Rechenzentrum der Von Braun." }
+		{ time 107110 length 2180 text "Sie sind momentan in Sicherheit." }
+		{ time 109540 length 6000 text "Sie erholen sich gerade von einer Operation und werden sich nicht an die Ereignisse der letzten Wochen erinnern kînnen." }
+		{ time 116100 length 4420 text "Sie befinden sich an Bord des Raumschiffs Von Braun und irgendetwas ist schief gelaufen." }
+		{ time 121000 length 2800 text "Irgendeine Macht hat das Schiff Åbernommen, " }
+		{ time 123800 length 4900 text "deshalb haben Sie sich bereit erklÑrt, sich experimentelle Cyberimplantate einpflanzen zu lassen." }
+		{ time 129330 length 3540 text "Benutzen Sie Ihr Cyber-Interface, denn es kann Ihnen das Leben retten." }
+		{ time 133500 length 3560 text "Sie mÅssen einen Aufzug finden und zu Deck 4 kommen und mich dort treffen." }
+		{ time 137200 length 4900 text "Deck 4, vergessen Sie das nicht, aber halten Sie die Augen offen, denn die sind jetzt hinter uns beiden her." }
+	}
+
+	multisub movie/cs3 {
+		{ time 00 length 6000 text "Ich verstehe das nicht." }
+		{ time 6000 length 3650 text "Wie konntest Du das tun?" }
+		{ time 9650 length 6100 text "Du solltest nicht... wichtig sein." }
+		{ time 15750 length 7200 text "Und jetzt willst Du mich vernichten?" }
+		{ time 26600 length 4900 text "Wie kannst Du es wagen, du Insekt?" }
+		{ time 31600 length 3900 text "Wie kannst Du es wagen, meinen Aufstieg zu stîren?" }
+		{ time 35000 length 5000 text "Du elender Knochensack." }
+		{ time 40600 length 7550 text "Was bist Du im Vergleich zu meiner Herrlichkeit." }
+		{ time 48250 length 3050 text "Aber es ist noch nicht zu spÑt." }
+		{ time 51390 length 4860 text "Siehst Du nicht, was unsere Freundschaft wert ist?" }
+		{ time 56310 length 7130 text "Stell Dir vor, welche Macht ich Dir verleihen kann, Menschling." }
+		{ time 63470 length 6830 text "Die Cyberimplantate, die ich Dir geschenkt habe, sind nur Spielzeuge." }
+		{ time 70300 length 7300 text "Wenn Du willst, kînnte ich Dich in etwas... Effizienteres verwandeln." }
+		{ time 78090 length 4720 text "Komm zu mir, Menschling, und wir werden..." }
+		{ time 82810 length 2700 text "... und wir werden zusammen herrschen." }
+		{ time 87500 length 900 text "Ne." }
+//		{ time 91130 length 1000 text "[Schuss]" }
+//		{ time 91800 length 16000 text "[SHODAN schreit]" }
+//		{ time 125000 length 2500 text "Rettungskapsel 0832. 0,7 Millionen Meilen von der Von Braun entfernt." }
+		{ time 127200 length 3100 text "Aufzeichnung Tommy Suarez, 13. Juli 14" }
+		{ time 130300 length 3500 text "Wir haben gerade eine Nachricht von einem Besatzungsmitglied der Von Braun erhalten." }
+		{ time 134400 length 3200 text "Es ist ihnen gelungen, die Kontrolle Åber das Schiff zurÅckzugewinnen." }
+		{ time 137500 length 2000 text "Wir werden umdrehen und zurÅckfliegen." }
+		{ time 139700 length 4800 text "Ich mache mir wegen Rebecca etwas Sorgen. Seit wir an Bord kamen, hat sie sich seltsam verhalten." }
+		{ time 144500 length 3200 text "Jetzt schlÑft sie. Vielleicht kînnen wir nach unserer RÅckkehr auf die Von Braun--" }
+		{ time 147700 length 1500 text "Tommy." }
+		{ time 149300 length 2350 text "Was ist los, Liebling?" }
+		{ time 151800 length 3800 text "GefÑllt Dir mein neues Aussehen nicht?" }
+//		{ time 155700 length 9200 text "[SHODAN lacht]" }
+	}
+}

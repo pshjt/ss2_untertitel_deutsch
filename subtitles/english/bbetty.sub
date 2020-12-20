@@ -1,0 +1,22 @@
+SUB1
+
+{
+	type "player"
+	descr "Info"
+	sub bb01 { text "PSI-Kr„fte niedrig." }
+	sub bb02 { text "Strahlungsgefahr." }
+	sub bb03 { text "Gesundheit gef„hrdet." }
+	sub bb04 { text "Ladehemmung." }
+	sub bb05 { text "Chemikalie ben”tigt." }
+	sub bb06 { text "Forschung abgeschlossen." }
+	sub bb07 { text "Energie ersch”pft." }
+	sub bb08 { text "Munition verbraucht." }
+	sub bb10 { text "Nicht genug PSI." }
+	sub bb11 { text "Objekte fallengelassen." }
+	sub bb12 { text "Giftgefahr." }
+	sub bb13 { text "Zugang erforderlich." }
+	sub bbcyba_a { text "Cyberwert aktiviert." }
+	sub bbcyba_d { text "Cyberwert deaktiviert." }
+	sub left { text "Links." }
+	sub right { text "Rechts." }
+}

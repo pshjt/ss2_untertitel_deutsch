@@ -1,0 +1,27 @@
+SUB1
+
+{
+	type "nonverbal"
+	descr "Spinne"
+	// all sp1at0: AT_AT0 (atlevelzero, atlevelone, atleveltwo)
+	sub sp1at0_1 { text "[Schmatzen]" }
+	sub sp1at0_2 { text "[Schmatzen]" }
+	sub sp1at0_3 { text "[Schmatzen]" }
+	sub sp1at0_4 { text "[Schmatzen]" }
+	sub sp1at3_1 { text "[sucht]" } // AI_TO3, AI_AT3
+	sub sp1at3_2 { text "[sucht]" } // AI_TO3, AI_AT3
+	sub sp1at3_3 { text "[sucht]" } // AI_TO3, AI_AT3
+	sub sp1att_1 { text "[greift an]" } // AI_ATT
+	sub sp1att_2 { text "[greift an]" } // AI_ATT
+	sub sp1att_3 { text "[greift an]" } // AI_ATT
+	sub sp1att_4 { text "[greift an]" } // AI_ATT
+	sub sp1die_1 { text "[Todesschrei]" } // AI_DIE
+	sub sp1die_2 { text "[Todesschrei]" } // AI_DIE
+	sub sp1hhi_1 { text "[Schmerz]" } // AI_HHI
+	sub sp1hhi_2 { text "[Schmerz]" } // AI_HHI
+	sub sp1hhi_3 { text "[Schmerz]" } // AI_HHI
+	sub sp1hhi_4 { text "[Schmerz]" } // AI_HHI
+	sub sp1hhi_5 { text "[Schmerz]" } // AI_HHI
+	sub sp1to1_1 { text "[alarmiert]" } // AI_TO1 (tolevelone, twoleveltwo)
+	sub sp1to1_2 { text "[alarmiert]" } // AI_TO1 (tolevelone, twoleveltwo)
+}

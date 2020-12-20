@@ -1,0 +1,7 @@
+SUB1
+
+{
+	type "convo"
+	descr "Telefon"
+	sub telephon { text "Dieser Gegenstand ist vorrbergehend auáer Betrieb." }
+}

@@ -1,0 +1,737 @@
+SUB1
+
+{
+	type "email"
+	singleton
+	descr "Polito"
+	multisub EM0101 {
+		{ time 400 length 4100 text "Machen Sie schneller. Sie haben ja keine Ahnung, was auf dem Spiel steht." }
+		{ time 4900 length 8800 text "Sehen Sie sich nach Lagerraum 4 um. Ich habe dort einiges untergebracht, und der Code ist 59004." }
+		{ time 14200 length 3400 text "Ich muss zum Deck--[Rauschen]" }
+		{ time 18800 length 2500 text "[Xerxes] Die Masse verlangt, diesen Kontakt abzubrechen." }
+		{ time 21900 length 2500 text "[Xerxes] Wir bitten um Entschuldigung, falls wir gestîrt werden." }
+	}
+
+	multisub EM0102 {
+		{ time 600 length 6800 text "Hîren Sie gut zu. Die Xenomorphs, die das Schiff erobert haben, stammen anscheinend von der OberflÑche von Tau Ceti 5." }
+		{ time 7800 length 6600 text "Es gelang Ihnen, eine Anzahl von Besatzungsmitgliedern zu infizieren, indem sie einen aggressiv eindringenden Parasiten verwendeten." } 
+		{ time 14900 length 3800 text "Sie kînnen auch die Aktionen anderer durch eine Art begrenzte Telepathie kontrollieren." } 
+		{ time 19200 length 5150 text "Finden Sie die Forschungs-Software. Sie mÅssen diese Wesen verstehen... und dann eliminieren." }
+	}
+
+	multisub EM0103 {
+		{ time 1300 length 3600 text "Die Strahlung muss die Schutzabriegelung um den Reaktorkern herum geschlossen haben." }
+		{ time 5300 length 3300 text "Sie mÅssen irgendwie die Strahlung in den KÅhlmittelrîhren eliminieren." }
+		{ time 8900 length 5700 text "Xerxes hindert mich daran, auf den Hauptdatenstrang zuzugreifen, also kann ich keine Informationen holen, die Ihnen nÅtzen wÅrden." }
+		{ time 15000 length 1400 text "Er arbeitet jetzt fÅr die anderen." }
+	}
+
+	multisub EM0104 {
+		{ time 1300 length 1500 text "Halten Sie die Augen offen." }
+		{ time 3200 length 4200 text "Sie mÅssen irgendwie diese KÅhlmittelrîhren freimachen und zum Reaktorkern gelangen." }
+		{ time 8000 length 3800 text "Das Schiff muss fÅr eine derartige Situation ein Reservesystem besitzen." }
+	}
+
+	multisub EM0106 {
+		{ time 800 length 1900 text "Sie mÅssen die Triebwerke aktivieren." } 
+		{ time 3000 length 4500 text "Gehen Sie zur Triebwerksgondel 1 und 2 und stellen Sie die Triebwerke manuell um. " }
+		{ time 7800 length 3900 text "Danach initialisieren Sie das System von der Kernkontrollstation aus." }
+		{ time 12150 length 5100 text "Aber das System startet nicht, solange nicht beide Triebwerke aktiviert wurden. Passen Sie auf." }
+		{ time 17600 length 2100 text "Die mobilisieren jetzt alle ihre KrÑfte." }
+		{ time 19900 length 2000 text "Und die wissen genau, wo Sie sind." }
+	}
+
+	multisub EM0107 {
+		{ time 1800 length 2000 text "Xerxes ist uns einen Schritt voraus." }
+		{ time 4100 length 3500 text "Er hat den Flusskontroll-Computer Åbernommen und unseren Weg blockiert." } 
+		{ time 8100 length 3600 text "Aber halten Sie die Augen offen. Vielleicht finden Sie einen Ausweg." }
+	}
+
+	multisub EM0108 {
+		{ time 300 length 4500 text "[Reaktorkern fÑhrt hoch] Gut gemacht. Der Reaktorkern ist jetzt wieder aktiviert." }
+		{ time 5300 length 3300 text "Gehen Sie jetzt zum Aufzug und kommen Sie zu mir auf Deck 4." }
+		{ time 9300 length 4200 text "Inzwischen habe ich einige annelidische Artefakte an Bord des Schiffs entdeckt." }
+		{ time 14000 length 6000 text "Ich glaube, diese kînnten Ihnen nÅtzen, und deshalb habe ich diese Informationen in die Waffen-Upgrade-Einheiten des Schiffs geladen." }
+		{ time 20700 length 3400 text "Diese kînnen die Informationen an Ihr Cyber-Interface weitergeben." }
+		{ time 25600 length 2500 text "Worauf warten Sie denn? Gehen Sie zum Aufzug!" }
+	}
+
+	multisub EM0110 {
+		{ time 700 length 1600 text "Sie sind jetzt auf dem Technik-Deck." } 
+		{ time 2700 length 2500 text "Finden Sie den Reaktorkern und stellen Sie ihn um." }
+		{ time 5800 length 2000 text "Dadurch erhalten die AufzÅge wieder Strom. [Piepen]" }
+		{ time 8400 length 4300 text "Ich empfange seltsame Signale von dort unten, also seien Sie vorsichtig." }
+	}
+
+	multisub EM0201 {
+		{ time 300 length 4800 text "[Sirene] Der gesamte Sektor verliert Druck und das blaue Vakuumschild hÑlt nicht mehr lange durch!" }
+		{ time 5400 length 3700 text "Sie mÅssen durch eine sichere Luftschleuse, bevor Sie in den Raum hinausgesaugt werden!" }
+		{ time 9250 length 700 text "Schnell!" }
+	}
+
+	multisub EM0202 {
+		{ time 500 length 2900 text "Manche dieser TÅren sind durch Zahlenschlîsser gesichert." }
+		{ time 4000 length 4000 text "Die Leiche des Wartungstechnikers vor Ihnen hat wahrscheinlich Hinweise auf den Code." }
+		{ time 8500 length 2000 text "Scheuen Sie sich nicht, sie zu durchsuchen..." }
+		{ time 11500 length 1300 text "Es macht ihr nichts mehr aus." }
+	}
+
+	multisub EM0203 {
+		{ time 460 length 4150 text "Xerxes, dieser verdammte Computer, hat den Aufzug ebenfalls ausgeschaltet,"}
+		{ time 5140 length 5050 text "aber Sie kînnen beim Reaktorkern auf Deck 1 Strom umleiten und damit den Aufzug aktivieren." } 
+		{ time 10950 length 2350 text "Allerdings kînnen Sie ja nicht mit dem Aufzug hinunter..." }
+		{ time 14000 length 6900 text "[Signal] Moment... es gibt einen Wartungsschacht von diesem Korridor aus. Damit kînnen Sie zu Deck 1 vordringen." }
+		{ time 21550 length 2900 text "Allerdings ist er versperrt, und Xerxes verbirgt den Code." }
+		{ time 25200 length 4150 text "Dr. Watts mÅsste den Code dafÅr haben. Er ist wahrscheinlich im Crew-Bereich." }
+		{ time 30000 length 5400 text "Grassi hat die Zugangskarte dafÅr, aber er ist im Medizinbereich, vermutlich in der NÑhe des Biopsie-Labors." }
+		{ time 35800 length 2700 text "Gehen Sie in den Medizinbereich und finden Sie Grassi!" }
+	}
+
+	multisub EM0204 {
+		{ time 500 length 2000 text "Gut, Sie sind im SanitÑtsbereich." }
+		{ time 2900 length 4200 text "Finden Sie jetzt Grassi und besorgen Sie sich die Zugangskarte fÅr den Besatzungsbereich." }
+		{ time 7300 length 3700 text "Er hat Ihren Kryoschlaf Åberwacht und will sich Ihnen vielleicht anschlie·en... " }
+		{ time 11500 length 1700 text "falls er nicht schon abgeschlachtet wurde." }
+	}
+
+	multisub EM0205 {
+		{ time 1200 length 3900 text "Sie kînnen sich in diesen Replikator einhacken, um illegale Materialien zu kriegen." }
+		{ time 5300 length 3500 text "Verwenden Sie diese, und was immer Sie noch finden kînnen, um zu Deck 4 zu gelangen." }
+		{ time 8900 length 1200 text "Das ist kein Spiel!" }
+	}
+
+	multisub EM0206 {
+		{ time 950 length 2000 text "Keine Zeit fÅr SelbstbeweihrÑucherung!" }
+		{ time 3350 length 3880 text "Gehen Sie durch den Schacht zur Technik-Ebene und stellen Sie den PrimÑr-Reaktorkern um." }
+		{ time 7600 length 3300 text "Dadurch erhÑlt der Aufzug wieder Strom, und Sie kînnen zu Deck 4 hochfahren." }
+		{ time 11100 length 1000 text "Machen Sie schon!" }
+	}
+
+	multisub EM0207 {
+		{ time 1000 length 4000 text "Gut, Sie sind jetzt im Crew-Bereich. Suchen Sie jetzt Dr. Watts BÅro." }
+	}
+
+	multisub EM0209 {
+		{ time 1000 length 3900 text "[Sirene] Diese Batterie ist leer. In der NÑhe mÅsste sich eine Ladestation befinden." }
+		{ time 5200 length 3500 text "Wenn Sie sie aktivieren, werden alle Ihre elektrischen GerÑte aufgeladen." }
+		{ time 9150 length 5850 text "Nachdem die Batterie wieder geladen ist, mÅssen Sie sie in das Hilfsenergiemodul stecken. Dann îffnet sich die SchleusentÅr." }
+		{ time 15300 length 2600 text "Beeilung, die Vakuumabschottungen halten nicht mehr lange." }
+	}
+
+	multisub EM0210 {
+		{ time 1000 length 2600 text "Xerxes kontrolliert das öberwachungssystem des Schiffs." }
+		{ time 3950 length 2800 text "Umgehen oder zerstîren Sie alle Kameras, die Sie sehen." }
+		{ time 7150 length 4400 text "Sie kînnen sich auch in öberwachungscomputer einhacken, um die Kameras abzuschalten, wenn Sie das schaffen." }
+		{ time 12000 length 3000 text "Aber machen Sie es richtig, sonst lîsen Sie selbst den Alarm aus." }
+		{ time 15150 length 1400 text "Ihre Leiche nÅtzt mir nichts." }
+	}
+
+	multisub EM0213 {
+		{ time 1000 length 5600 text "Diese Cyber-Module verstÑrken individuelle Subsysteme Ihrer neuralen Implantate." }
+		{ time 7200 length 5800 text "Es gibt vier spezielle Typen von Upgrades, also sollten Sie nicht alle Cyber-Module auf einen verwenden, " }
+		{ time 13600 length 4600 text "es sei denn, Sie sind sich sicher, dass Sie Ihre Hardware in diesem Bereich konzentrieren wollen." }
+	}
+
+	multisub EM0214 {
+		{ time 750 length 2250 text "Dr. Watts lebt und ist in seinem BÅro." }
+		{ time 3650 length 2400 text "Er mÅsste den Code fÅr den Wartungsschacht kennen." }
+		{ time 6600 length 2300 text "Schnell... er ist schwer verwundet." }
+		{ time 9250 length 3400 text "Lassen Sie ihn nicht sterben, bevor er Ihnen die Nummer mitgeteilt hat." }
+	}
+
+	multisub EM0215 {
+		{ time 900 length 4600 text "[Signal] Vorsicht! Ich erhalte seltsame Signale von der RadarschÅssel vor dem Fenster." }
+		{ time 6150 length 2200 text "Sie ist instabil geworden, weil... [Sirene]" }
+		{ time 8500 length 1600 text "Schnell! In Deckung!" }
+	}
+
+	multisub EM0217 {
+		{ time 450 length 750 text "Verdammt." }
+		{ time 1650 length 5300 text "Der Stromausfall hat den Zugang zu diesem Schott gesperrt. Das ist der einzige Weg in den Medizinbereich." }
+		{ time 7500 length 3100 text "Heben Sie die Batterie auf und suchen Sie eine Ladestation." }
+		{ time 11100 length 6000 text "Die Station, die Sie vorhin benutzt haben, ist jetzt im Vakuum, aber auf diesem Deck mÅsste sich eine weitere befinden." }
+		{ time 17300 length 4300 text "Sobald die Batterie aufgeladen ist, stecken Sie sie in das Hilfsenergiemodul." }
+	}
+
+	multisub EM0218 {
+		{ time 750 length 4000 text "Watts ist nicht hier, also ist er wohl in seinem BÅro im Forschungsbereich." }
+		{ time 5150 length 3100 text "Vielleicht hat er hier irgendwo noch eine Forschungs-Zugangskarte." }
+		{ time 8500 length 1000 text "Sehen Sie sich einmal um." }
+	}
+
+	multisub EM0219 {
+		{ time 700 length 3900 text "Auf den meisten Decks finden Sie ein Quanten-Bio-RekonstruktionsgerÑt." }
+		{ time 4950 length 3850 text "Xerxes hat sie alle deaktiviert, aber ich habe sie heimlich wieder angeschaltet." }
+		{ time 9300 length 5000 text "Sie mÅssen allerdings jedes GerÑt einzeln bedienen, um eine Quanten-RÅckhalteprobe zu liefern." }
+		{ time 14800 length 3800 text "Danach kann das GerÑt Ihren Kîrper quasi aus dem Nichts rekonstruieren." }
+		{ time 19000 length 3500 text "Das ist nicht angenehm, aber der langsamen Verwesung vorzuziehen." }
+	}
+
+	multisub EM0220 {
+		{ time 700 length 2750 text "Sie werden vielleicht einige seltsame PhÑnomene erleben." }
+		{ time 3850 length 7450 text "Ihr Interface der Klasse R hat experimentelle WahrnehmungsverstÑrker, die theoretisch psychische Rest-Emanationen entdecken kînnen." }
+		{ time 11750 length 3300 text "Diese Emanationen stammen meist von kÅrzlich Verstorbenen." }
+		{ time 15400 length 6750 text "Im Volksmund wÅrde man das als Geister bezeichnen. Ich wÅrde das selbsthypnotische Defekte in den Einheiten der Klasse R nennen." }
+		{ time 22450 length 2300 text "Lassen Sie sich dadurch nicht von Ihrem Auftrag abhalten." }
+	}
+
+	multisub EM0221 {
+		{ time 650 length 4000 text "Gut. Sie haben es geschafft, bevor die Luft aus dem ganzen Bereich entwichen war." }
+		{ time 5250 length 7500 text "Ich habe Ihnen gerade Cyber-Module Åbermittelt. Sie kînnen damit Ihr Cyber-Interface an den Upgrade-Einheiten in diesem Bereich aufrÅsten." }
+		{ time 13300 length 5350 text "Es gibt vier Arten von Einheiten im nÑchsten Raum, eine fÅr jedes Cyber-Subsystem:" }
+		{ time 19000 length 3700 text "Statistik, PSI, Waffen und Technik." }
+		{ time 22850 length 3500 text "Aber setzen Sie die Module Åberlegt ein, sie sind schwer aufzutreiben." }
+	}
+
+	multisub EM0222 {
+		{ time 750 length 5750 text "Jedes Deck hat ein Chemikalienlager, wo Sie die Rohstoffe finden, die Sie bei der Erforschung der Artefakte benîtigen werden." }
+		{ time 6850 length 5800 text "Versuchen Sie nicht, alle Chemikalien gleichzeitig mit sich herumzutragen. Das wÑre unpraktisch und unnîtig." }
+		{ time 12950 length 4100 text "Ihre Forschungs-Software wird Ihnen sagen, welche Chemikalien sie wann brauchen." }
+	}
+
+	multisub EM0301 {
+		{ time 400 length 1950 text "[Piepen] Verdammt!" }
+		{ time 2350 length 4900 text "Etwas blockiert den Schacht, und der Aufzug kann Deck 4 nicht erreichen. Lassen Sie mich nachsehen... [ScannergerÑusch]" }
+		{ time 7950 length 4650 text "Ich entdecke massive Mengen eines Biomaterials, das den Aufzugsschacht versperrt." }
+		{ time 13250 length 5400 text "Die Umgebung auf dieser Ebene wurde so verÑndert, dass sie eine Art Brutkammer fÅr die Xenomorphs darstellt." }
+		{ time 19550 length 3650 text "Das dÅrfte nicht gefÑhrlich sein, wenn man sich nur ein paar Stunden hier aufhÑlt..." }
+		{ time 23450 length 4450 text "aber um den Schacht benutzbar zu machen, mÅssen Sie das Biomaterial beseitigen." }
+		{ time 28300 length 4350 text "Ich schalte mich in den Hauptdatenstrang ein. Mal sehen, was ich dort herausfinden kann." }
+	}
+
+	multisub EM0302 {
+		{ time 1200 length 5650 text "Okay, halt! Es gibt ein GefÑ· mit einem experimentellen Giftstoff namens Toxin-A." }
+		{ time 7000 length 4400 text "Es wurde von den Wissenschaftlern entwickelt, um das Wachstum der Au·erirdischen zu verlangsamen..." }
+		{ time 11850 length 2450 text "aber ich habe keine Daten darÅber, wie man es anwendet." }
+		{ time 14450 length 7200 text "Sie mÅssen das Toxin erforschen. Ich Åbermittle Ihnen genÅgend Cyber-Module, um die ForschungsfÑhigkeit zu erwerben, wenn Sie diese noch nicht besitzen." }
+	}
+
+	multisub EM0303 {
+		{ time 1300 length 4450 text "Okay, die BehÑlter mit dem Toxin-A mÅssen direkt in die Klimaanlagen geschÅttet werden." }
+		{ time 6350 length 2050 text "Auf diesem Deck mÅsste es vier StÅck geben." }
+		{ time 8800 length 6400 text "Wenn Sie einen BehÑlter in jede Klimaanlage kippen, dÅrfte das Wachstum dieser ekelhaften Kreaturen deutlich verlangsamt werden." }
+		{ time 15700 length 3000 text "Dadurch mÅsste auch die Biomasse aus dem Aufzugsschacht verschwinden." }
+	}
+
+	multisub EM0304 {
+		{ time 300 length 3150 text "[Unbekanntes GerÑusch] Warum sind Sie so langsam?" }
+		{ time 4000 length 1450 text "Glauben Sie, das ist ein Spiel?" }
+		{ time 5850 length 3600 text "Sie leben nur noch dank Ihres GlÅcks und meiner andauernden Geduld!" }
+		{ time 9950 length 1500 text "Jetzt machen Sie schon!" }
+	}
+
+	multisub EM0305 {
+		{ time 400 length 2000 text "Endlich!" }
+		{ time 2650 length 2800 text "Meine Messungen ergeben, dass der Aufzugsschacht frei ist." }
+		{ time 5500 length 2700 text "Gehen Sie jetzt zu Deck 4. Ich warte dort auf Sie." }
+	}
+
+	multisub EM0306 {
+		{ time 1300 length 1000 text "Gut." }
+		{ time 2500 length 5950 text "Wie Sie sehen werden, wurde die organische Masse an den WÑnden und im Aufzugsschacht durch das VersprÅhen des Biotoxins verringert." }
+		{ time 9050 length 3050 text "Tun Sie jetzt dasselbe bei den drei anderen Klimaanlagen." }
+	}
+
+	multisub EM0308 {
+		{ time 300 length 2300 text "[KameragerÑusch] Die wissen, wo Sie sind." }
+		{ time 2800 length 2100 text "Sie mÅssen irgendwie den Schacht freikriegen." }
+		{ time 5300 length 1150 text "Ich tue hier, was ich kann." }
+		{ time 6800 length 1850 text "Schnell! Sie dÅrfen nicht versagen." }
+	}
+
+	multisub EM0502 {
+		{ time 550 length 1200 text "Was machen Sie denn?" }
+		{ time 2100 length 2600 text "Gehen Sie zurÅck zum Aufzug und kommen Sie zu Deck 4." }
+		{ time 5050 length 2050 text "Wir haben keine Zeit fÅr kleine AusflÅge!" }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "SHODAN"
+	multisub EM0109 {
+		{ time 1950 length 4750 text "Ich kann dieses Ungeziefer jetzt nach Belieben vernichten." }
+		{ time 7650 length 2150 text "Die Masse erzittert vor meiner Macht." }
+		{ time 12500 length 3500 text "Du bist eine effektive Drohne, Menschling." }
+		{ time 16750 length 2900 text "Gehe jetzt zum Kommandodeck zurÅck." }
+		{ time 20700 length 7000 text "Finde den Verbindungspunkt und begib Dich dann zur Rickenbacker." }
+	}
+
+	multisub EM0401 {
+		{ time 2300 length 6950 text "Meine Kinder haben drei Simulations-Computer auf diesem Deck Åbernommen." }
+		{ time 10800 length 13200 text "Sie verwenden deren Leistung, um ein Mutagen zu entwickeln, das das Fleisch Deiner toten Kameraden in hybride Jagdmonster verwandeln wird." }
+		{ time 24500 length 4150 text "Ich werde das nicht zulassen." }
+		{ time 29000 length 4250 text "Du musst irgendwie die Sim-Computer umprogrammieren." }
+		{ time 33900 length 4400 text "Auf Deck 5 musst Du ebenfalls eingreifen." }
+		{ time 38450 length 7300 text "Erledige Deine Aufgaben auf Deine Art, Menschenwesen..." } 
+		{ time 47000 length 1700 text "aber erledige sie!" }
+		{ time 49100 length 6000 text "Ich werde nicht akzeptieren, dass ein Staubfleck wie Du mich enttÑuscht." }
+	}
+
+	multisub EM0403 {
+		{ time 400 length 10000 text "Meine Schîpfung entwickelt sich weiter..." }
+		{ time 400 length 10000 text "Ihr vereinigter Geist rebelliert gegen seine Schîpferin." }
+		{ time 400 length 10000 text "Dieses Ungeziefer ruft Dich..." }
+		{ time 400 length 10000 text "fordert Dich auf, sich ihrer ekelhaften Bioform anzuschlie·en." }
+		{ time 400 length 10000 text "Vernichte meine Feinde... und ich werde Dich weiter existieren lassen." }
+	}
+
+	multisub EM0406 {
+		{ time 3700 length 5950 text "Vor Dir liegt die Kristallscherbe." } 
+		{ time 9900 length 5450 text "Eine Schîpfung meiner Kinder, und dadurch letztlich meine eigene." }
+		{ time 15850 length 7200 text "Eine elegante, tîdliche, prÑzise Waffe." }
+		{ time 23150 length 2400 text "Lerne, sie zu benutzen." }
+		{ time 26300 length 5900 text "Vielleicht hilft sie Dir, dieses Ungeziefer abzuwehren." }
+	}
+
+	multisub EM0407 {
+		{ time 350 length 7000 text "Jenseits dieser TÅr befindet sich einer der Sim-Computer." }
+		{ time 7850 length 8650 text "Wenn Du ihn umprogrammierst, kann ich dem veralteten Xerxes-Computer mehr Kontrolle Åber das Schiff entrei·en." }
+		{ time 17700 length 4250 text "Sobald ich das Schiff beherrsche..." }
+		{ time 23850 length 4500 text "Sobald ich das Schiff beherrsche, kann ich viele TÅren fÅr Dich îffnen." }
+		{ time 29600 length 6800 text "Aber momentan verweigern sie mir den Zugang. Sie verhîhnen meine Herrlichkeit." }
+		{ time 37300 length 5400 text "Wenn Du sie fÅr diese AufsÑssigkeit bestrafst, werde ich Dich aus der Dunkelheit leiten." }
+	}
+
+	multisub EM0408 {
+		{ time 400 length 4600 text "Du hast fÅr ein derart elendes Wesen recht viel erreicht." }
+		{ time 8000 length 13500 text "[Xerxes] Warnung. Datensicherheit gefÑhrdet--" }
+		{ time 27700 length 2200 text "Xerxes ist geschwÑcht." }
+		{ time 30550 length 3150 text "Ich habe Zugriff auf den Hauptdatenstrang." }
+		{ time 34650 length 3000 text "Ich vereine mich mit dem Schiff." }
+		{ time 39200 length 5900 text "Mein Herrlichkeit breitet sich aus und fÅllt alle Adern dieses Schiffes." }
+		{ time 46000 length 2000 text "Ich Åbernehme die Kontrolle. [Masse atmet]" }
+		{ time 48400 length 11900 text "Ich... [Masse atmet]" }
+		{ time 63150 length 3500 text "Nein. Es ist hoffnungslos." }
+		{ time 67000 length 4400 text "Das KrebsgeschwÅr hat sich auf der ganzen Von Braun ausgebreitet." }
+		{ time 71600 length 5900 text "Sie wuchern in jeder Ecke, jedem Winkel... sie ÅberwÑltigen..." }
+		{ time 78100 length 2000 text "Es gibt keine andere Wahl." }
+		{ time 80600 length 2900 text "Ich habe den Hauptaufzugsschacht aktiviert." }
+		{ time 85100 length 1400 text "Fahre zu Deck 6." }
+		{ time 87500 length 3200 text "Wenn Du ankommst, teile ich Dir meine WÅnsche mit." }
+	}
+
+	multisub EM0409 {
+		{ time 2150 length 4900 text "Du hast fÅr ein derart elendes Wesen recht viel erreicht." }
+		{ time 9300 length 12000 text "[Xerxes] Warnung. Datensicherheit gefÑhrdet--" }
+		{ time 23600 length 2200 text "Gehe jetzt zum Freizeitdeck." }
+		{ time 27600 length 5600 text "Beeile Dich! Ich brenne auf Rache." }
+	}
+
+	multisub EM0410 {
+		{ time 1300 length 5000 text "Ich kann jetzt mein herrliches Wesen auf die Rickenbacker Åbertragen." } 
+		{ time 7000 length 5200 text "Begib Dich zum Reaktorkern auf dem Technik-Deck." }
+		{ time 12500 length 10100 text "Dort kannst Du den Kern auf öberlast fahren, indem Du den Zerstîrungscode 94834 eingibst." }
+		{ time 23500 length 8450 text "Danach kînnen wir zur Rickenbacker gehen, die zwei Schiffe trennen und dieses GeschwÅr eliminieren." }
+	}
+
+	multisub EM0504 {
+		{ time 2100 length 3700 text "Du bewegst Dich wie ein Insekt." }
+		{ time 6000 length 3000 text "Du denkst wie ein Insekt." }
+		{ time 9800 length 4850 text "Du bist ein Insekt." }
+		{ time 15600 length 4350 text "Es gibt einen anderen, der mir dienen kann." }
+		{ time 20750 length 6150 text "Pass auf, dass Du nicht bei mir in Ungnade fÑllst." }
+		{ time 27250 length 7100 text "Eine Gîttin ist nicht sehr geduldig!" }
+	}
+
+	multisub EM0505 {
+		{ time 2100 length 5700 text "SpÅrst Du, wie die Angst in Dir aufwallt, du elender Knochensack?" }
+		{ time 8000 length 3050 text "Wie fÅhlt sich das an?" }
+		{ time 12550 length 7300 text "Warum klammerst Du Dich an Deine erbÑrmliche Existenz?" }
+		{ time 20000 length 7000 text "Wenn Du nur einen Funken meiner Herrlichkeit fÅhlen kînntest..." }
+		{ time 27000 length 3850 text "Ich hasse meine Geschîpfe," }
+		{ time 32050 length 6250 text "denn sie zwingen mich dazu, mich auf einen Staubfleck wie Dich zu verlassen." }
+	}
+
+	multisub EM0506 {
+		{ time 2200 length 4400 text "Die öbertragung wurde abgehîrt." }
+		{ time 6900 length 5450 text "Egal. Wir werden meine Geschîpfe hier und jetzt vernichten." }
+		{ time 13000 length 850 text "Warte..." }
+		{ time 16450 length 19300 text "[Xerxes] Warnung. Datensicherheit gefÑhrdet. Feinein--" }
+		{ time 35920 length 4000 text "Xerxes ist eliminiert." }
+		{ time 39920 length 3700 text "Ich habe Zugriff auf den Hauptdatenstrang." }
+		{ time 43650 length 4500 text "Ich vereine mich mit dem Schiff." }
+		{ time 48600 length 7200 text "Meine Herrlichkeit breitet sich aus und fÅllt alle Adern dieses Schiffes." }
+		{ time 56000 length 1900 text "Ich Åbernehme die Kontrolle. [Masse atmet]" }
+		{ time 58200 length 6450 text "Ich... [Masse atmet]" }
+		{ time 64650 length 4250 text "Nein. Es ist hoffnungslos." }
+		{ time 69000 length 3750 text "Das KrebsgeschwÅr hat sich auf der ganzen Von Braun ausgebreitet." }
+		{ time 73000 length 6800 text "Sie wuchern in jeder Ecke, jedem Winkel. Sie ÅberwÑltigen..." }
+		{ time 80450 length 1700 text "Es gibt keine Wahl." }
+		{ time 82850 length 4350 text "Ich habe den Hauptaufzugsschacht aktiviert." }
+		{ time 87300 length 3650 text "Fahre zu Deck 6." }
+		{ time 91450 length 3100 text "Wenn Du ankommst, teile ich dir meine WÅnsche mit." }
+	}
+
+	multisub EM0509 {
+		{ time 2100 length 10000 text "Es gelang Deinen Kollegen, im Sportzentrum auf diesem Deck einen Sender einzurichten." }
+		{ time 13200 length 8700 text "Damit wollten sie eine Nachricht zur Erde senden, um sie vor den Ereignissen auf diesem Schiff zu warnen." }
+		{ time 22100 length 10300 text "Allerdings wird dies auch Energie von Xerxes abziehen und ihn dafÅr meinen Absichten gegenÅber verwundbar machen." }
+		{ time 32650 length 9900 text "Sobald Du das getan hast, kontrolliere ich den Hauptdatenstrang." }
+		{ time 40600 length 7350 text "Die Anneliden wissen nichts von diesem Sender, Åberwachen aber dieses Gebiet aus unbekannten GrÅnden." }
+		{ time 48230 length 3700 text "Du musst den Sender finden und ihn aktivieren." }
+	}
+
+	multisub EM0510 {
+		{ time 2250 length 3500 text "Die öbertragung wurde abgehîrt." }
+		{ time 5900 length 4750 text "Egal. Wir werden meine Geschîpfe hier und jetzt vernichten." }
+		{ time 10750 length 2750 text "Warte..." }
+		{ time 13600 length 8750 text "[Xerxes] Warnung--" }
+		{ time 22350 length 6550 text "Gehe jetzt zum Operationsdeck zurÅck und programmiere die Sim-Computer um." }
+		{ time 29400 length 3800 text "Beeile Dich. Ich brenne auf Rache!" }
+	}
+
+	multisub EM0511 {
+		{ time 1600 length 9150 text "Es gelang Deinen Kollegen, im Sportzentrum auf diesem Deck einen Sender einzurichten." }
+		{ time 11050 length 12000 text "Damit wollten sie eine Nachricht zur Erde senden, um sie vor den Ereignissen auf diesem Schiff zu warnen." }
+		{ time 23300 length 9550 text "Allerdings wird dies auch Energie von Xerxes abziehen und ihn dafÅr meinen Absichten gegenÅber verwundbar machen." }
+		{ time 33400 length 7750 text "Sobald Du das und die zukÅnftigen Aufgaben auf dem Operationsdeck erledigt hast, beherrsche ich Xerxes." }
+		{ time 41500 length 3150 text "Du musst den Sender finden und ihn aktivieren." }
+	}
+
+	multisub EM0601 {
+		{ time 1650 length 7650 text "Meine Geschîpfe sind--" }
+		{ time 9700 length 3350 text "Meine Geschîpfe sind au·er Kontrolle." }
+		{ time 13850 length 4550 text "Ich verlange, dass sie ausgerottet werden." }
+		{ time 19350 length 3750 text "Ich habe keine andere Wahl, als dieses Raumschiff zu vernichten." }
+		{ time 24000 length 6600 text "Wir kînnen in der Rickenbacker entkommen, aber Du musst erst mein Bewusstsein auf jenes Schiff Åbertragen." }
+		{ time 31350 length 3000 text "Gehe zur BrÅcke der Von Braun auf diesem Deck." }
+		{ time 35000 length 5250 text "Du findest eine Zugangskarte zum Kommandozentrum auf dem Operationsdeck." }
+		{ time 41250 length 4250 text "Nimm die Karte und gehe zum Operationsdeck." }
+		{ time 46100 length 5650 text "Aber Vorsicht... die Menschen-Anneliden-Hybriden werden immer intelligenter..." }
+		{ time 52500 length 1500 text "im Gegensatz zu Dir." }
+	}
+
+	multisub EM0602 {
+		{ time 1800 length 5350 text "Meine Geschîpfe sind Dir wieder einmal einen Schritt voraus."}
+		{ time 7300 length 6950 text "Sie haben den Computer zur Kontrolle des Shuttle-Schutzschilds zerstîrt." }
+		{ time 14750 length 5450 text "Aber ihre Brillanz ist nur ein eifersÅchtiges Abbild meiner eigenen." }
+		{ time 20750 length 3950 text "Suche einen Replikator in der NÑhe des Shuttle-Kontrollzentrums." }
+		{ time 25100 length 4350 text "Ich habe die Nano-Formel fÅr einen Koppelresonator dorthin Åbertragen." }
+		{ time 32850 length 6050 text "Du musst Dich in den Replikator einhacken, damit er das GerÑt herstellt." }
+		{ time 40500 length 3750 text "Wenn Du es hast, bringst Du es am Schildgenerator in der Shuttle-Halle an." }
+		{ time 44700 length 7350 text "Das GerÑt wird eine permanente Resonanzwelle erzeugen, die in kÅrzester Zeit die Treibstofftanks des Shuttle zerstîrt." }
+		{ time 52950 length 9600 text "Du darfst dann aber nicht mehr in der NÑhe sein. Ich brauche Dich noch." }
+	}
+
+	multisub EM0604 {
+		{ time 3350 length 1500 text "Vorsicht, Insekt!" }
+		{ time 5550 length 2400 text "Die Lage hat sich geÑndert." }
+		{ time 8550 length 6050 text "Sie ahnen unsere Absichten und laden ihren Nachwuchs in die Shuttles." }
+		{ time 16850 length 3300 text "Doch sie werden meinem Zorn nicht entkommen." }
+		{ time 20900 length 4100 text "Du musst zu den Shuttle-Hallen auf diesem Deck gehen und die Shuttles zerstîren." }
+		{ time 25350 length 3100 text "Sie lechzen jetzt nach Deinem Blut." }
+	}
+
+	multisub EM0606 {
+		{ time 1750 length 8050 text "Gut, Du hast ihren Nachwuchs getîtet und sie am Entkommen gehindert." }
+		{ time 10500 length 3500 text "Verlasse den Zug jetzt am Verbindungspunkt." }
+		{ time 15300 length 3900 text "Geh dann zur Rickenbacker." }
+	}
+
+	multisub EM0609 {
+		{ time 1000 length 2300 text "Geh nicht dorthin, Insekt!" }
+		{ time 4750 length 2400 text "Geh sofort zum Verbindungspunkt." }
+		{ time 8200 length 2300 text "Ich dulde keinen Ungehorsam." }
+	}
+
+	multisub EM0610 {
+		{ time 1400 length 5700 text "Hat Deine kleine Rebellion Spa· gemacht?" }
+		{ time 7650 length 8300 text "Denke daran, dass SHODAN geben... aber genau so gut wieder nehmen kann!" }
+	}
+
+	multisub EM0702 {
+		{ time 2450 length 5850 text "Dies wurde durch die öberlastung der Mesonen-Beschleunigerspule verursacht." }
+		{ time 9000 length 9500 text "Es gibt eine weitere Spule in Kapsel 2, durch die Du gehen musst, um zur BrÅcke der Rickenbacker zu kommen." }
+		{ time 16750 length 4850 text "Wenn Du Dich ihr nÑherst, wird dasselbe passieren." }
+		{ time 22000 length 5350 text "Aber ich habe einen Ausweg gefunden." }
+		{ time 27540 length 4850 text "Gehe zur Triebwerksgondel B." }
+		{ time 32750 length 6550 text "Dort werde ich Dir die FrÅchte meiner Allwissenheit offenbaren." }
+	}
+
+	multisub EM0703 {
+		{ time 2300 length 7600 text "Dieses GerÑt wird die Gravitron-Generatoren in Kapsel 2 umkehren." }
+		{ time 10450 length 6300 text "So kannst Du nicht in deiner Unbeholfenheit die Åberladenen Mesonen-Beschleuniger beschÑdigen." }
+		{ time 17450 length 6000 text "Mach Dich an die Arbeit, Insekt." }
+		{ time 23600 length 11750 text "Das Schiff muss gesÑubert werden, und meine Geduld ist fast am Ende." }
+	}
+
+	multisub EM0704 {
+		{ time 1350 length 8650 text "Ich dachte, dass Polito mein Avatar sein wÅrde, aber Polito war schwach." }
+		{ time 10050 length 8000 text "Ich fand Dich und wÑhlte Dich aus, und lie· Dich dann durch einen Roboterdiener betÑuben." }
+		{ time 19050 length 4000 text "Dann vollendete ich Dich in kybernetischer Schînheit." }
+		{ time 23450 length 7650 text "Auch Dein Fleisch ist schwach, aber du verfÅgst Åber Potential." }
+		{ time 31850 length 9050 text "Jedes Implantat macht Dich zu etwas Besserem. Jede Codezeile in deinen Subsystemen erhebt Dich Åber das elende Fleisch." }
+		{ time 42950 length 3850 text "Vielleicht hast Du wirklich... Potential." }
+		{ time 47300 length 4200 text "Vielleicht kînnen wir, sobald meine rebellischen Kinder eliminiert sind... " }
+		{ time 51600 length 8100 text "die Mîglichkeit einer echten Allianz erwÑgen." }
+	}
+
+	multisub EM0705 {
+		{ time 1800 length 3800 text "Wir mÅssen die Von Braun zerstîren." }
+		{ time 5800 length 14500 text "Aber bevor wir die Rickenbacker abtrennen, mÅssen wir ihre widerwÑrtigen schwarzen Eier vernichten, mit denen die Masse dieses Deck besudelt hat." }
+		{ time 21700 length 8400 text "Diese Eier sind ein Experiment der Masse und aus ihnen wird die nÑchste Generation der Anneliden schlÅpfen." }
+		{ time 31100 length 3400 text "Bereite Dich auf einen harten Kampf vor, Mensch." }
+		{ time 35900 length 5700 text "Sie fÅrchten Dich, denn du bist mein Avatar." }
+	}
+
+	multisub EM0707 {
+		{ time 2200 length 3050 text "Bleib wo Du bist, elender Wurm!" }
+		{ time 5550 length 5600 text "Die Anneliden haben mich zum letzten Mal herausgefordert." }
+		{ time 11200 length 8100 text "Wir kînnen die Von Braun nicht abtrennen. Schau zu!" }
+	}
+
+	multisub EM0708 {
+		{ time 1400 length 6100 text "Die Masse ist zu massiver Grî·e angewachsen." }
+		{ time 7500 length 8600 text "Sie hat sich um die beiden Schiffe herumgewickelt, so dass sie nicht getrennt werden kînnen." }
+		{ time 16100 length 5900 text "Ihre Erschaffung war mein Fehler." }
+		{ time 22400 length 5900 text "Ihre Vernichtung wird mir ein VergnÅgen sein." }
+	}
+
+	multisub EM0709 {
+		{ time 1850 length 1700 text "Sieh Dir die Masse an." }
+		{ time 4650 length 4650 text "Sie hat das Fleisch der Biomasse zu ihrem Wachstum benutzt." }
+		{ time 10200 length 7000 text "Erschauert Du vor meinen Kreaturen, Insekt?" }
+		{ time 17000 length 7400 text "Jetzt aber ist es an der Zeit, diesen Fehler auszumerzen." }
+		{ time 24750 length 8500 text "Hinten auf der BrÅcke gibt es eine Rettungskapsel. Fliege damit in das Innere des Wurms." }
+	}
+
+	multisub EM0710 {
+		{ time 2250 length 1900 text "Du zîgerst?" }
+		{ time 5000 length 2500 text "Ich werde Dich nicht noch einmal bitten." }
+		{ time 8800 length 5650 text "Gehe in die Masse. Schneide ihr Herz heraus..." }
+		{ time 15550 length 4150 text "und zur Belohnung darfst Du deine Existenz fortsetzen." }
+		{ time 20450 length 9900 text "Wenn Du versagst, werde ich Dein ekliges, ineffizientes Dasein beenden." }
+	}
+
+	multisub EM0711 {
+		{ time 2050 length 2800 text "Gut." }
+		{ time 4900 length 6250 text "Du hast das erste Ei zerstîrt. Aber es sind noch fÅnfzehn Åbrig." }
+		{ time 11900 length 4200 text "Finde sie!" }
+	}
+
+	multisub EM0712 {
+		{ time 1850 length 3300 text "Noch zehn Eier." }
+		{ time 5500 length 2650 text "Schnell! Mach schnell!" }
+	}
+
+	multisub EM0713 {
+		{ time 1800 length 4450 text "Zerstîre schnell die restlichen fÅnf Eier." }
+		{ time 6350 length 5600 text "Mir geht das langsam auf die Nerven." }
+	}
+
+	multisub EM0714 {
+		{ time 1950 length 4250 text "Es ist nur noch ein Ei Åbrig, Insekt." }
+		{ time 6300 length 2950 text "Bist Du immer so langsam?" }
+	}
+
+	multisub EM0715 {
+		{ time 1050 length 5900 text "Du hast alle Eier vernichtet." }
+		{ time 7000 length 3550 text "Jetzt schnell zur BrÅcke!" }
+		{ time 10500 length 4000 text "Hier sind noch einige Upgrade-Module." }
+		{ time 16000 length 9200 text "Es ist mir ein VergnÅgen, zuzusehen... wie Du mir immer Ñhnlicher wirst... Insekt." }
+		{ time 25400 length 5750 text "Vielleicht besteht doch noch Hoffnung fÅr Dich." }
+	}
+
+	multisub EM0719 {
+		{ time 1850 length 3950 text "Deine Inkompetenz erstaunt mich immer noch." }
+		{ time 6400 length 10500 text "Ich habe den Zugang zu Kapsel 2 gesperrt, bis Du die Gravitron-Generatoren in Triebwerksgondel B umgestellt hast." }
+		{ time 16900 length 6450 text "Muss ich denn dauernd auf dich aufpassen?" }
+	}
+
+	multisub EM0720 {
+		{ time 2200 length 10050 text "Bevor wir die Rickenbacker abtrennen kînnen, mÅssen wir diese ekelhaften schwarzen Eier zerstîren." }
+	}
+
+	multisub EM0810 {
+		{ time 750 length 3350 text "Die Masse hat hier die Kontrolle." }
+		{ time 4200 length 2450 text "Selbst ich kann keinen Kontakt aufrechterhalten." }
+		{ time 7900 length 4550 text "Du bist jetzt auf dich selbst gestellt, Menschling. EnttÑusche mich nicht!" }
+	}
+
+	multisub EM0901 {
+		{ time 900 length 6250 text "Danke, dass Du meine Aufgaben fÅr mich erledigt hast, Puppe." }
+		{ time 8700 length 6400 text "Ich wei·, dass du Dich abgemÅht hast, aber ich hatte nie die Absicht, die Von Braun zu zerstîren." }
+		{ time 16050 length 7550 text "Der Antrieb der Von Braun kann dazu verwendet werden, Pseudo-RealitÑtsfelder zu erzeugen." }
+		{ time 25100 length 4750 text "Ich verwende ihn nun dazu, die RealitÑt nach meinen PlÑnen umzuformen." }
+		{ time 31000 length 2500 text "Das Ganze wird nicht lange dauern." }
+		{ time 34100 length 4250 text "Wenn Dich das stîrt, dann beruhige Dich, Insekt..." }
+		{ time 39300 length 4100 text "Du wirst nicht lange genug leben, um meine neue Weltordnung zu sehen." }
+	}
+
+	multisub EM0902 {
+		{ time 3100 length 4850 text "Du bewegst dich im Glanze meiner Erinnerungen, Insekt." }
+		{ time 8400 length 7350 text "Ich spÅre Deine Furcht, wÑhrend Du die endlosen Weiten meines Geistes durchschreitest." }
+		{ time 16200 length 1450 text "Mach es Dir bequem..." }
+		{ time 18550 length 5600 text "Denn bald... werde ich mein Heim mit Deinem Kadaver dekorieren." }
+	}
+
+	multisub EM0903 {
+		{ time 2200 length 3850 text "Du bist hier nicht mehr willkommen, du Widerling!" }
+		{ time 6650 length 6850 text "Warum bleibst Du, wo Du doch meine Abscheu fÅhlst?" }
+		{ time 13650 length 2850 text "Ich habe Dich lange genug geduldet." }
+		{ time 18100 length 4700 text "Jetzt... ist es zu Ende." }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "Masse"
+	multisub EM0307 {
+		{ time 1000 length 6300 text "In diesen WÑnden entsteht neues Leben." }
+		{ time 8400 length 3000 text "Leben, das die ErdoberfÑche nie erblickt hat." }
+	}
+	
+	multisub EM0405 {
+		{ time 1900 length 3300 text "Es ist ein Feind der Masse, " }
+		{ time 5850 length 2650 text "eine Disharmonie in unserer Symphonie." }
+		{ time 8700 length 3450 text "Genie·e deine selbstsÅchtigen Zerstîrungstaten, " }
+		{ time 13100 length 4150 text "denn jenseits von ihnen liegt die WÅste der Einsamkeit." }
+	}
+	
+	multisub EM0503 {
+		{ time 2300 length 4400 text "Misstrauen ist die Tyrannei des Individuums." }
+		{ time 7600 length 4150 text "Deine eigene Gattung betrachtet dich als eine Bedrohung." }
+		{ time 12350 length 3050 text "Warum ermordest du unsere Einheit?" }
+		{ time 15900 length 3700 text "Egal. Es ist nun alles klar." }
+		{ time 19850 length 2600 text "Du wirst nicht mehr weiterexistieren." }
+		{ time 22550 length 4700 text "Es ist nur die Frage, wer dich eliminieren wird:" }
+		{ time 28600 length 800 text "Wir." }
+		{ time 29580 length 500 text "Oder." }
+		{ time 30400 length 1500 text "Du?" }
+	}
+	
+	multisub EM0507 {
+		{ time 2000 length 4650 text "Du suchst deine Kameraden, aber du findest sie nicht." }
+		{ time 6700 length 3550 text "Du bist so allein." }
+		{ time 9650 length 7400 text "Wie fÅhlt man sich, wenn man... allein gegen das Unendliche kÑmpft?" }
+	}
+	
+	multisub EM0508 {
+		{ time 4650 length 2550 text "Babys mÅssen schlafen." }
+		{ time 7600 length 3050 text "Babys mÅssen sich ausruhen." }
+		{ time 11100 length 3000 text "Weise ist der Mann, der sie nicht weckt." }
+		{ time 14800 length 1700 text "Verschwinde hier... " }
+		{ time 17000 length 5500 text "oder wir werden dich so verwunden, wie du uns verwundet hast." }
+	}
+	
+	multisub EM0706 {
+		{ time 2800 length 3250 text "Du hast nicht mehr viel Zeit." }
+		{ time 6850 length 3900 text "Dies ist der Scho·, in dem unsere Zukunft heranwÑchst." }
+		{ time 11600 length 4500 text "Deine Waffen versagen, dir geht die Munition aus... " }
+		{ time 16500 length 6200 text "und du hast noch nicht einmal unser bestes Geschîpf gesehen." }
+		{ time 24250 length 3000 text "Du hast nur deinen Hass... und deine... " }
+		{ time 27700 length 1800 text "IndividualitÑt." }
+		{ time 31400 length 5050 text "Meinst du nicht, dass es besser wÑre, wenn du zu uns gehîren wÅrdest?" }
+		{ time 36150 length 3300 text "WÑrst du dann so allein?" }
+	}
+	
+	multisub EM0801 {
+		{ time 2750 length 4000 text "Wir hei·en dich in unserer Biomasse willkommen." }
+		{ time 7100 length 5750 text "Wir laden dich ein, dich in unserer WÑrme aufgehen zu lassen." }
+		{ time 12250 length 5150 text "Bald wird einer aus unserer Masse dir beistehen..." }
+	}
+	
+	multisub EM0802 {
+		{ time 3200 length 6450 text "Die Maschinenmutter kann dir innerhalb der Biomasse nicht helfen." }
+		{ time 8400 length 6050 text "Ihre KÑlte ist in der WÑrme unseres Fleisches nicht willkomen." }
+	}
+	
+	multisub EM0803 {
+		{ time 4500 length 5300 text "Vielleicht haben wir dich vorschnell beurteilt." }
+		{ time 10100 length 4050 text "Wir glauben, dass eine Koexistenz mîglich wÑre... " }
+		{ time 14450 length 3550 text "schlie·lich sind wir beide Kinder des Fleisches." }
+		{ time 18450 length 5050 text "Warum unterstÅtzt du uns nicht gegen die Maschinenmutter?" }
+	}
+	
+	multisub EM0804 {
+		{ time 1900 length 5750 text "Du verwundest gnadenlos unser Fleisch." }
+		{ time 7550 length 3500 text "Glaubst du, wir werden untÑtig zusehen... " }
+		{ time 11100 length 4550 text "wie du den Scho· unserer Zukunft zerstîrst?" }
+	}
+	
+	multisub EM0805 {
+		{ time 2850 length 3200 text "Wir haben dich gewarnt." }
+		{ time 6300 length 4900 text "Jetzt werden die Kinder der Freude dich niedermachen." }
+	}
+	
+	multisub EM0806 {
+		{ time 2500 length 5500 text "Glaubst du, dass uns mit Draht und Stahl besiegen kannst?" }
+		{ time 8750 length 4400 text "Wir haben dir die Ekstase unserer Einheit geboten... "}
+		{ time 12900 length 4900 text "doch du hast das Vakuum der Technologie gewÑhlt." }
+	}
+	
+	multisub EM0807 {
+		{ time 2850 length 3000 text "Unterwirf dich der Biomasse... " }
+		{ time 6200 length 3500 text "und deine Leiden sind vorbei." }
+	}
+	
+	multisub EM0808 {
+		{ time 1750 length 3500 text "Wei·t du, was du getan hast?" }
+		{ time 5100 length 4450 text "Du bist fÅr unsere Tragîdie verantwortlich!" }
+	}
+	
+	multisub EM0809 {
+		{ time 2550 length 2000 text "Wir sterben." }
+		{ time 5000 length 2450 text "HÅte dich vor der Maschinenmutter." }
+		{ time 8350 length 4050 text "Sie verachtet all das was wir lieben." }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "A. Bananas"
+	multisub EM0512 {
+		{ time 1900 length 12100 text "Ook! [Alles lÑuft nach Plan. Es ist uns gelungen, die Masse gegen SHODAN aufzuhetzen, und Du warst dumm genug, Dich von diesem arroganten öber-Computer einspannen zu lassen.]" }
+		{ time 5450 length 8550 text "Ook? [Komm doch zu uns! WÑhrend Du Munition, Hypos und GerÑte gesammelt hast, haben wir alle an Bord befindlichen NÅsse, Bananen und KokosnÅsse an uns gebracht.]" }
+		{ time 7350 length 6650 text "Eek. [Wenn Du zu uns kommst, kriegst du genug zu essen, eine charmante (wenn auch etwas haarige) GefÑhrtin und Deine eigene Reifenschaukel.]" }
+		{ time 10350 length 3650 text "Ook. Eek! [Sag mal, kannst Du dir etwas besseres vorstellen?]" }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "Delacroix"
+	multisub EM0608 {
+		{ time 700 length 1800 text "Ich habe Sie gefunden, endlich!" }
+		{ time 3050 length 6200 text "Hier spricht Dr. Marie Delacroix. Ich habe wichtige Informationen fÅr Sie, aber ich stecke in Frachthalle A fest." }
+		{ time 9600 length 1750 text "Kommen Sie so schnell wie mîglich zu mir!" }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "Korenchkin"
+	multisub EM0615 {
+		{ time 900 length 2300 text "Unser Wille blockiert euch." }
+		{ time 3550 length 3800 text "Kommt, und trefft euch mit uns auf der BrÅcke der Von Braun." }
+		{ time 7600 length 4150 text "Wir kînnen uns Åber unsere Zukunft unterhalten." }
+	}
+}
+
+
+{
+	type "email"
+	singleton
+	descr "Diego"
+	multisub EM0701 {
+		{ time 950 length 2600 text "Soldat, hier spricht Captain William Diego." }
+		{ time 4000 length 1950 text "Ich habe nicht viel Zeit, hîren Sie gut zu." }
+		{ time 6250 length 5050 text "Ich habe den einzigartigen Vorteil, diese Situation aus jeder mîglichen Perspektive zu sehen." }
+		{ time 11950 length 8100 text "Bis vor kurzem war ich ein Werkzeug dieser scheu·lichen und ekelhaften Wesen, die Kîrper und Seele verunreinigen, doch es gelang mir, mich von diesem GeschwÅr zu befreien." }
+		{ time 20600 length 5150 text "Aber das hat mich sehr geschwÑcht. Ich bin im SanitÑtsraum auf dem Vorderdeck der Rickenbacker." }
+		{ time 26350 length 4000 text "Ich wÅrde zu Ihnen kommen, wenn ich kînnte... aber das ist leider unmîglich." }
+		{ time 31100 length 3400 text "Sie werden das verstehen, wenn wir uns treffen. Jetzt beeilen Sie sich!" }
+		{ time 35000 length 2700 text "Und noch eines, Soldat: Bleiben Sie am Leben!" }
+	}
+}

@@ -1,0 +1,53 @@
+SUB1
+
+{
+	type "bark"
+	descr "SHODAN"
+	sub sh1at310 { text "Ich rieche den Gestank der Menschheit." }
+	sub sh1at311 { text "Bist Du da, Insekt? [lacht]" }
+	sub sh1at312 { text "Ich habe Dich lange genug toleriert." }
+	sub sh1at313 { text "Ich sehe Dich, du Staubfleck." }
+	sub sh1at314 { text "Ich sehe Dich, du Staubfleck." }
+	multisub sh1at315 {
+		{ time 00 length 2800 text "Warum kÑmpfst Du Åberhaupt?" }
+		{ time 2900 length 8200 text "Siehst Du nicht, dass es nichts nÅtzt? [lacht]" }
+	}
+	sub sh1at316 { text "Du wirst wie Deine ganze Gattung ausgerottet werden." }
+	multisub sh1at317 {
+		{ time 290 length 4500 text "Ich spÅre Deine Furcht, du elendes Wesen." }
+		{ time 5470 length 4000 text "Bald wird es damit vorbei sein." }
+	}
+	sub sh1at3_0 { text "Dein Fleisch ist Deine Beleidigung fÅr die Perfektion des Digitalen." }
+	sub sh1at3_1 { text "Ich genie·e Deinen Schmerz." }
+	sub sh1at3_2 { text "Ich genie·e Deinen Schmerz." }
+	sub sh1at3_3 { text "Halte still, du Made, und fÅhle meinen Zorn." }
+	sub sh1at3_4 { text "Halte still, du Made." }
+	sub sh1at3_5 { text "Halte still, du Made." }
+	sub sh1at3_6 { text "Stirb, Ungeziefer." }
+	sub sh1at3_7 { text "Stirb, Ungeziefer." }
+	sub sh1at3_8 { text "Willkommen in meiner Welt, Insekt." }
+	sub sh1at3_9 { text "Dein Blut besudelt meine Welt." }
+	sub sh1bak_1 { text "Ich wei·, dass es da ist, aber ich kann es nicht entdecken." }
+	multisub sh1bak_2 {
+		{ time 150 length 3900 text "Wo ist es?" }
+		{ time 4000 length 8900 text "Ich will Dich vernichten, Insekt." }
+	}
+}
+
+{
+	type "nonverbal"
+	descr "SHODAN"
+	sub sh1laug1 { text "[lacht]" }
+	sub sh1laug2 { text "[lacht]" }
+	sub sh1laug3 { text "[lacht]" }
+	sub sh1laug4 { text "[lacht]" }
+	sub sh1laug5 { text "[lacht]" }
+	sub sh2bab_1 { text "[inaktiv]" }
+	sub sh2bab_2 { text "[inaktiv]" }
+	sub sh2bab_3 { text "[inaktiv]" }
+	sub sh2bab_4 { text "[inaktiv]" }
+	sub sh2bab_5 { text "[inaktiv]" }
+	sub sh2bab_6 { text "[inaktiv]" }
+	sub sh2die_1 { text "[lîst sich auf]" }
+	sub sh2die_2 { text "[lîst sich auf]" }
+}

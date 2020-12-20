@@ -1,0 +1,88 @@
+SUB1
+
+{
+	type "bark"
+	descr "Midwife"
+	sub mw1amb_1 { text "[Schmerz] Das tut weh!" }
+	sub mw1amb_2 { text "Ich zwinge Dich damit aufzuhîren!" }
+	sub mw1amb_3 { text "Wer wagt es?" }
+	sub mw1at0_1 { text "Ich sorge mich um die Kleinen." }
+	sub mw1at0_2 { text "Die Kleinen brauchen viel Fleisch, um gro· und stark zu werden." }
+	sub mw1at0_3 { text "Sie wachsen so schnell." }
+	sub mw1at0_4 { text "Die Kleinen brauchen viel Pflege." }
+	sub mw1at2_1 { text "Du musst direkt unter meiner Nase sein." }
+	sub mw1at2_2 { text "Komm raus... Komm raus... Komm raus." }
+	sub mw1at2_3 { text "Ich werde Dir wehtun." }
+	sub mw1at2_4 { text "Du brauchst keine Angst zu haben." }
+	sub mw1at2_5 { text "Wir werden Dich finden." }
+	sub mw1at3_1 { text "Wo ist es hin?" }
+	sub mw1at3_2 { text "Du kannst jetzt rauskommen." }
+	sub mw1at3_3 { text "Komm nicht zu nah an die Kinder." }
+	sub mw1at3_4 { text "Wir tun Dir nicht sehr weh." }
+	sub mw1at3_5 { text "Du versÑumst den ganzen Spa·." }
+	sub mw1bak_1 { text "Kein Muckser mehr." }
+	sub mw1bak_2 { text "Nichts. Mama macht sich zu viel Sorgen." }
+	sub mw1bak_3 { text "Ruhig jetzt." }
+	sub mw1bak_4 { text "Wo ist es hin?" }
+	sub mw1bak_5 { text "Hmmm." }
+	sub mw1bod_1 { text "Ich bringe es dafÅr um." }
+	sub mw1bod_2 { text "DafÅr wird es zahlen." }
+	sub mw1bod_3 { text "Ich breche es in StÅcke." }
+	sub mw1bod_4 { text "Ich rei·e es dafÅr auseinander." }
+	sub mw1bod_5 { text "Das ist nicht akzeptabel." }
+	sub mw1chg_1 { text "FÅr meine Kleinen." }
+	sub mw1chg_2 { text "Ich rei·e Dein RÅckrad raus." }
+	sub mw1chg_3 { text "Oh ja, komm her." }
+	sub mw1chg_4 { text "Du gehîrst jetzt... mir." }
+	sub mw1chg_5 { text "Ich habe Ihre Medikamente." }
+	sub mw1hit_1 { text "ZurÅck!" }
+	sub mw1hit_2 { text "Ich zerfetze Dich!" }
+	sub mw1hit_3 { text "Das tut weh, was?" }
+	sub mw1hit_4 { text "Verschwinde!" }
+	sub mw1hit_5 { text "Wie fÅhlt sich das an?" }
+	sub mw1los_1 { text "Es hat Angst vor uns." }
+	sub mw1los_2 { text "Es kommt nicht zurÅck." }
+	sub mw1los_3 { text "Es wird dafÅr bezahlen." }
+	sub mw1los_4 { text "Keine Angst." }
+	sub mw1los_5 { text "Lassen Sie das meine Sorge sein." }
+	sub mw1to1_1 { text "Da stinkt etwas." }
+	sub mw1to1_2 { text "Was ist das?" }
+	sub mw1to1_3 { text "Man darf die Kleinen nicht stîren." }
+	sub mw1to1_4 { text "Ist da jemand?" }
+	sub mw1to1_5 { text "Shhh. Wer weckt die lieben Kleinen?" }
+	sub mw1to2_1 { text "Das wird Åberhaupt nicht wehtun." }
+	sub mw1to2_2 { text "Ich kann Dich riechen." }
+	sub mw1to2_3 { text "Hier komme ich." }
+	sub mw1to2_4 { text "Die Kinder mîgen Dich nicht." }
+	sub mw1to2_5 { text "Die Besuchszeit ist vorbei." }
+	sub mw1to3_1 { text "Ich hab was fÅr Dich." }
+	sub mw1to3_2 { text "Ich nehm Dich auseinander." }
+	sub mw1to3_3 { text "Zeit, Deine Reflexe zu testen." }
+	sub mw1to3_4 { text "Weg von den Kindern." }
+	sub mw1to3_5 { text "Dein Blut wird flie·en." }
+}
+
+{
+	type "nonverbal"
+	descr "Midwife"
+	sub f_mwlas4 { text "[feuert]" }
+	sub mw1at0_5 { text "[summt]" }
+	sub mw1die_1 { text "[Todesschrei]" }
+	sub mw1die_2 { text "[Todesschrei]" }
+	sub mw1hhi_1 { text "[knurrt]" }
+	sub mw1hhi_2 { text "[knurrt]" }
+	sub mw1hhi_3 { text "[knurrt]" }
+	sub mw1hhi_4 { text "[knurrt]" }
+	sub mw1hhi_5 { text "[knurrt]" }
+	sub mw1hlo_1 { text "[Schmerz]" }
+	sub mw1hlo_2 { text "[Schmerz]" }
+	sub mw1hlo_3 { text "[Schmerz]" }
+	sub mw1hlo_4 { text "[Schmerz]" }
+	sub mwservo1 { text "[untÑtig]" }
+	sub mwservo2 { text "[untÑtig]" }
+	sub mwservo3 { text "[untÑtig]" }
+	sub mwservo4 { text "[untÑtig]" }
+	sub mwservo5 { text "[untÑtig]" }
+	sub mwservo6 { text "[untÑtig]" }
+	sub mwservo7 { text "[untÑtig]" }
+}
