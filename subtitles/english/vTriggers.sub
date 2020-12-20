@@ -5,13 +5,13 @@ SUB1
 	descr "Polito"
 	multisub exppol01 {
 		{ time 550 length 3150 text "Gut gemacht. Ich sende Ihnen einige Cybermodule." }
-		{ time 3900 length 4050 text "Suchen Sie m”glichst schnell eine Upgrade-Einheit, damit Sie ihr Interface verbessern k”nnen." }
+		{ time 3850 length 4050 text "Suchen Sie m”glichst schnell eine Upgrade-Einheit, damit Sie ihr Interface verbessern k”nnen." }
 	}
 	multisub exppol02 {
 		{ time 700 length 3000 text "Sehr gut. Ich sende Ihnen weitere Module." }
 	}
 	multisub exppol03 { 
-		{ time 400 length 2200 text "Gut gemacht. Hier sind weitere Cybermodule" }
+		{ time 430 length 2200 text "Gut gemacht. Hier sind weitere Cybermodule" }
 		{ time 2650 length 3700 text "šberlegen Sie sich gut, wofr Sie sie verwenden, denn sie sind schwer zu finden." }
 	}
 	multisub exppol04 {
@@ -326,28 +326,77 @@ SUB1
 		{ time 1050 length 1900 text "Potentielle Bedrohung entdeckt." }
 		{ time 3350 length 1850 text "Potentielle Bedrohung entdeckt." }
 	}
-	sub xxtur001 { text "Einheit R343 besch„digt." }
-	sub xxtur002 { text "Einheit M434 besch„digt." }
-	sub xxtur003 { text "Einheit R983 besch„digt." }
-	sub xxtur004 { text "Einheit R108 besch„digt." }
-	sub xxtur005 { text "Einheit K477 besch„digt." }
-	sub xxtur006 { text "Einheit R582 besch„digt." }
-	sub xxtur007 { text "Einheit L433 besch„digt." }
-	sub xxtur008 { text "Einheit E439 besch„digt." }
-	sub xxtur009 { text "Einheit P012 besch„digt." }
-	sub xxtur010 { text "Einheit A694 besch„digt." }
-	sub xxtur011 { text "Einheit Y036 besch„digt." }
-	sub xxtur012 { text "Einheit M101 besch„digt." }
-	sub xxtur013 { text "Einheit I832 besch„digt." }
-	sub xxtur014 { text "Einheit Y294 besch„digt." }
-	sub xxtur015 { text "Einheit R001 besch„digt." }
-	sub xxtur016 { text "Einheit X265 besch„digt." }
-	sub xxtur017 { text "Einheit M616 besch„digt." }
-	sub xxtur018 { text "Einheit P041 besch„digt." }
-	sub xxtur019 { text "Einheit L092 besch„digt." }
-	sub xxtur020 { text "Einheit Q328 besch„digt." }
-	sub xxtur021 { text "Einheit C114 besch„digt." }
-	sub xxtur022 { text "Einheit O892 besch„digt." }
+	
+	// gehackte Kanonen
+	multisub xxtur001 {
+		{ time 1050 length 3000 text "Einheit R343 besch„digt." }
+	}
+	multisub xxtur002 {
+		{ time 1050 length 3000 text "Einheit M434 besch„digt." }
+	}
+	multisub xxtur003 {
+		{ time 1050 length 3000 text "Einheit R983 besch„digt." }
+	}
+	multisub xxtur004 {
+		{ time 1050 length 3000 text "Einheit R108 besch„digt." }
+	}
+	multisub xxtur005 {
+		{ time 1050 length 3000 text "Einheit K477 besch„digt." }
+	}
+	multisub xxtur006 {
+		{ time 1050 length 3000 text "Einheit R582 besch„digt." }
+	}
+	multisub xxtur007 {
+		{ time 1050 length 3000 text "Einheit L433 besch„digt." }
+	}
+	multisub xxtur008 {
+		{ time 1050 length 3000 text "Einheit E439 besch„digt." }
+	}
+	multisub xxtur009 {
+		{ time 1050 length 3000 text "Einheit P012 besch„digt." }
+	}
+	multisub xxtur010 {
+		{ time 1050 length 3000 text "Einheit A694 besch„digt." }
+	}
+	multisub xxtur011 {
+		{ time 1050 length 3000 text "Einheit Y036 besch„digt." }
+	}
+	multisub xxtur012 {
+		{ time 1050 length 3000 text "Einheit M101 besch„digt." }
+	}
+	multisub xxtur013 {
+		{ time 1050 length 3000 text "Einheit I832 besch„digt." }
+	}
+	multisub xxtur014 {
+		{ time 1050 length 3000 text "Einheit Y294 besch„digt." }
+	}
+	multisub xxtur015 {
+		{ time 1050 length 3000 text "Einheit R001 besch„digt." }
+	}
+	multisub xxtur016 {
+		{ time 1050 length 3000 text "Einheit X265 besch„digt." }
+	}
+	multisub xxtur017 {
+		{ time 1050 length 3000 text "Einheit M616 besch„digt." }
+	}
+	multisub xxtur018 {
+		{ time 1050 length 3000 text "Einheit P041 besch„digt." }
+	}
+	multisub xxtur019 {
+		{ time 1050 length 3000 text "Einheit L092 besch„digt." }
+	}
+	multisub xxtur020 {
+		{ time 1050 length 3000 text "Einheit Q328 besch„digt." }
+	}
+	multisub xxtur021 {
+		{ time 1050 length 3000 text "Einheit C114 besch„digt." }
+	}
+	multisub xxtur022 {
+		{ time 1050 length 3000 text "Einheit O892 besch„digt." }
+	}
+	
+
+
 }
 
 {

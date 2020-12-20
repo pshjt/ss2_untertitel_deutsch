@@ -1,16 +1,16 @@
 SUB1
 
-// Apparitions ======================================================================
+// Emanationen: Im Volksmund w¸rde man das als Geister bezeichnen ======================================================================
 {
 	type "convo"
 	singleton
 	descr "Crew"
 	multisub cs0401 {
-		{ time 150 length 1900 text "Ich doch nicht. Nein." }
+		{ time 150 length 2000 text "Ich doch nicht. Nein." }
 		{ time 2500 length 1350 text "Die erwischen mich nie. [LadegeÑusch]" }
 		{ time 4000 length 3100 text "Die werden mich nicht verÑndern. [LadegerÑusch] Das lass ich nicht zu" }
 		{ time 7900 length 3200 text "Rachel, Kinder... Tut mir leid." }
-		{ time 13300 length 2000 text "[Schuss] ... [stirbt]" }
+		{ time 13300 length 2500 text "[Schuss] ... [stirbt]" }
 	}
 	multisub cs1201 {
 		{ time 1000 length 2000 text "Hast du Strahlungsserum?" }
@@ -44,7 +44,7 @@ SUB1
 		{ time 10050 length 2300 text "Ich will nicht verÑndert werden. Bitte!" }
 	}
 	multisub cs0803 {
-		{ time 1000 length 2600 text "Dr. Miller... bitte!" }
+		{ time 1000 length 2800 text "Dr. Miller... bitte!" }
 	}
 }
 {
@@ -53,7 +53,7 @@ SUB1
 	descr "Miller"
 	multisub cs0802 {
 		{ time 300 length 2800 text "Shhh... shhh...." }
-		{ time 3300 length 2850 text "Mary... Mary..." }
+		{ time 3300 length 3850 text "Mary... Mary..." }
 	}
 	multisub cs0804 {
 		{ time 300 length 5000 text "Shhh... Nicht weinen, nicht weinen." }
@@ -67,7 +67,9 @@ SUB1
 	singleton
 	descr "Crew"
 	multisub cs1001 {
-		{ time 1700 length 3500 text "[TÅr îffnet] Verdammt, Bronson und ihre MÑnner." }
+	// TODO: Maybe more like 100 1300 if we make the effort of having an individual subtitle for it
+		{ time 100 length 200 text "[TÅr îffnet]" }
+		{ time 1700 length 3500 text "Verdammt, Bronson und ihre MÑnner." }
 	}
 	multisub cs1002 {
 		{ time 900 length 1700 text "Schatz, was war das?" }
@@ -86,10 +88,10 @@ SUB1
 	singleton
 	descr "Bronson"
 	multisub cs1004 {
-		{ time 450 length 2500 text "Waffen bereit machen, MÑnner. [LadegerÑusch]" }
+		{ time 500 length 2500 text "Waffen bereit machen, MÑnner. [LadegerÑusch]" }
 	}
 	multisub cs1006 {
-		{ time 260 length 2300 text "Feuer! [SchÅsse]" }
+		{ time 280 length 2300 text "Feuer! [SchÅsse]" }
 	}
 	multisub cs1007 {
 		{ time 800 length 3300 text "Erledigt die öberlebenden... [LadegerÑusch]" }
@@ -141,7 +143,7 @@ SUB1
 	}
 	//em0308
 	multisub cs0703 {
-		{ time 500 length 1000 text "Die wissen, so Sie sind." }
+		{ time 500 length 1000 text "Die wissen wo Sie sind." }
 		{ time 1900 length 2500 text "Sie mÅssen irgendwie den Schacht freikriegen." }
 		{ time 4800 length 1600 text "Ich tue hier, was ich kann." }
 		{ time 6700 length 2700 text "Schnell! Sie dÅrfen nicht versagen." }
@@ -154,7 +156,7 @@ SUB1
 	singleton
 	descr "????"
 	multisub cs0901 {
-		{ time 2800 length 3000 text "Die Polito-Form ist tot, du Insekt." }
+		{ time 2800 length 3000 text "Die Polito-Form ist tot, Du Insekt." }
 		{ time 6250 length 4300 text "FÅrchtest Du Dich? Wovor hast Du Angst?" }
 		{ time 10650 length 5000 text "Dass Deine triviale Existenz beendet wird?" }
 		{ time 15800 length 4000 text "Wenn die Geschichte meines Ruhmes einst geschrieben wird," }
@@ -243,7 +245,7 @@ SUB1
 		{ time 00 length 2500 text "Schnell, Tommy! Hier geht es zur Rettungskapsel!" }
 	}
 	multisub cs2003 {
-		{ time 00 length 2400 text "Liebling, ich bei· Dich, wenn du dich jetzt nicht beeilst." }
+		{ time 00 length 2400 text "Liebling, ich bei· Dich, wenn Du dich jetzt nicht beeilst." }
 	}
 	multisub cs2005 {
 		{ time 00 length 2400 text "Schnell, Tommy. Mach schon, mach schon!" }

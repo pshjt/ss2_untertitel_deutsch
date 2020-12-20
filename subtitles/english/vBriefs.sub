@@ -6,12 +6,15 @@ SUB1
 	singleton
 	multisub trg0001 {
 		{ time 00 length 3200 text "Willkommen zur UNN-Rekrutierungsstation Ramsey Center." }
-		{ time 3500 length 2000 text "Bitte Vorsicht beim Aussteigen aus dem Zug." }
-		{ time 5500 length 5300 text "Die Antigrav-SchÑchte am Ende der Halle bringen Sie zu den Trainings- und Rekrutierungszentren auf Stra·enebene." }
+		// TODO: Should be 3300 2200 then
+		{ time 3300 length 2000 text "Bitte Vorsicht beim Aussteigen aus dem Zug." }
+		// TODO: Too short! Should actually be 5500 5600
+		{ time 5500 length 3000 text "Die Antigrav-SchÑchte am Ende der Halle bringen Sie zu den Trainings- und Rekrutierungszentren auf Stra·enebene." }
 		{ time 11200 length 2350 text "Bitte gehen Sie zu den Antigrav-SchÑchten." }
 	}
 
-	sub trg0002 { text "Gehen Sie in den Antigrav-Schacht, um zum Rekrutierungszentrum auf der Stra·enebene zu kommen." }
+// TODO: More like 00 3900
+	sub trg0002 { time 00 length 3500 text "Gehen Sie in den Antigrav-Schacht, um zum Rekrutierungszentrum auf der Stra·enebene zu kommen." }
 }
 
 {
@@ -19,8 +22,10 @@ SUB1
 	descr "Ausbilder"
 	multisub trg0004 {
 		{ time 00 length 4000 text "Bevor Sie Ihre Karriere wÑhlen, sollten Sie einige grundlegende FÑhigkeiten erwerben." }
-		{ time 5200 length 2000 text "Gehen Sie zum Grundausbildungszentrum." }
-		{ time 6550 length 4100 text "Wenn Sie die Grundausbildung abgeschlossen haben, kînnen Sie zum Trainingsbereich fÅr Fortgeschrittene gehen." }
+		// TODO: 4400 2200
+		{ time 4400 length 2500 text "Gehen Sie zum Grundausbildungszentrum." }
+		// TODO: No. 4400 would cut off at the very end of the file
+		{ time 6500 length 4400 text "Wenn Sie die Grundausbildung abgeschlossen haben, kînnen Sie zum Trainingsbereich fÅr Fortgeschrittene gehen." }
 	}
 
 	multisub trg0014 {
@@ -188,7 +193,7 @@ SUB1
 	multisub trg0023 {
 		{ time 00 length 2700 text "Das Objekt vor Ihnen ist ein NanitenbehÑlter." }
 		{ time 3200 length 3850 text "Naniten werden bei technischen Aufgaben wie Hacken oder Reperaturen verbraucht." }
-		{ time 7800 length 7700 text "Wenn Sie den NanitenbehÑlter aufheben, erscheinen diese NICHT im allgemeinen Inventar, sondern werden im Anwendungsmodus links am Bildschirm angezeigt." }
+		{ time 7800 length 7700 text "Wenn Sie den NanitenbehÑlter aufheben, erscheinen diese NICHT im allgemeinen Inventar, sondern werden im Anwendungsmodus links unten am Bildschirm angezeigt." }
 		{ time 16100 length 3200 text "Gehen Sie jetzt zu der Tastatur bei der TÅr, um das Hacken zu versuchen." }
 	}
 
