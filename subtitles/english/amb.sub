@@ -7,7 +7,7 @@ SUB1
 	sub replic2e { text "Danke, dass Sie ValueRep benutzt haben." }
 	multisub replic3e {
 		{ time 00 length 3000 text "Wir hoffen, dass Ihnen der Einkauf bei ValueRep gefallen hat." }
-		{ time 3600 length 4800 text "Denken Sie auáerdem daran, dass Sie dienstags zwei Dinge fr einen Preis erwerben k”nnen." }
+		{ time 3600 length 4800 text "Denken Sie auÃŸerdem daran, dass Sie dienstags zwei Dinge fÃ¼r einen Preis erwerben kÃ¶nnen." }
 	}
 }
 
@@ -51,5 +51,5 @@ SUB1
 	sub screamm1 { text "[schreiender Mann]" }
 	sub screamm2 { text "[schreiender Mann]" }
 	sub screamm3 { text "[schreiender Mann]" }
-	sub toilet { text "[Toilettensplung]" }
+	sub toilet { text "[ToilettenspÃ¼lung]" }
 }

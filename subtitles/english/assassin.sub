@@ -31,9 +31,9 @@ SUB1
 	sub as1bak_3 { text "[Murren]" }
 	sub as1die_1 { text "[stirbt]" } // AI_DIE
 	sub as1die_2 { text "[stirbt]" } // AI_DIE
-	sub as1hhi_1 { text "[besch„digt]" } // AI_HHI
-	sub as1hhi_2 { text "[besch„digt]" } // AI_HHI
-	sub as1hhi_3 { text "[besch„digt]" } // AI_HHI
+	sub as1hhi_1 { text "[beschÃ¤digt]" } // AI_HHI
+	sub as1hhi_2 { text "[beschÃ¤digt]" } // AI_HHI
+	sub as1hhi_3 { text "[beschÃ¤digt]" } // AI_HHI
 	sub as1to1_1 { text "[wachsam]" } // AI_TO1 (tolevelone, toleveltwo)
 	sub as1to1_2 { text "[wachsam]" } // AI_TO1 (tolevelone, toleveltwo)
 	sub as1to3_1 { text "[alarmiert]" } // AI_TO3, AI_ATT

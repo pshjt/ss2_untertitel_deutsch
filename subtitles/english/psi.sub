@@ -25,8 +25,8 @@ SUB1
 	sub psirefde { text "Reflex deaktiviert." }
 	sub psiscrac { text "Schild aktiviert." }
 	sub psiscrde { text "Schild deaktiviert." }
-	sub psistrac { text "St„rke aktiviert." }
-	sub psistrde { text "St„rke deaktiviert." }
+	sub psistrac { text "StÃ¤rke aktiviert." }
+	sub psistrde { text "StÃ¤rke deaktiviert." }
 	sub psitoxac { text "Toxin-Schild aktiviert." }
 	sub psitoxde { text "Toxin-Schild deaktiviert." }
 // These two sounds do not appear in the German version.

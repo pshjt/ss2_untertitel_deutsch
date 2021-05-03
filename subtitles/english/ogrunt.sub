@@ -4,7 +4,7 @@ SUB1
 	type "bark"
 	descr "Hybrid"
 	multisub og1amb_1 {
-		{ time 700 length 2400 text "Die Masse schÅtzt uns!" }
+		{ time 700 length 2400 text "Die Masse sch√ºtzt uns!" }
 	}
 	multisub og1amb_2 {
 		{ time 800 length 1800 text "Wer greift uns an?" }
@@ -18,31 +18,31 @@ SUB1
 	multisub og1amb_5 {
 		{ time 870 length 2200 text "Wir bleiben standhaft!" }
 	}
-	sub og1at0_1 { text "Die Masse singt fÅr uns." }
+	sub og1at0_1 { text "Die Masse singt f√ºr uns." }
 	sub og1at0_2 { text "Was ist mit mir geschehen?" }
 	sub og1at0_3 { text "Wir sind, wir sind, wir sind, wir sind." }
 	sub og1at0_4 { text "Wir werden in unserem neuen Fleische geboren." }
 	sub og1at2_1 { text "Tausend Augen schauen." }
 	sub og1at2_2 { text "Komm zu uns... komm zu uns." }
-	sub og1at2_3 { text "Wir hîren... Fleisch." }
+	sub og1at2_3 { text "Wir h√∂ren... Fleisch." }
 	sub og1at2_4 { text "Einer kann der Masse nicht entkommen." }
 	sub og1at2_5 { text "Wo ist die... Dissonanz?" }
 	sub og1at3_1 { text "Du kannst dich nicht ewig verstecken." }
 	sub og1at3_2 { text "Wir suchen. Wir suchen." }
-	sub og1at3_3 { text "Dein Fleisch... verrÑt Dich." }
+	sub og1at3_3 { text "Dein Fleisch... verr√§t Dich." }
 	sub og1at3_4 { text "Beeil Dich, lauf!!" }
 	sub og1at3_5 { text "Wir folgen." }
 	sub og1att_1 { text "Vorsicht!" }
 	sub og1att_2 { text "Komm zu uns!" }
 	sub og1att_3 { text "Kapituliere!" }
-	sub og1bak_1 { text "Das Lied wird nicht gestîrt." }
+	sub og1bak_1 { text "Das Lied wird nicht gest√∂rt." }
 	sub og1bak_2 { text "Wir finden nichts." }
 	sub og1bak_3 { text "Nur wir." }
-	sub og1bak_4 { text "Kein Metall stîrt uns hier." }
+	sub og1bak_4 { text "Kein Metall st√∂rt uns hier." }
 	sub og1bak_5 { text "Wir sind allein." }
 	sub og1bod_1 { text "Du hast uns verlassen." }
 	sub og1bod_2 { text "NEIN!" }
-	sub og1bod_3 { text "Unser Lied wurde geschwÑcht." }
+	sub og1bod_3 { text "Unser Lied wurde geschw√§cht." }
 	sub og1bod_4 { text "Nicht mehr einer von uns." }
 	sub og1bod_5 { text "Du bist frei." }
 	sub og1chg_1 { text "Bringt die Dissonanz zum Schweigen!" }
@@ -50,40 +50,40 @@ SUB1
 	sub og1hit_2 { text "Wir triumphieren!" }
 	sub og1hit_3 { text "Du bist allein!" }
 	sub og1hit_4 { text "Deine Dissonanz verhallt!" }
-	sub og1hit_5 { text "FÅhle dein Fleisch!" }
-	sub og1hlo_1 { text "[Schmerz] Tîtet mich!" }
-	sub og1los_1 { text "Er wollte sich uns nicht anschlie·en." }
+	sub og1hit_5 { text "F√ºhle dein Fleisch!" }
+	sub og1hlo_1 { text "[Schmerz] T√∂tet mich!" }
+	sub og1los_1 { text "Er wollte sich uns nicht anschlie√üen." }
 	sub og1los_2 { text "Die Dissonanz verklingt." }
-	sub og1los_3 { text "Es wird zu uns zurÅckkehren." }
-	sub og1los_4 { text "Es ist uns nicht zugÑnglich." }
+	sub og1los_3 { text "Es wird zu uns zur√ºckkehren." }
+	sub og1los_4 { text "Es ist uns nicht zug√§nglich." }
 	sub og1los_5 { text "Wir verbleiben." }
 	sub og1to1_1 { text "Gibt es jemand Anderen?" }
 	sub og1to1_2 { text "Etwas... stimmt nicht." }
 	sub og1to1_3 { text "Unsere Augen sind offen." }
 	sub og1to1_4 { text "Sind wir vereint?" }
-	sub og1to1_5 { text "Die Harmonie ist... gestîrt." }
-	sub og1to2_1 { text "Sprich zu uns Åber die Masse." }
+	sub og1to1_5 { text "Die Harmonie ist... gest√∂rt." }
+	sub og1to2_1 { text "Sprich zu uns √ºber die Masse." }
 	sub og1to2_2 { text "Nich Teil der Harmonie." }
 	sub og1to2_3 { text "Unser Fleisch sucht Dich." }
-	sub og1to2_4 { text "Gehîrst Du zu uns?" }
+	sub og1to2_4 { text "Geh√∂rst Du zu uns?" }
 	sub og1to2_5 { text "Wer kommt zu uns?" }
-	sub og1to3_1 { text "Dein Fleisch wird uns willkommen hei·en." }
+	sub og1to3_1 { text "Dein Fleisch wird uns willkommen hei√üen." }
 	sub og1to3_2 { text "Tut... mir Leid!" }
 	sub og1to3_3 { text "Dein Lied ist nicht unseres!" }
-	sub og1to3_4 { text "Wir hei·en Dich nicht willkommen!" }
+	sub og1to3_4 { text "Wir hei√üen Dich nicht willkommen!" }
 	sub og1to3_5 { text "Sie sehen... wie Du fliehst... fliehst!" }
 }
 
 {
 	type "nonverbal"
 	descr "Hybrid"
-	sub hcorpse1 { text "[brÅllt]" }
-	sub hcorpse2 { text "[brÅllt]" }
-	sub hcorpse3 { text "[brÅllt]" }
+	sub hcorpse1 { text "[br√ºllt]" }
+	sub hcorpse2 { text "[br√ºllt]" }
+	sub hcorpse3 { text "[br√ºllt]" }
 	sub og1att_4 { text "[ruft]" }
 	sub og1att_5 { text "[ruft]" }
 	sub og1att_6 { text "[ruft]" }
-	sub og1chg_2 { text "[brÅllt]" }
+	sub og1chg_2 { text "[br√ºllt]" }
 	sub og1die_1 { text "[Todesschrei]" }
 	sub og1die_2 { text "[Todesschrei]" }
 	sub og1die_3 { text "[Todesschrei]" }
@@ -111,6 +111,6 @@ SUB1
 {
 	type "nonverbal"
 	descr ""
-	sub ogchase1 { text "[SchÅsse und schreiende Frau]" }
-	sub ogchase2 { text "[mehr SchÅsse und schreiende Frau]" }
+	sub ogchase1 { text "[Sch√ºsse und schreiende Frau]" }
+	sub ogchase2 { text "[mehr Sch√ºsse und schreiende Frau]" }
 }

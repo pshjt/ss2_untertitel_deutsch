@@ -3,5 +3,5 @@ SUB1
 {
 	type "convo"
 	descr "Telefon"
-	sub telephon { text "Dieser Gegenstand ist vorbergehend auáer Betrieb." }
+	sub telephon { text "Dieser Gegenstand ist vorÃ¼bergehend auÃŸer Betrieb." }
 }

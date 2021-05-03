@@ -3,13 +3,13 @@ SUB1
 {
 	type "nonverbal"
 	descr "Ei"
-	sub eggdie_1 { text "[zerstîrt]" }
-	sub eggdie_2 { text "[zerstîrt]" }
+	sub eggdie_1 { text "[zerst√∂rt]" }
+	sub eggdie_2 { text "[zerst√∂rt]" }
 //	sub egglp1 { text "[aktiv]" } // ambient loop
 //	sub egglp2 { text "[aktiv]" } // ambient loop
 //	sub egglp3 { text "[aktiv]" } // ambient loop
-	sub eggopen1 { text "[geîffnet]" }
-	sub eggopen2 { text "[geîffnet]" }
+	sub eggopen1 { text "[ge√∂ffnet]" }
+	sub eggopen2 { text "[ge√∂ffnet]" }
 }
 
 {

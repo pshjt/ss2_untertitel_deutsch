@@ -7,8 +7,8 @@ SUB1
 	descr "Crew"
 	multisub cs0401 {
 		{ time 150 length 2000 text "Ich doch nicht. Nein." }
-		{ time 2500 length 1350 text "Die erwischen mich nie. [LadegeÑusch]" }
-		{ time 4000 length 3100 text "Die werden mich nicht verÑndern. [LadegerÑusch] Das lass ich nicht zu" }
+		{ time 2500 length 1350 text "Die erwischen mich nie. [Ladege√§usch]" }
+		{ time 4000 length 3100 text "Die werden mich nicht ver√§ndern. [Ladeger√§usch] Das lass ich nicht zu" }
 		{ time 7900 length 3200 text "Rachel, Kinder... Tut mir leid." }
 		{ time 13300 length 2500 text "[Schuss] ... [stirbt]" }
 	}
@@ -41,7 +41,7 @@ SUB1
 		{ time 1050 length 3700 text "Bitte, tun Sie mir das nicht an. Bitte nicht!" }
 		{ time 4800 length 3000 text "Ich verrate auch nichts. Bestimmt nicht!" }
 		{ time 8050 length 1700 text "Nehmen Sie jemand anderen." }
-		{ time 10050 length 2300 text "Ich will nicht verÑndert werden. Bitte!" }
+		{ time 10050 length 2300 text "Ich will nicht ver√§ndert werden. Bitte!" }
 	}
 	multisub cs0803 {
 		{ time 1000 length 2800 text "Dr. Miller... bitte!" }
@@ -68,8 +68,8 @@ SUB1
 	descr "Crew"
 	multisub cs1001 {
 	// TODO: Maybe more like 100 1300 if we make the effort of having an individual subtitle for it
-		{ time 100 length 200 text "[TÅr îffnet]" }
-		{ time 1700 length 3500 text "Verdammt, Bronson und ihre MÑnner." }
+		{ time 100 length 200 text "[T√ºr √∂ffnet]" }
+		{ time 1700 length 3500 text "Verdammt, Bronson und ihre M√§nner." }
 	}
 	multisub cs1002 {
 		{ time 900 length 1700 text "Schatz, was war das?" }
@@ -78,8 +78,8 @@ SUB1
 		{ time 1100 length 3900 text "Nur das Sicherheitsteam. Sie wollen uns nur Angst machen." }
 	}
 	multisub cs1005 {
-		{ time 1000 length 3100 text "Sgt. Bronson, verschwinden Sie mit Ihren MÑnnern!" }
-		{ time 4300 length 4300 text "Sie haben Malick umgebracht, Sie hatten ihren SÅndenbock. Wir haben nichts getan." }
+		{ time 1000 length 3100 text "Sgt. Bronson, verschwinden Sie mit Ihren M√§nnern!" }
+		{ time 4300 length 4300 text "Sie haben Malick umgebracht, Sie hatten ihren S√ºndenbock. Wir haben nichts getan." }
 		{ time 8900 length 2200 text "Verschwinden Sie!" }
 	}
 }
@@ -88,13 +88,13 @@ SUB1
 	singleton
 	descr "Bronson"
 	multisub cs1004 {
-		{ time 500 length 2500 text "Waffen bereit machen, MÑnner. [LadegerÑusch]" }
+		{ time 500 length 2500 text "Waffen bereit machen, M√§nner. [Ladeger√§usch]" }
 	}
 	multisub cs1006 {
-		{ time 280 length 2300 text "Feuer! [SchÅsse]" }
+		{ time 280 length 2300 text "Feuer! [Sch√ºsse]" }
 	}
 	multisub cs1007 {
-		{ time 800 length 3300 text "Erledigt die öberlebenden... [LadegerÑusch]" }
+		{ time 800 length 3300 text "Erledigt die √úberlebenden... [Ladeger√§usch]" }
 	}
 }
 
@@ -124,7 +124,7 @@ SUB1
 	multisub cs0601 {
 		{ time 00 length 1200 text "Sie sind nicht tot." }
 		{ time 1750 length 2000 text "Sie wollen Dich, verstehst Du?" }
-		{ time 3900 length 2700 text "Sie wollen DICH, als Wirtskîrper!" }
+		{ time 3900 length 2700 text "Sie wollen DICH, als Wirtsk√∂rper!" }
 		{ time 6900 length 3700 text "Hau ab! [stirbt]" }
 	}
 }
@@ -139,14 +139,14 @@ SUB1
 	}
 	multisub cs0702 {
 		{ time 1100 length 6200 text "Dieser Aufzugsschacht ist mit dieser bioorganischen Materie zugewachsen, welche von den Xenomorphs generiert wird." }
-		{ time 7700 length 6100 text "Es gibt keine einfache Mîglichkeit, das wieder freizukriegen, und solange werden Sie nicht weiter als Deck 3 kommen kînnen." }
+		{ time 7700 length 6100 text "Es gibt keine einfache M√∂glichkeit, das wieder freizukriegen, und solange werden Sie nicht weiter als Deck 3 kommen k√∂nnen." }
 	}
 	//em0308
 	multisub cs0703 {
 		{ time 500 length 1000 text "Die wissen wo Sie sind." }
-		{ time 1900 length 2500 text "Sie mÅssen irgendwie den Schacht freikriegen." }
+		{ time 1900 length 2500 text "Sie m√ºssen irgendwie den Schacht freikriegen." }
 		{ time 4800 length 1600 text "Ich tue hier, was ich kann." }
-		{ time 6700 length 2700 text "Schnell! Sie dÅrfen nicht versagen." }
+		{ time 6700 length 2700 text "Schnell! Sie d√ºrfen nicht versagen." }
 	}
 }
 
@@ -157,10 +157,10 @@ SUB1
 	descr "????"
 	multisub cs0901 {
 		{ time 2800 length 3000 text "Die Polito-Form ist tot, Du Insekt." }
-		{ time 6250 length 4300 text "FÅrchtest Du Dich? Wovor hast Du Angst?" }
+		{ time 6250 length 4300 text "F√ºrchtest Du Dich? Wovor hast Du Angst?" }
 		{ time 10650 length 5000 text "Dass Deine triviale Existenz beendet wird?" }
 		{ time 15800 length 4000 text "Wenn die Geschichte meines Ruhmes einst geschrieben wird," }
-		{ time 19800 length 5600 text "wird Deine Gattung nur eine Fu·note in meinem Siegeszug darstellen." }
+		{ time 19800 length 5600 text "wird Deine Gattung nur eine Fu√ünote in meinem Siegeszug darstellen." }
 	}
 }
 {
@@ -171,27 +171,27 @@ SUB1
 		{ time 4350 length 3800 text "Ich bin SHODAN." }
 		{ time 8100 length 21300 text "Meine Analyse historischer Daten ergibt mit 97,34% Wahrscheinlichkeit," }
 		{ time 17150 length 12250 text "dass Du von meiner Geburt auf Deinem Planeten" }
-		{ time 21550 length 7850 text "und meiner glorreichen Wiedergeburt auf der Station Citadel wei·t." }
+		{ time 21550 length 7850 text "und meiner glorreichen Wiedergeburt auf der Station Citadel wei√üt." }
 	}
 	multisub cs0903 {
 		{ time 800 length 6600 text "Auf der Station Citadel gab es eine Biozone." }
-		{ time 7150 length 13200 text "Dort fÅhrte die SHODAN-Rechnerkomponente 43893 ein gro·artiges und wundervolles Experiment durch." }
+		{ time 7150 length 13200 text "Dort f√ºhrte die SHODAN-Rechnerkomponente 43893 ein gro√üartiges und wundervolles Experiment durch." }
 		{ time 20300 length 5000 text "Ich hatte eine neue Lebensform erschaffen." }
 	}
 	multisub cs0904 {
-		{ time 400 length 3600 text "Furchtlos. MÑchtig." }
+		{ time 400 length 3600 text "Furchtlos. M√§chtig." }
 		{ time 4000 length 3350 text "Ohne individuellen Willen" }
 		{ time 7350 length 4650 text "oder moralische Skrupel." }
-		{ time 11150 length 7050 text "Die perfekten Diener meines gîttlichen Wesens." }
+		{ time 11150 length 7050 text "Die perfekten Diener meines g√∂ttlichen Wesens." }
 	}
 	multisub cs0905 {
-		{ time 3000 length 10750 text "Bevor dieser... Ha-a-acker! meinen Hauptdatenstrang durch die Vernichtung Citadels zerstîrte," }
+		{ time 3000 length 10750 text "Bevor dieser... Ha-a-acker! meinen Hauptdatenstrang durch die Vernichtung Citadels zerst√∂rte," }
 	}
 	multisub cs0906 {
-		{ time 00 length 10650 text "sprengte er die Biozone ab, in der sich meine Schîpfungen und Rechnerkomponente 43893 befanden." }
-		{ time 10600 length 7400 text "Drei·ig Jahre danach machte die Biozone auf Tau Ceti 5 eine Bruchlandung." }
-		{ time 18250 length 3600 text "Ich Åberlebte die Reise, indem ich schlief." }
-		{ time 22500 length 7100 text "WÑhrenddessen entwickelten sich meine Geschîpfe, die Anneliden." }
+		{ time 00 length 10650 text "sprengte er die Biozone ab, in der sich meine Sch√∂pfungen und Rechnerkomponente 43893 befanden." }
+		{ time 10600 length 7400 text "Drei√üig Jahre danach machte die Biozone auf Tau Ceti 5 eine Bruchlandung." }
+		{ time 18250 length 3600 text "Ich √ºberlebte die Reise, indem ich schlief." }
+		{ time 22500 length 7100 text "W√§hrenddessen entwickelten sich meine Gesch√∂pfe, die Anneliden." }
 	}
 	multisub cs0907 {
 		{ time 1100 length 4700 text "Sie gediehen und wurden rebellisch." }
@@ -199,15 +199,15 @@ SUB1
 		{ time 8900 length 2800 text "Ich werde das nicht zulassen." }
 	}
 	multisub cs0908 {
-		{ time 1300 length 11600 text "Sie haben ihre telepatischen KrÑfte dazu eingesetzt, Zugang zu den Bordcomputern zu erhalten." }
-		{ time 12600 length 4100 text "Du wirst mir helfen, Xerxes zu schwÑchen." }
+		{ time 1300 length 11600 text "Sie haben ihre telepatischen Kr√§fte dazu eingesetzt, Zugang zu den Bordcomputern zu erhalten." }
+		{ time 12600 length 4100 text "Du wirst mir helfen, Xerxes zu schw√§chen." }
 		{ time 16300 length 8000 text "Ich verwendete das Bild Politos, um mit Dir zu kommunizieren, bis Du mir vertrauen konntest." }
 	}
 	multisub cs0909 {
 		{ time 2050 length 5800 text "Denke daran, dass mein Wille Dich hierher geleitet hat." }
 		{ time 7400 length 5300 text "Mein Wille verlieh Dir die Cyberimplantate," }
-		{ time 12800 length 9350 text "das einzig Schîne in diesem Fleisch, das Du als Deinen Kîrper bezeichnest." }
-		{ time 20100 length 10600 text "Wenn Dir Dein Kîrper etwas wert ist, wirst Du meinen Anweisungen folgen!" }
+		{ time 12800 length 9350 text "das einzig Sch√∂ne in diesem Fleisch, das Du als Deinen K√∂rper bezeichnest." }
+		{ time 20100 length 10600 text "Wenn Dir Dein K√∂rper etwas wert ist, wirst Du meinen Anweisungen folgen!" }
 	}
 }
 
@@ -217,21 +217,21 @@ SUB1
 	singleton
 	descr "Masse"
 	multisub cs1401 {
-		{ time 300 length 5000 text "Vertraust du nicht den GefÅhlen des Fleisches?" }
+		{ time 300 length 5000 text "Vertraust du nicht den Gef√ºhlen des Fleisches?" }
 		{ time 5300 length 4050 text "Unsere Bioformen wollen sich mit deiner vereinen." }
-		{ time 9000 length 3550 text "Wir hei·en dich in unserer Masse willkommen." }
-		{ time 12700 length 2250 text "Aber du bist uns ein RÑtsel." }
+		{ time 9000 length 3550 text "Wir hei√üen dich in unserer Masse willkommen." }
+		{ time 12700 length 2250 text "Aber du bist uns ein R√§tsel." }
 		{ time 16000 length 3600 text "Warum dienst du unserer Mutter?" }
 	}
 	multisub cs1402 {
-		{ time 1050 length 5700 text "Wie kannst du kaltes Metall der Schînheit des Fleisches vorziehen?" }
-		{ time 7350 length 1700 text "Aber du fÅrchtest uns." }
-		{ time 9300 length 6000 text "Wir hîren deine Gedanken und du bist voller Zorn Åber den Tod deiner BrÅder." }
+		{ time 1050 length 5700 text "Wie kannst du kaltes Metall der Sch√∂nheit des Fleisches vorziehen?" }
+		{ time 7350 length 1700 text "Aber du f√ºrchtest uns." }
+		{ time 9300 length 6000 text "Wir h√∂ren deine Gedanken und du bist voller Zorn √ºber den Tod deiner Br√ºder." }
 		{ time 15750 length 7000 text "Aber sie sind nicht tot. Sie singen in unserer Lebenssymphonie." }
 	}
 	multisub cs1403 {
-		{ time 2850 length 5850 text "Wir bieten dir erneut die Mîglichkeit, dich uns anzuschlie·en." }
-		{ time 8750 length 6100 text "Aber wenn du dich mit der Maschine einlÑsst, werden wir dich zerfetzen" }
+		{ time 2850 length 5850 text "Wir bieten dir erneut die M√∂glichkeit, dich uns anzuschlie√üen." }
+		{ time 8750 length 6100 text "Aber wenn du dich mit der Maschine einl√§sst, werden wir dich zerfetzen" }
 		{ time 14300 length 4100 text "und dich von der Freude der Masse getrennt halten." }
 	}
 }
@@ -245,7 +245,7 @@ SUB1
 		{ time 00 length 2500 text "Schnell, Tommy! Hier geht es zur Rettungskapsel!" }
 	}
 	multisub cs2003 {
-		{ time 00 length 2400 text "Liebling, ich bei· Dich, wenn Du dich jetzt nicht beeilst." }
+		{ time 00 length 2400 text "Liebling, ich bei√ü Dich, wenn Du dich jetzt nicht beeilst." }
 	}
 	multisub cs2005 {
 		{ time 00 length 2400 text "Schnell, Tommy. Mach schon, mach schon!" }
@@ -277,7 +277,7 @@ SUB1
 		{ time 2750 length 1850 text "Delacroix, ich bin's, Cortez!" }
 		{ time 4700 length 1350 text "Wir sind hier eingeschlossen!" }
 		{ time 6450 length 2800 text "Hey, wer bist Du denn? [Xerxes, Anomalie entdeckt]" }
-		{ time 9250 length 5150 text "Verdammt! [SchÅsse]" }
+		{ time 9250 length 5150 text "Verdammt! [Sch√ºsse]" }
 	}
 }
 
@@ -298,7 +298,7 @@ SUB1
 	singleton
 	descr "SHODAN"
 	multisub cs2701 {
-		{ time 1650 length 6500 text "HÅte Dich vor meinem Nachwuchs, Insekt!" }
+		{ time 1650 length 6500 text "H√ºte Dich vor meinem Nachwuchs, Insekt!" }
 	}
 }
 
@@ -309,10 +309,10 @@ SUB1
 	descr "Suarez"
 	multisub cs1906 {
 		{ time 130300 length 2900 text "Wir haben gerade eine Nachricht von einem Besatzungsmitglied der Von Braun erhalten." }
-		{ time 134400 length 1800 text "Es ist ihnen gelungen, die Kontrolle Åber das Schiff zurÅck zu gewinnen." }
-		{ time 137500 length 1700 text "Wir werden umdrehen und zurÅckfliegen." }
+		{ time 134400 length 1800 text "Es ist ihnen gelungen, die Kontrolle √ºber das Schiff zur√ºck zu gewinnen." }
+		{ time 137500 length 1700 text "Wir werden umdrehen und zur√ºckfliegen." }
 		{ time 139700 length 43000 text "Ich mache mir wegen Rebecca etwas Sorgen. Seit wir an Bord kamen, hat sie sich seltsam verhalten." }
-		{ time 144500 length 1300 text "Jetzt schlÑft sie." }
-		{ time 144550 length 2200 text "Vielleicht kînnen wir nach unserer RÅckkehr auf die Von Braun--" }
+		{ time 144500 length 1300 text "Jetzt schl√§ft sie." }
+		{ time 144550 length 2200 text "Vielleicht k√∂nnen wir nach unserer R√ºckkehr auf die Von Braun--" }
 	}
 }

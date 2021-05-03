@@ -6,21 +6,21 @@ SUB1
 	sub camat2 { text "[sucht]" }
 	sub camat3 { text "[alarmiert]" }
 	sub cambak { text "[Reset]" }
-	sub camdie1 { text "[zerstîrt]" }
-	sub camdie2 { text "[zerstîrt]" }
-	sub camdie3 { text "[zerstîrt]" }
-	sub camdie4 { text "[zerstîrt]" }
+	sub camdie1 { text "[zerst√∂rt]" }
+	sub camdie2 { text "[zerst√∂rt]" }
+	sub camdie3 { text "[zerst√∂rt]" }
+	sub camdie4 { text "[zerst√∂rt]" }
 //	sub camloop { text "[sucht]" }
 	sub camlos { text "[Kontakt verloren]" }
 //	sub camstop { text "[angehalten]" }
 //	sub camto1 { text "[wachsam]" } // unused
 	sub camto2 { text "[wachsam]" }
-	sub camto3 { text "[schlÑgt Alarm]" }
+	sub camto3 { text "[schl√§gt Alarm]" }
 }
 
 {
 	type "nonverbal"
-	descr "GeschÅtzturm"
+	descr "Gesch√ºtzturm"
 	sub fturlas1 { text "[feuert Laser]" }
 	sub fturlas2 { text "[feuert Laser]" }
 	sub fturlas3 { text "[feuert Laser]" }
@@ -29,11 +29,11 @@ SUB1
 	sub fturslu2 { text "[feuert Kugeln]" }
 	sub fturslu3 { text "[feuert Kugeln]" }
 //	sub fturslug { text "[feuert Kugeln]" } // unused
-	sub turclose { text "[fÑhrt runter]" }
-	sub turdie1 { text "[zerstîrt]" }
-	sub turdie2 { text "[zerstîrt]" }
-	sub turdie3 { text "[zerstîrt]" }
+	sub turclose { text "[f√§hrt runter]" }
+	sub turdie1 { text "[zerst√∂rt]" }
+	sub turdie2 { text "[zerst√∂rt]" }
+	sub turdie3 { text "[zerst√∂rt]" }
 //	sub turloop { text "[sucht]" }
-	sub turopen { text "[fÑhrt hoch]" }
+	sub turopen { text "[f√§hrt hoch]" }
 //	sub turstop { text "[stoppt]" }
 }

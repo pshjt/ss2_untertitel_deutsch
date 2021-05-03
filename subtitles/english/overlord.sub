@@ -42,18 +42,18 @@ SUB1
 	sub ov1at2_7 { text "[alarmiert]" }
 	sub ov1die_1 { text "[Todesschrei]" }
 	sub ovbdie_1 { text "[Todesschrei]" }
-	sub ovkat2_1 { text "[Gel꼊hter]" }
-	sub ovkat2_2 { text "[Gel꼊hter]" }
-	sub ovkat2_3 { text "[Gel꼊hter]" }
-	sub ovklaug1 { text "[Gel꼊hter]" }
-	sub ovklaug2 { text "[Gel꼊hter]" }
-	sub ovklaug3 { text "[Gel꼊hter]" }
-	sub ovklaug4 { text "[Gel꼊hter]" }
-	sub ovklaug5 { text "[Gel꼊hter]" }
-	sub ovklaug6 { text "[Gel꼊hter]" }
-	sub ovklaug7 { text "[Gel꼊hter]" }
-	sub ovklaug8 { text "[Gel꼊hter]" }
-	sub ovkto1_1 { text "[Gel꼊hter]" }
+	sub ovkat2_1 { text "[Gel채chter]" }
+	sub ovkat2_2 { text "[Gel채chter]" }
+	sub ovkat2_3 { text "[Gel채chter]" }
+	sub ovklaug1 { text "[Gel채chter]" }
+	sub ovklaug2 { text "[Gel채chter]" }
+	sub ovklaug3 { text "[Gel채chter]" }
+	sub ovklaug4 { text "[Gel채chter]" }
+	sub ovklaug5 { text "[Gel채chter]" }
+	sub ovklaug6 { text "[Gel채chter]" }
+	sub ovklaug7 { text "[Gel채chter]" }
+	sub ovklaug8 { text "[Gel채chter]" }
+	sub ovkto1_1 { text "[Gel채chter]" }
 	sub ovkhlo_1 { text "[Schmerz]" }
 	sub ovkhlo_2 { text "[Schmerz]" }
 	sub ovkhlo_3 { text "[Schmerz]" }

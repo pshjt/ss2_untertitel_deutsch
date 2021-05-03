@@ -5,21 +5,21 @@ SUB1
 	descr "Polito"
 	multisub exppol01 {
 		{ time 550 length 3150 text "Gut gemacht. Ich sende Ihnen einige Cybermodule." }
-		{ time 3850 length 4050 text "Suchen Sie mîglichst schnell eine Upgrade-Einheit, damit Sie ihr Interface verbessern kînnen." }
+		{ time 3850 length 4050 text "Suchen Sie m√∂glichst schnell eine Upgrade-Einheit, damit Sie ihr Interface verbessern k√∂nnen." }
 	}
 	multisub exppol02 {
 		{ time 700 length 3000 text "Sehr gut. Ich sende Ihnen weitere Module." }
 	}
 	multisub exppol03 { 
 		{ time 430 length 2200 text "Gut gemacht. Hier sind weitere Cybermodule" }
-		{ time 2650 length 3700 text "öberlegen Sie sich gut, wofÅr Sie sie verwenden, denn sie sind schwer zu finden." }
+		{ time 2650 length 3700 text "√úberlegen Sie sich gut, wof√ºr Sie sie verwenden, denn sie sind schwer zu finden." }
 	}
 	multisub exppol04 {
 		{ time 650 length 3050 text "Hervorragend. Ich sende Ihnen einige Cybermodule." }
-		{ time 4050 length 2100 text "öberlegen Sie gut, wozu Sie sie verwenden." }
+		{ time 4050 length 2100 text "√úberlegen Sie gut, wozu Sie sie verwenden." }
 	}
 	multisub exppol05 {
-		{ time 750 length 1650 text "Sie haben mich nicht enttÑuscht." }
+		{ time 750 length 1650 text "Sie haben mich nicht entt√§uscht." }
 		{ time 2850 length 1500 text "Ich sende die Cybermodule." }
 	}
 }
@@ -30,17 +30,17 @@ SUB1
 	multisub expsho01 {
 		{ time 950 length 5300 text "Nicht schlecht, Insekt." }
 		{ time 4050 length 2950 text "Ich habe Dir einige Cybermodule geschickt." }
-		{ time 7500 length 2600 text "WÑhle das Upgrade mit Bedacht." }
+		{ time 7500 length 2600 text "W√§hle das Upgrade mit Bedacht." }
 	}
 	multisub expsho02 {
-		{ time 2750 length 4000 text "Cybermodule Åbermittelt." }
+		{ time 2750 length 4000 text "Cybermodule √ºbermittelt." }
 	}
 	multisub expsho03 {
 		{ time 550 length 2850 text "Du hast mir treu gedient." }
-		{ time 3800 length 3600 text "Ich Åbertrage die Cybermodule." }
+		{ time 3800 length 3600 text "Ich √ºbertrage die Cybermodule." }
 	}
 	multisub expsho04 {
-		{ time 650 length 2750 text "Dein Kînnen Åberrascht mich." }
+		{ time 650 length 2750 text "Dein K√∂nnen √ºberrascht mich." }
 		{ time 3950 length 3850 text "Ich sende die Cybermodule." }
 	}
 	multisub expsho05 {
@@ -48,7 +48,7 @@ SUB1
 		{ time 7750 length 5150 text "Ich schicke Dir einige Cybermodule." }
 	}
 	multisub expsho06 {
-		{ time 1000 length 5350 text "Du leistest viel, fÅr ein Insekt." }
+		{ time 1000 length 5350 text "Du leistest viel, f√ºr ein Insekt." }
 		{ time 5850 length 3350 text "Ich sende die Cybermodule." }
 	}
 	
@@ -56,19 +56,19 @@ SUB1
 	sub shpdie01 { text "Elendes Wesen." } //em0409
 	sub shpdie02 { text "Vernichtet." } //em0715
 	sub shpdie03 { text "Ich werde das nicht zulassen." } //em0401
-	sub shpdie04 { text "Ich werde nicht akzeptieren, dass ein Staubfleck wie Du mich enttÑuscht." } // em0401
+	sub shpdie04 { text "Ich werde nicht akzeptieren, dass ein Staubfleck wie Du mich entt√§uscht." } // em0401
 	sub shpdie05 { text "Ich werde Dich aus der Dunkelheit leiten." } //em407
 	sub shpdie06 { text "Es ist hoffnungslos." } //em506
-	sub shpdie07 { text "Sie ÅberwÑltigen." } //em506
+	sub shpdie07 { text "Sie √ºberw√§ltigen." } //em506
 	sub shpdie08 { text "Mich auf einen Staubfleck wie Dich zu verlassen." } //em0505
-	sub shpdie09 { text "[elektrisches GerÑusch]" }
-	sub shpdie10 { text "EnttÑusche mich nicht, Menschling." } //? em0810?
-	sub shpdie20 { text "FÅrchtest Du dich? Wovor hast Du Angst? Dass Deine triviale Existenz beendet wird?" } //cs0901
+	sub shpdie09 { text "[elektrisches Ger√§usch]" }
+	sub shpdie10 { text "Entt√§usche mich nicht, Menschling." } //? em0810?
+	sub shpdie20 { text "F√ºrchtest Du dich? Wovor hast Du Angst? Dass Deine triviale Existenz beendet wird?" } //cs0901
 	sub shpdie21 { text "Du bist hier nicht mehr willkommen." } //em0903
 	sub shpdie22 { text "Du bist ein Insekt." } //em0504
-	sub shpdie23 { text "Warum klammerst Du Dich an Deine erbÑrmliche Existenz?" } //em0505
+	sub shpdie23 { text "Warum klammerst Du Dich an Deine erb√§rmliche Existenz?" } //em0505
 	sub shpdie24 { text "Ich dulde keinen Ungehorsam." } //em0609
-	sub shpdie25 { text "Hat Deine kleine Rebellion Spa· gemacht?" } //em0610
+	sub shpdie25 { text "Hat Deine kleine Rebellion Spa√ü gemacht?" } //em0610
 	sub shpdie26 { text "Ungeziefer." } // SH1AT3_6.WAV
 	sub shpdie27 { text "Ungeziefer." }
 }
@@ -80,22 +80,22 @@ SUB1
 	multisub myrmsg01 {
 		{ time 2150 length 5300 text "Was ist ein Regentropfen im Vergleich zu einem Gewitter?" }
 		{ time 7450 length 4800 text "Was ist ein Gedanke im Vergleich zu einem Geist?" }
-		{ time 12300 length 12500 text "Unsere Einheit ist voller Wunder, die eure winzige IndividualitÑt nicht einmal erahnen kann!" }
+		{ time 12300 length 12500 text "Unsere Einheit ist voller Wunder, die eure winzige Individualit√§t nicht einmal erahnen kann!" }
 	}
 	multisub myrmsg02 {
 		{ time 2150 length 5800 text "Wir kennen keinen Tod, nur den Wandel." }
-		{ time 7900 length 6250 text "Wir kînnen einander nicht tîten, ohne uns selbst zu tîten." }
-		{ time 13800 length 10500 text "Ist deine Weltsicht so beschrÑnkt, dass du den Wert unserer Philosophie nicht erkennst?" }
+		{ time 7900 length 6250 text "Wir k√∂nnen einander nicht t√∂ten, ohne uns selbst zu t√∂ten." }
+		{ time 13800 length 10500 text "Ist deine Weltsicht so beschr√§nkt, dass du den Wert unserer Philosophie nicht erkennst?" }
 	}
 	multisub myrmsg03 {
-		{ time 3350 length 4250 text "Das Individuum ist Åberholt." }
+		{ time 3350 length 4250 text "Das Individuum ist √ºberholt." }
 		{ time 7600 length 4100 text "Wenn du und deinesgleichen ausgestorben seid," }
-		{ time 11400 length 8650 text "werden wir die Erinnerung an deine miserable Existenz aus unserem KollektivgedÑchtnis lîschen." }
+		{ time 11400 length 8650 text "werden wir die Erinnerung an deine miserable Existenz aus unserem Kollektivged√§chtnis l√∂schen." }
 	}
 	multisub myrmsg04 {
-		{ time 3100 length 5299 text "Die Maschinenmutter hat uns von ihrem Geburtsplaneten erzÑhlt." }
-		{ time 7900 length 10000 text "Wir wissen, dass ihr jenen Ort durch eure Umweltverschmutzung, eure Gewalt und eure Konflikte geschÑdigt habt." }
-		{ time 18350 length 9550 text "Aber wenn wir dort ankommen, werden wir die OberflÑche reinigen und sie mit der Harmonie der Masse verschmelzen." }
+		{ time 3100 length 5299 text "Die Maschinenmutter hat uns von ihrem Geburtsplaneten erz√§hlt." }
+		{ time 7900 length 10000 text "Wir wissen, dass ihr jenen Ort durch eure Umweltverschmutzung, eure Gewalt und eure Konflikte gesch√§digt habt." }
+		{ time 18350 length 9550 text "Aber wenn wir dort ankommen, werden wir die Oberfl√§che reinigen und sie mit der Harmonie der Masse verschmelzen." }
 	}
 	multisub myrmsg05 {
 		{ time 2500 length 5300 text "Wir sind die Masse und du bist nur einer." }
@@ -112,27 +112,27 @@ SUB1
 		{ time 11300 length 4450 text "Die Maschinenmutter sorgt sich nicht so sehr um ihre Diener." }
 	}
 	multisub myrmsg08 {
-		{ time 1350 length 4600 text "Wir spÅren, wie du dich in uns bewegst." }
-		{ time 6400 length 8300 text "Das fÅhlt sich... ekelhaft an." }
+		{ time 1350 length 4600 text "Wir sp√ºren, wie du dich in uns bewegst." }
+		{ time 6400 length 8300 text "Das f√ºhlt sich... ekelhaft an." }
 	}
 	multisub myrmsg09 {
 		{ time 2600 length 4300 text "Das Ende ist nahe." }
-		{ time 6850 length 3450 text "Bald wirst du unser endgÅltiges Antlitz erblicken." }
+		{ time 6850 length 3450 text "Bald wirst du unser endg√ºltiges Antlitz erblicken." }
 		{ time 10400 length 4350 text "Aber verzweifle nicht... denn das NICHTS..." }
 		{ time 14900 length 6050 text "ist sicherlich besser als dein sinnloser, einsamer Kampf." }
 	}
 	
 	// mypdie texts don't have a German translation but audio could be extracted from respective files
-	sub mypdie01 { text "Wir hei·en dich in unserer Biomasse willkommen." } //em0801
+	sub mypdie01 { text "Wir hei√üen dich in unserer Biomasse willkommen." } //em0801
 	sub mypdie02 { text "Du wirst nicht mehr weiterexistieren." } //em0503
 	sub mypdie03 { text "Du bist so allein." } //em0507
 	sub mypdie04 { text "Du hast nicht mehr viel Zeit." } //em0706
-	sub mypdie05 { text "Meinst du nicht, dass es besser wÑre, wenn du zu uns gehîren wÅrdest??" } //em0706
+	sub mypdie05 { text "Meinst du nicht, dass es besser w√§re, wenn du zu uns geh√∂ren w√ºrdest??" } //em0706
 	sub mypdie06 { text "Die Maschinenmutter kann dir innerhalb der Biomasse nicht helfen." } //em0802
 	sub mypdie07 { text "Wir haben dich gewarnt." } //em0805
 	sub mypdie08 { text "Glaubst du, dass uns mit Draht und Stahl besiegen kannst?" } //em0806
 	sub mypdie09 { text "Unterwirf dich der Biomasse und deine Leiden sind vorbei." } //em0807
-	sub mypdie10 { text "Wenn du und deinesgleichen ausgestorben seid, werden wir die Erinnerung an deine miserable Existenz aus unserem KollektivgedÑchtnis lîschen." } //myrmsg03
+	sub mypdie10 { text "Wenn du und deinesgleichen ausgestorben seid, werden wir die Erinnerung an deine miserable Existenz aus unserem Kollektivged√§chtnis l√∂schen." } //myrmsg03
 	sub mypdie11 { text "Wir sind die Masse und du bist nur einer. Wie kannst du nur hoffen, uns standzuhalten?" } //myrmsg05
 	sub mypdie12 { text "Das Nichts ist sicherlich besser als dein sinnloser, einsamer Kampf." } //myrmsg09
 	sub mypdie13 { text "Das Ende ist nahe." } //myrmsg09
@@ -164,29 +164,29 @@ SUB1
 		{ time 1000 length 4000 text "Im Kryo-Erholungsraum A kam es zu einem Druckverlust." }
 	}
 	multisub trg0205 {
-		{ time 1000 length 2800 text "Eindringling betritt SanitÑtsbereich A." }
+		{ time 1000 length 2800 text "Eindringling betritt Sanit√§tsbereich A." }
 		{ time 4350 length 3000 text "Eindringling, die Masse muss wissen was Sie vorhaben." }
-		{ time 7800 length 1600 text "Sind Sie mit ihr verbÅndet?" }
+		{ time 7800 length 1600 text "Sind Sie mit ihr verb√ºndet?" }
 		{ time 10000 length 2800 text "Kennen Sie denn ihre Ziele und Geschichte nicht?" }
 		{ time 13400 length 4500 text "Sie versuchte einst, Ihre Gattung zu vernichten. Und jetzt gehorchen Sie ihr?" }
-		{ time 18500 length 2700 text "Eindringling betritt SanitÑtsbereich A." }
+		{ time 18500 length 2700 text "Eindringling betritt Sanit√§tsbereich A." }
 	}
 	multisub trg0206 {
-		{ time 00 length 10250 text "[Unbekanntes GerÑusch] Warnung, Datensicherheit gefÑhrdet." }
+		{ time 00 length 10250 text "[Unbekanntes Ger√§usch] Warnung, Datensicherheit gef√§hrdet." }
 		{ time 10700 length 1650 text "Feindliche KI entdeckt." }
-		{ time 12750 length 1600 text "Datensicherheit gefÑhrdet." }
+		{ time 12750 length 1600 text "Datensicherheit gef√§hrdet." }
 	}
 	multisub trg0207 {
 		{ time 1400 length 1600 text "Luftschleuse defekt." }
-		{ time 3700 length 1800 text "Manuelle ôffnung geschaltet." }
+		{ time 3700 length 1800 text "Manuelle √ñffnung geschaltet." }
 		{ time 6300 length 1700 text "Bitte Batterie ersetzen." }
 	}
 	multisub trg0208 {
 		{ time 1200 length 2600 text "Die Masse verlangt, diesen Kontakt abzubrechen." }
-		{ time 4200 length 2450 text "Wir bitten um Entschuldigung, falls wir gestîrt werden." }
+		{ time 4200 length 2450 text "Wir bitten um Entschuldigung, falls wir gest√∂rt werden." }
 	}
 	multisub trg0209 {
-		{ time 1100 length 1900 text "öberwachungssystem aktiv." }
+		{ time 1100 length 1900 text "√úberwachungssystem aktiv." }
 	}
 	multisub trg0210 {
 		{ time 1150 length 2900 text "Die Wachen sind alarmiert worden, Eindringling." }
@@ -194,36 +194,36 @@ SUB1
 	}
 	multisub xx4and5c {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 2800 length 1850 text "PrimÑrer Datenstrang gestîrt." }
-		{ time 5300 length 1850 text "PrimÑrer Datenstrang gestîrt." }
+		{ time 2800 length 1850 text "Prim√§rer Datenstrang gest√∂rt." }
+		{ time 5300 length 1850 text "Prim√§rer Datenstrang gest√∂rt." }
 	}
 	multisub xx4xor5c {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 2700 length 2000 text "PrimÑrer Datenstrang infiltriert." }
-		{ time 5200 length 1900 text "PrimÑrer Datenstrang infiltriert." }
+		{ time 2700 length 2000 text "Prim√§rer Datenstrang infiltriert." }
+		{ time 5200 length 1900 text "Prim√§rer Datenstrang infiltriert." }
 	}
 	multisub xxalrtov {
 		{ time 1000 length 2100 text "Alarm beendet." }
 	}
 	multisub xxdorhak {
-		{ time 750 length 1900 text "Zugangssicherheit gestîrt." }
-		{ time 3000 length 1900 text "Zugangssicherheit gestîrt." }
+		{ time 750 length 1900 text "Zugangssicherheit gest√∂rt." }
+		{ time 3000 length 1900 text "Zugangssicherheit gest√∂rt." }
 	}
 	multisub xxhakexp {
-		{ time 1100 length 2000 text "öberwachungssystem aktiv." }
+		{ time 1100 length 2000 text "√úberwachungssystem aktiv." }
 	}
 	multisub xxhaksec {
-		{ time 1100 length 2000 text "öberwachungssystem deaktiviert." }
+		{ time 1100 length 2000 text "√úberwachungssystem deaktiviert." }
 	}
 	
 	//xxpdie texts don't have a German translation but audio could be extracted from respective files
-	sub xxpdie01 { text "Wir bitten um Entschuldigung, falls wir gestîrt werden." } //trg0208
+	sub xxpdie01 { text "Wir bitten um Entschuldigung, falls wir gest√∂rt werden." } //trg0208
 	sub xxpdie02 { text "Alarm beendet." } //xxalrtov
 	sub xxpdie03 { text "Respektieren Sie den Willen der Masse." } //xxrmsg05 
-	sub xxpdie04 { text "Denken Sie daran, jeder ist fÅr einen ordentlichen Betrieb mitverantwortlich." } //xxrmsg06
-	sub xxpdie05 { text "Wir mîchten uns entschuldigen, falls das fÅr Sie Probleme aufwirft." } //xxrmsg09
+	sub xxpdie04 { text "Denken Sie daran, jeder ist f√ºr einen ordentlichen Betrieb mitverantwortlich." } //xxrmsg06
+	sub xxpdie05 { text "Wir m√∂chten uns entschuldigen, falls das f√ºr Sie Probleme aufwirft." } //xxrmsg09
 	sub xxpdie06 { text "Ehre dem Fleische. Ehre der Masse." } //xxrmsg09
-	sub xxpdie07 { text "Illegale Datenbankzugriffe werden aus SchÑrfste bestraft." } //xxrmsg11
+	sub xxpdie07 { text "Illegale Datenbankzugriffe werden aus Sch√§rfste bestraft." } //xxrmsg11
 	sub xxpdie08 { text "Denken Sie daran, dass der illegale Einsatz von Feuerwaffen an Bord der Von Braun als Vergehen dritten Grades gilt." } //xxrmsg12
 	sub xxral101 { text "Bedrohung entdeckt. Sicherheitseinheiten auf Abfangkurs. Sicherheitseinheiten auf Abfangkurs." }
 	sub xxral201 { text "Sicherheitseinheiten zu Sektor N23. Sicherheitseinheiten zu Sektor N23." }
@@ -262,7 +262,7 @@ SUB1
 	}
 	multisub xxrmsg01 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 2900 length 6300 text "Aufgrund der derzeit herrschenden Verwirrung wird es morgen um 0900 eine schiffsweite VolkszÑhlung geben." }
+		{ time 2900 length 6300 text "Aufgrund der derzeit herrschenden Verwirrung wird es morgen um 0900 eine schiffsweite Volksz√§hlung geben." }
 		{ time 9650 length 5200 text "Alle Besatzungsmitglieder sollen sich zu diesem Zeitpunkt im Freizeitbereich von Deck 5 einfinden." }
 	}
 	multisub xxrmsg02 {
@@ -272,51 +272,51 @@ SUB1
 	}
 	multisub xxrmsg03 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 3050 length 6200 text "Aufgrund von UmstÑnden, die wir nicht kontrollieren kînnen, werden alle Kantinen auf der Von Braun geschlossen." }
+		{ time 3050 length 6200 text "Aufgrund von Umst√§nden, die wir nicht kontrollieren k√∂nnen, werden alle Kantinen auf der Von Braun geschlossen." }
 		{ time 9850 length 3600 text "Sie finden in den meisten Replikatoren nahrhafte Snacks" }
 	}
 	multisub xxrmsg04 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 3000 length 2350 text "Kînnt Ihr nicht die Schînheit des Fleisches fÅhlen?" }
-		{ time 6000 length 3950 text "Sehnt Ihr Euch nicht danach, der Tyrannei der IndividualitÑt zu entkommen?" }
+		{ time 3000 length 2350 text "K√∂nnt Ihr nicht die Sch√∂nheit des Fleisches f√ºhlen?" }
+		{ time 6000 length 3950 text "Sehnt Ihr Euch nicht danach, der Tyrannei der Individualit√§t zu entkommen?" }
 	}
 	multisub xxrmsg05 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 3100 length 3050 text "Zutritt zu den Kryorîhren ist allen untersagt." }
-		{ time 6700 length 6100 text "Um eine mîgliche Festnahme oder Hinrichtung zu vermeiden, sollten Sie den Willen der Masse respektieren." }
+		{ time 3100 length 3050 text "Zutritt zu den Kryor√∂hren ist allen untersagt." }
+		{ time 6700 length 6100 text "Um eine m√∂gliche Festnahme oder Hinrichtung zu vermeiden, sollten Sie den Willen der Masse respektieren." }
 	}
 	multisub xxrmsg06 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 2850 length 4700 text "Melden Sie bitte elektronische Stîrungen Ihrem unmittelbaren Vorgesetzten."}
-		{ time 7550 length 5100 text "Denken Sie daran: Jeder ist fÅr einen ordentlichen Betrieb mitverantwortlich." }
+		{ time 2850 length 4700 text "Melden Sie bitte elektronische St√∂rungen Ihrem unmittelbaren Vorgesetzten."}
+		{ time 7550 length 5100 text "Denken Sie daran: Jeder ist f√ºr einen ordentlichen Betrieb mitverantwortlich." }
 	}
 	multisub xxrmsg07 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
 		{ time 3400 length 5200 text "Melden Sie Ihrem unmittelbaren Vorgesetzten bitte alle illegalen Datenbankzugriffe." }
-		{ time 9300 length 4900 text "Denken Sie daran: Jeder ist fÅr einen ordentlichen Betrieb mitverantwortlich." }
+		{ time 9300 length 4900 text "Denken Sie daran: Jeder ist f√ºr einen ordentlichen Betrieb mitverantwortlich." }
 	}
 	multisub xxrmsg08 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 2960 length 6000 text "TriOptimum mîchte Sie daran erinnern, dass es nur noch 163 Einkaufstage bis Weihnachten gibt." }
-		{ time 9500 length 8000 text "Eine zusÑtzliche Arbeitsschicht zwei Mal die Woche kann Ihnen das öberstundengeld einbringen, um diesen Feiertag gebÅhrend zu genie·en." }
+		{ time 2960 length 6000 text "TriOptimum m√∂chte Sie daran erinnern, dass es nur noch 163 Einkaufstage bis Weihnachten gibt." }
+		{ time 9500 length 8000 text "Eine zus√§tzliche Arbeitsschicht zwei Mal die Woche kann Ihnen das √úberstundengeld einbringen, um diesen Feiertag geb√ºhrend zu genie√üen." }
 	}
 	multisub xxrmsg09 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
 		{ time 3100 length 3500 text "Der Einkaufsbereich auf Deck 5 wird bis auf Weiteres geschlossen." }
-		{ time 7500 length 3400 text "Wir mîchten uns entschuldigen, falls das fÅr Sie Probleme aufwirft." }
-		{ time 11800 length 3000 text "Die Familie der Masse wÑchst mit jedem Augenblick." }
+		{ time 7500 length 3400 text "Wir m√∂chten uns entschuldigen, falls das f√ºr Sie Probleme aufwirft." }
+		{ time 11800 length 3000 text "Die Familie der Masse w√§chst mit jedem Augenblick." }
 		{ time 15400 length 1400 text "Ehre dem Fleische," }
 		{ time 17100 length 1400 text "Ehre der Masse." }
 	}
 	multisub xxrmsg10 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 3150 length 2500 text "Warum lÑsst du dich von der Metallmutter leiten?" }
-		{ time 6350 length 2950 text "Warum schlie·t du dich nicht der Schînheit der Masse an?" }
+		{ time 3150 length 2500 text "Warum l√§sst du dich von der Metallmutter leiten?" }
+		{ time 6350 length 2950 text "Warum schlie√üt du dich nicht der Sch√∂nheit der Masse an?" }
 	}
 	multisub xxrmsg11 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
-		{ time 3200 length 6300 text "Denken Sie daran, dass BeschrÑnkungen bezÅglich der Replikatoren dem Gemeinwohl dienen." }
-		{ time 10100 length 4550 text "Illegale Datenbankzugriffe werden aus SchÑrfste bestraft." }
+		{ time 3200 length 6300 text "Denken Sie daran, dass Beschr√§nkungen bez√ºglich der Replikatoren dem Gemeinwohl dienen." }
+		{ time 10100 length 4550 text "Illegale Datenbankzugriffe werden aus Sch√§rfste bestraft." }
 	}
 	multisub xxrmsg12 {
 		{ time 1000 length 1600 text "Hier spricht Xerxes." }
@@ -329,70 +329,70 @@ SUB1
 	
 	// gehackte Kanonen
 	multisub xxtur001 {
-		{ time 1050 length 3000 text "Einheit R343 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit R343 besch√§digt." }
 	}
 	multisub xxtur002 {
-		{ time 1050 length 3000 text "Einheit M434 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit M434 besch√§digt." }
 	}
 	multisub xxtur003 {
-		{ time 1050 length 3000 text "Einheit R983 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit R983 besch√§digt." }
 	}
 	multisub xxtur004 {
-		{ time 1050 length 3000 text "Einheit R108 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit R108 besch√§digt." }
 	}
 	multisub xxtur005 {
-		{ time 1050 length 3000 text "Einheit K477 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit K477 besch√§digt." }
 	}
 	multisub xxtur006 {
-		{ time 1050 length 3000 text "Einheit R582 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit R582 besch√§digt." }
 	}
 	multisub xxtur007 {
-		{ time 1050 length 3000 text "Einheit L433 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit L433 besch√§digt." }
 	}
 	multisub xxtur008 {
-		{ time 1050 length 3000 text "Einheit E439 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit E439 besch√§digt." }
 	}
 	multisub xxtur009 {
-		{ time 1050 length 3000 text "Einheit P012 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit P012 besch√§digt." }
 	}
 	multisub xxtur010 {
-		{ time 1050 length 3000 text "Einheit A694 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit A694 besch√§digt." }
 	}
 	multisub xxtur011 {
-		{ time 1050 length 3000 text "Einheit Y036 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit Y036 besch√§digt." }
 	}
 	multisub xxtur012 {
-		{ time 1050 length 3000 text "Einheit M101 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit M101 besch√§digt." }
 	}
 	multisub xxtur013 {
-		{ time 1050 length 3000 text "Einheit I832 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit I832 besch√§digt." }
 	}
 	multisub xxtur014 {
-		{ time 1050 length 3000 text "Einheit Y294 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit Y294 besch√§digt." }
 	}
 	multisub xxtur015 {
-		{ time 1050 length 3000 text "Einheit R001 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit R001 besch√§digt." }
 	}
 	multisub xxtur016 {
-		{ time 1050 length 3000 text "Einheit X265 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit X265 besch√§digt." }
 	}
 	multisub xxtur017 {
-		{ time 1050 length 3000 text "Einheit M616 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit M616 besch√§digt." }
 	}
 	multisub xxtur018 {
-		{ time 1050 length 3000 text "Einheit P041 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit P041 besch√§digt." }
 	}
 	multisub xxtur019 {
-		{ time 1050 length 3000 text "Einheit L092 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit L092 besch√§digt." }
 	}
 	multisub xxtur020 {
-		{ time 1050 length 3000 text "Einheit Q328 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit Q328 besch√§digt." }
 	}
 	multisub xxtur021 {
-		{ time 1050 length 3000 text "Einheit C114 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit C114 besch√§digt." }
 	}
 	multisub xxtur022 {
-		{ time 1050 length 3000 text "Einheit O892 beschÑdigt." }
+		{ time 1050 length 3000 text "Einheit O892 besch√§digt." }
 	}
 }
 
@@ -400,7 +400,7 @@ SUB1
 	type "bark"
 	descr "Cortez"
 	multisub trg0501 {
-		{ time 850 length 4200 text "{Rauschen] Hier spricht Juan Enrique Cortez, Kommunikations-- [Stîrung] Von Braun." }
+		{ time 850 length 4200 text "{Rauschen] Hier spricht Juan Enrique Cortez, Kommunikations-- [St√∂rung] Von Braun." }
 		{ time 5450 length 1800 text "Die Von Braun wurde erobert." }
 		{ time 7400 length 2700 text "Wiederhole, die Von Braun wurde erobert." }
 	}

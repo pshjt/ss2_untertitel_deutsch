@@ -17,10 +17,10 @@ SUB1
 	sub rm1chg_3 { text "[greift an]" } // AI_ATT
 	sub rm1die_1 { text "[Todesschrei]" } // AI_DIE
 	sub rm1die_2 { text "[Todesschrei]" } // AI_DIE
-	sub rm1hhi_1 { text "[Br걄len]" } // AI_ATT, AI_HHI
+	sub rm1hhi_1 { text "[Br체llen]" } // AI_ATT, AI_HHI
 	sub rm1to1_1 { text "[wachsam]" } // AI_TO1
 	sub rm1to1_2 { text "[wachsam]" } // AI_TO1
-	sub rm1to3_1 { text "[Br걄len]" } // AI_TO3, AI_AT3
-	sub rm1to3_2 { text "[Br걄len]" } // AI_TO3, AI_AT3, AI_ATT
-	sub rm1to3_3 { text "[Br걄len]" } // AI_ATT
+	sub rm1to3_1 { text "[Br체llen]" } // AI_TO3, AI_AT3
+	sub rm1to3_2 { text "[Br체llen]" } // AI_TO3, AI_AT3, AI_ATT
+	sub rm1to3_3 { text "[Br체llen]" } // AI_ATT
 }

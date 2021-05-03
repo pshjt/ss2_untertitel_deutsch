@@ -3,13 +3,13 @@ SUB1
 {
 	type "player"
 	descr "Info"
-	sub bb01 { text "PSI-KrÑfte niedrig." }
+	sub bb01 { text "PSI-Kr√§fte niedrig." }
 	sub bb02 { text "Strahlungsgefahr." }
-	sub bb03 { text "Gesundheit gefÑhrdet." }
+	sub bb03 { text "Gesundheit gef√§hrdet." }
 	sub bb04 { text "Ladehemmung." }
-	sub bb05 { text "Chemikalie benîtigt." }
+	sub bb05 { text "Chemikalie ben√∂tigt." }
 	sub bb06 { text "Forschung abgeschlossen." }
-	sub bb07 { text "Energie erschîpft." }
+	sub bb07 { text "Energie ersch√∂pft." }
 	sub bb08 { text "Munition verbraucht." }
 	sub bb10 { text "Nicht genug PSI." }
 	sub bb11 { text "Objekte fallengelassen." }
