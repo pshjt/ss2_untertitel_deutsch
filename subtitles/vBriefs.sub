@@ -205,6 +205,14 @@ SUB1
 		{ time 27000 length 7600 text "Und wenn einer davon dunkel wird, ist Ihr Hacken automatisch gescheitert, und in manchen Fällen zerstören Sie das Objekt an dem Sie arbeiten, oder es passiert sogar noch Schlimmeres." }
 		{ time 34650 length 6100 text "Sie können jederzeit den Hackversuch erneut starten, indem Sie die Neustart-Taste drücken, wobei Sie dann wieder Naniten bezahlen müssen." }
 	}
+	
+	multisub trg0035 {
+		{ time 00 length 2100 text "Dies ist eine Überwachungskamera." }
+		{ time 2490 length 6000 text "Wenn eine Kamera Sie entdeckt, löst sie einen Alarm aus und ruft Sicherheitskräfte zu Ihrem Standort." }
+		{ time 8850 length 7600 text "Sie können entweder den Alarm abwarten oder auf den nächstgelegenen Überwachungscomputer zugreifen, um den Alarm sofort zu beenden." }
+		{ time 17000 length 6100 text "Sie können auch Überwachungscomputer hacken, um alle Kameras und Geschütztürme in der Umgebung vorübergehend zu deaktivieren." }
+		{ time 23450 length 7450 text "Um einen Überwachungscomputer zu hacken, klicken Sie mit der rechten Maustaste auf ihn und dann mit der linken Maustaste auf die Schaltfläche \"Hacken\"." }
+	}
 
 	multisub trg0024 {
 		{ time 00 length 3900 text "Sie können mithilfe von Naniten Objekte in Replikatoren kaufen." }
