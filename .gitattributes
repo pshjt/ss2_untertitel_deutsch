@@ -1,1 +1,2 @@
 *.sub    text working-tree-encoding=cp850
+.gitattributes export-ignore
