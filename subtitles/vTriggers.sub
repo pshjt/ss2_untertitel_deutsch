@@ -411,3 +411,9 @@ SUB1
 	descr "Delacroix"
 	sub trg0601 { text "Vorsicht, mon petit. Vertraue nicht... [stirbt]" }
 }
+
+{
+	type "convo"
+	descr "SHODAN"
+	sub shojump { text "Ein beeindruckender Sprung." }
+}
